@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Scrapper</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      width: 100%;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: border-color 0.3s;
+      font-family: inherit;
+    }
+
+    input[type="text"]:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      background: #667eea;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.1s;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    button:hover {
+      background: #5568d3;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    .status-area {
+      margin-top: 25px;
+      padding: 15px;
+      border-radius: 6px;
+      min-height: 50px;
+      display: none;
+      font-size: 14px;
+    }
+
+    .status-area.show {
+      display: block;
+    }
+
+    .status-area.error {
+      background: #fee;
+      border: 1px solid #fcc;
+      color: #c33;
+    }
+
+    .status-area.success {
+      background: #efe;
+      border: 1px solid #cfc;
+      color: #3c3;
+    }
+
+    .status-area.info {
+      background: #eef;
+      border: 1px solid #ccf;
+      color: #33c;
+    }
+
+    .divider {
+      height: 1px;
+      background: #e0e0e0;
+      margin: 30px 0;
+    }
+
+    .file-upload-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Spotify Scrapper</h1>
+    
+    <!-- Section 1: Create List -->
+    <div class="form-group">
+      <label for="spotifyUrl">Spotify Link</label>
+      <input 
+        type="text" 
+        id="spotifyUrl" 
+        placeholder="Insert Spotify link"
+      >
+    </div>
+
+    <div class="form-group">
+      <button id="createListBtn">Create list</button>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Section 2: Upload and Create JSON -->
+    <div class="form-group">
+      <label for="uploadList">Upload list</label>
+      <div class="file-upload-group">
+        <textarea id="uploadList"></textarea>
+        <input type="file" id="fileInput" accept=".txt">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button id="createJsonBtn">Create json list</button>
+    </div>
+
+    <!-- Status Area -->
+    <div id="statusArea" class="status-area"></div>
+  </div>
+
+  <script>
+    const spotifyUrlInput = document.getElementById('spotifyUrl');
+    const createListBtn = document.getElementById('createListBtn');
+    const uploadListTextarea = document.getElementById('uploadList');
+    const fileInput = document.getElementById('fileInput');
+    const createJsonBtn = document.getElementById('createJsonBtn');
+    const statusArea = document.getElementById('statusArea');
+
+    // Show status message
+    function showStatus(message, type = 'info') {
+      statusArea.textContent = message;
+      statusArea.className = `status-area show ${type}`;
+      setTimeout(() => {
+        statusArea.classList.remove('show');
+      }, 5000);
+    }
+
+    // Handle file upload
+    fileInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        if (!file.name.endsWith('.txt')) {
+          showStatus('Please upload a .txt file', 'error');
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          uploadListTextarea.value = event.target.result;
+          showStatus('File uploaded successfully!', 'success');
+        };
+        reader.onerror = () => {
+          showStatus('Error reading file', 'error');
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    // Create list button handler
+    createListBtn.addEventListener('click', async () => {
+      const spotifyUrl = spotifyUrlInput.value.trim();
+      
+      if (!spotifyUrl) {
+        showStatus('Please enter a Spotify link', 'error');
+        return;
+      }
+
+      try {
+        showStatus('Creating list...', 'info');
+        
+        const response = await fetch('/api/create-list', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ spotifyUrl })
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || 'Failed to create list');
+        }
+
+        // Download the file
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'playlist_pairs.txt';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+
+        showStatus('List created and downloaded!', 'success');
+      } catch (error) {
+        showStatus(error.message, 'error');
+      }
+    });
+
+    // Create JSON button handler
+    createJsonBtn.addEventListener('click', async () => {
+      const confirmedText = uploadListTextarea.value.trim();
+      
+      if (!confirmedText) {
+        showStatus('Please upload or paste playlist pairs text into the textarea', 'error');
+        return;
+      }
+
+      try {
+        showStatus('Creating JSON list...', 'info');
+        
+        const response = await fetch('/api/create-json', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ confirmedText })
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || 'Failed to create JSON list');
+        }
+
+        // Check for warning header
+        const warningHeader = response.headers.get('X-Warning');
+
+        // Download the file
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'playlist_pairs.json';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+
+        // Show success with warning if applicable
+        if (warningHeader) {
+          showStatus(`JSON list created and downloaded! ⚠️ ${warningHeader}`, 'success');
+        } else {
+          showStatus('JSON list created and downloaded!', 'success');
+        }
+      } catch (error) {
+        showStatus(error.message, 'error');
+      }
+    });
+  </script>
+</body>
+</html>
