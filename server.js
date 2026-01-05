@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const SpotifyWebApi = require('spotify-web-api-node');
+const { normalizePlan, validatePlan, buildPairsFromPlan } = require('./pairingPlan');
 
 const app = express();
 const PORT = 3000;
@@ -86,7 +87,7 @@ function detectDuplicates(tracks) {
   return duplicates;
 }
 
-// Helper: Generate playlist pairs text
+// Helper: Generate playlist pairs text from tracks (default pairing)
 function generatePlaylistPairsText(tracks) {
   let text = '';
   for (let i = 0; i < tracks.length; i += 2) {
@@ -101,9 +102,20 @@ function generatePlaylistPairsText(tracks) {
   return text;
 }
 
+// Helper: Generate playlist pairs text from pairs array (advanced pairing)
+function generatePlaylistPairsTextFromPairs(pairs) {
+  let text = '';
+  pairs.forEach((pair, index) => {
+    text += `Pair ${index}\n`;
+    text += `Original: ${pair.originalTrack.title} — ${pair.originalTrack.artist}\n`;
+    text += `Sampled: ${pair.sampledTrack.title} — ${pair.sampledTrack.artist}\n\n`;
+  });
+  return text;
+}
+
 // POST /api/create-list
 app.post('/api/create-list', async (req, res) => {
-  const { spotifyUrl } = req.body;
+  const { spotifyUrl, cutoffTrackNumber, advancedPairingPlan } = req.body;
   
   if (!spotifyUrl) {
     return res.status(400).json({ error: 'Spotify URL is required' });
@@ -123,26 +135,87 @@ app.post('/api/create-list', async (req, res) => {
     }
 
     // Fetch all tracks
-    const tracks = await fetchAllPlaylistTracks(playlistId);
+    let tracks = await fetchAllPlaylistTracks(playlistId);
+    const totalTracks = tracks.length;
 
-    // Check for odd number of tracks
-    if (tracks.length % 2 !== 0) {
-      return res.status(400).json({ 
-        error: 'Playlist has an odd number of tracks — please make it even to form complete pairs.' 
-      });
+    // Handle cutoff if provided
+    if (cutoffTrackNumber) {
+      const cutoff = parseInt(cutoffTrackNumber);
+      
+      // Validate cutoff
+      if (isNaN(cutoff) || cutoff < 1 || cutoff > totalTracks) {
+        return res.status(400).json({ 
+          error: `Invalid cutoff track number. Must be between 1 and ${totalTracks}.` 
+        });
+      }
+      
+      if (cutoff % 2 !== 0) {
+        return res.status(400).json({ 
+          error: 'Cutoff track number must be even to form complete pairs.' 
+        });
+      }
+      
+      // Slice tracks (cutoff is 1-based and inclusive)
+      tracks = tracks.slice(0, cutoff);
     }
 
-    // Detect duplicates and log warning
-    const duplicates = detectDuplicates(tracks);
-    if (duplicates.length > 0) {
-      console.warn('⚠️  Duplicate tracks detected:');
-      duplicates.forEach(dup => {
-        console.warn(`  "${dup.track.title}" by ${dup.track.artist} at positions ${dup.positions.join(', ')}`);
-      });
+    let txtContent;
+    let useAdvancedPairing = false;
+
+    // Try advanced pairing plan if provided
+    if (advancedPairingPlan) {
+      try {
+        console.log('\n=== Using Advanced Pairing Plan ===');
+        
+        // Normalize and validate the plan
+        const normalizedPlan = normalizePlan(advancedPairingPlan, tracks.length);
+        const validation = validatePlan(normalizedPlan, tracks.length);
+        
+        if (!validation.ok) {
+          console.warn('Advanced pairing plan validation failed:', validation.errors);
+          return res.status(400).json({ 
+            error: 'Invalid pairing plan',
+            details: validation.errors
+          });
+        }
+        
+        // Build pairs using advanced plan
+        const pairs = buildPairsFromPlan(tracks, normalizedPlan);
+        txtContent = generatePlaylistPairsTextFromPairs(pairs);
+        useAdvancedPairing = true;
+        
+        console.log('✓ Advanced pairing plan applied successfully\n');
+      } catch (error) {
+        console.error('Error applying advanced pairing plan:', error.message);
+        return res.status(400).json({ 
+          error: 'Failed to apply advanced pairing plan',
+          details: error.message
+        });
+      }
     }
 
-    // Generate text content
-    const txtContent = generatePlaylistPairsText(tracks);
+    // Fall back to default pairing if no advanced plan
+    if (!useAdvancedPairing) {
+      // Check for odd number of tracks (if no cutoff was provided)
+      if (tracks.length % 2 !== 0) {
+        return res.status(400).json({ 
+          error: 'odd',
+          totalTracks: totalTracks
+        });
+      }
+
+      // Detect duplicates and log warning
+      const duplicates = detectDuplicates(tracks);
+      if (duplicates.length > 0) {
+        console.warn('⚠️  Duplicate tracks detected:');
+        duplicates.forEach(dup => {
+          console.warn(`  "${dup.track.title}" by ${dup.track.artist} at positions ${dup.positions.join(', ')}`);
+        });
+      }
+
+      // Generate text content using default pairing
+      txtContent = generatePlaylistPairsText(tracks);
+    }
     
     // Set headers to trigger download
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');

@@ -141,6 +141,207 @@
       flex-direction: column;
       gap: 10px;
     }
+
+    /* Modal styles */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-overlay.show {
+      display: flex;
+    }
+
+    .modal {
+      background: white;
+      border-radius: 12px;
+      max-width: 700px;
+      width: 90%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .modal-header {
+      padding: 20px 25px;
+      border-bottom: 2px solid #e0e0e0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h2 {
+      margin: 0;
+      color: #333;
+      font-size: 22px;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #999;
+      padding: 0;
+      width: auto;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .modal-close:hover {
+      color: #333;
+      background: none;
+      transform: none;
+    }
+
+    .modal-body {
+      padding: 25px;
+    }
+
+    .modal-section {
+      margin-bottom: 30px;
+    }
+
+    .modal-section h3 {
+      margin: 0 0 15px 0;
+      color: #555;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .row-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .data-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      background: #f8f8f8;
+      border-radius: 6px;
+    }
+
+    .data-row input,
+    .data-row select {
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .data-row input {
+      width: 80px;
+      flex-shrink: 0;
+    }
+
+    .data-row select {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .data-row label {
+      font-size: 12px;
+      color: #666;
+      margin: 0;
+      font-weight: normal;
+    }
+
+    .data-row .field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .remove-btn {
+      background: #ff4444;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      width: auto;
+      margin: 0;
+      flex-shrink: 0;
+    }
+
+    .remove-btn:hover {
+      background: #cc0000;
+    }
+
+    .add-btn {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      width: auto;
+      margin: 0;
+    }
+
+    .add-btn:hover {
+      background: #45a049;
+    }
+
+    .validation-errors {
+      background: #fee;
+      border: 1px solid #fcc;
+      color: #c33;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 15px;
+      display: none;
+    }
+
+    .validation-errors.show {
+      display: block;
+    }
+
+    .validation-errors ul {
+      margin: 5px 0 0 20px;
+      padding: 0;
+    }
+
+    .validation-errors li {
+      margin: 3px 0;
+    }
+
+    .modal-footer {
+      padding: 20px 25px;
+      border-top: 2px solid #e0e0e0;
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    .modal-footer button {
+      width: auto;
+      margin: 0;
+    }
+
+    .btn-secondary {
+      background: #999;
+    }
+
+    .btn-secondary:hover {
+      background: #777;
+    }
   </style>
 </head>
 <body>
@@ -180,6 +381,43 @@
     <div id="statusArea" class="status-area"></div>
   </div>
 
+  <!-- Advanced Pairing Plan Modal -->
+  <div id="pairingModal" class="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Configure Advanced Pairing Plan</h2>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <!-- Trios Section -->
+        <div class="modal-section">
+          <h3>🎵 Trios</h3>
+          <div id="trioRows" class="row-container"></div>
+          <button class="add-btn" id="addTrioBtn">+ Add Trio</button>
+        </div>
+
+        <!-- Ranges Section -->
+        <div class="modal-section">
+          <h3>📊 Ranges</h3>
+          <div id="rangeRows" class="row-container"></div>
+          <button class="add-btn" id="addRangeBtn">+ Add Range</button>
+        </div>
+
+        <!-- Validation Errors -->
+        <div id="validationErrors" class="validation-errors">
+          <strong>Validation Errors:</strong>
+          <ul id="errorList"></ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-secondary" id="cancelModalBtn">Cancel</button>
+        <button id="runPlanBtn">Run Plan</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const spotifyUrlInput = document.getElementById('spotifyUrl');
     const createListBtn = document.getElementById('createListBtn');
@@ -187,6 +425,21 @@
     const fileInput = document.getElementById('fileInput');
     const createJsonBtn = document.getElementById('createJsonBtn');
     const statusArea = document.getElementById('statusArea');
+
+    // Modal elements
+    const pairingModal = document.getElementById('pairingModal');
+    const modalClose = document.getElementById('modalClose');
+    const cancelModalBtn = document.getElementById('cancelModalBtn');
+    const runPlanBtn = document.getElementById('runPlanBtn');
+    const trioRows = document.getElementById('trioRows');
+    const rangeRows = document.getElementById('rangeRows');
+    const addTrioBtn = document.getElementById('addTrioBtn');
+    const addRangeBtn = document.getElementById('addRangeBtn');
+    const validationErrors = document.getElementById('validationErrors');
+    const errorList = document.getElementById('errorList');
+
+    let currentTrackCount = 0;
+    let pendingRequest = null;
 
     // Show status message
     function showStatus(message, type = 'info') {
@@ -196,6 +449,193 @@
         statusArea.classList.remove('show');
       }, 5000);
     }
+
+    // Modal functions
+    function showModal() {
+      pairingModal.classList.add('show');
+      // Add default range if none exist
+      if (rangeRows.children.length === 0) {
+        addRangeRow();
+      }
+    }
+
+    function hideModal() {
+      pairingModal.classList.remove('show');
+      clearValidationErrors();
+    }
+
+    function clearValidationErrors() {
+      validationErrors.classList.remove('show');
+      errorList.innerHTML = '';
+    }
+
+    function showValidationErrors(errors) {
+      errorList.innerHTML = '';
+      errors.forEach(error => {
+        const li = document.createElement('li');
+        li.textContent = error;
+        errorList.appendChild(li);
+      });
+      validationErrors.classList.add('show');
+    }
+
+    // Trio row management
+    let trioIdCounter = 0;
+    function addTrioRow(original = '', sampleA = '', sampleB = '') {
+      const id = trioIdCounter++;
+      const row = document.createElement('div');
+      row.className = 'data-row';
+      row.dataset.trioId = id;
+      row.innerHTML = `
+        <div class="field">
+          <label>Original</label>
+          <input type="number" class="trio-original" min="1" value="${original}" placeholder="Track #">
+        </div>
+        <div class="field">
+          <label>Sample A</label>
+          <input type="number" class="trio-sampleA" min="1" value="${sampleA}" placeholder="Track #">
+        </div>
+        <div class="field">
+          <label>Sample B</label>
+          <input type="number" class="trio-sampleB" min="1" value="${sampleB}" placeholder="Track #">
+        </div>
+        <button class="remove-btn" onclick="removeTrioRow(${id})">Remove</button>
+      `;
+      trioRows.appendChild(row);
+    }
+
+    function removeTrioRow(id) {
+      const row = trioRows.querySelector(`[data-trio-id="${id}"]`);
+      if (row) row.remove();
+    }
+
+    // Range row management
+    let rangeIdCounter = 0;
+    function addRangeRow(start = '', end = '', mapping = 'EVEN_ORIGINAL') {
+      const id = rangeIdCounter++;
+      const row = document.createElement('div');
+      row.className = 'data-row';
+      row.dataset.rangeId = id;
+      row.innerHTML = `
+        <div class="field">
+          <label>Start</label>
+          <input type="number" class="range-start" min="1" value="${start}" placeholder="Track #">
+        </div>
+        <div class="field">
+          <label>End</label>
+          <input type="number" class="range-end" min="1" value="${end}" placeholder="Track #">
+        </div>
+        <div class="field">
+          <label>Mapping</label>
+          <select class="range-mapping">
+            <option value="EVEN_ORIGINAL" ${mapping === 'EVEN_ORIGINAL' ? 'selected' : ''}>Even = Original</option>
+            <option value="ODD_ORIGINAL" ${mapping === 'ODD_ORIGINAL' ? 'selected' : ''}>Odd = Original</option>
+          </select>
+        </div>
+        <button class="remove-btn" onclick="removeRangeRow(${id})">Remove</button>
+      `;
+      rangeRows.appendChild(row);
+    }
+
+    function removeRangeRow(id) {
+      const row = rangeRows.querySelector(`[data-range-id="${id}"]`);
+      if (row) row.remove();
+    }
+
+    // Collect plan from form
+    function collectPlanFromForm() {
+      const trios = [];
+      const ranges = [];
+
+      // Collect trios
+      trioRows.querySelectorAll('.data-row').forEach(row => {
+        const original = parseInt(row.querySelector('.trio-original').value);
+        const sampleA = parseInt(row.querySelector('.trio-sampleA').value);
+        const sampleB = parseInt(row.querySelector('.trio-sampleB').value);
+        
+        if (!isNaN(original) && !isNaN(sampleA) && !isNaN(sampleB)) {
+          trios.push({ original, sampleA, sampleB });
+        }
+      });
+
+      // Collect ranges
+      rangeRows.querySelectorAll('.data-row').forEach(row => {
+        const start = parseInt(row.querySelector('.range-start').value);
+        const end = parseInt(row.querySelector('.range-end').value);
+        const mapping = row.querySelector('.range-mapping').value;
+        
+        if (!isNaN(start) && !isNaN(end)) {
+          ranges.push({ start, end, mapping });
+        }
+      });
+
+      return { trios, ranges };
+    }
+
+    // Make functions global for onclick handlers
+    window.removeTrioRow = removeTrioRow;
+    window.removeRangeRow = removeRangeRow;
+
+    // Event listeners for modal
+    modalClose.addEventListener('click', hideModal);
+    cancelModalBtn.addEventListener('click', hideModal);
+    addTrioBtn.addEventListener('click', () => addTrioRow());
+    addRangeBtn.addEventListener('click', () => addRangeRow());
+
+    runPlanBtn.addEventListener('click', async () => {
+      const plan = collectPlanFromForm();
+      
+      // Basic client-side validation
+      if (plan.ranges.length === 0) {
+        showValidationErrors(['Plan must have at least one range']);
+        return;
+      }
+
+      clearValidationErrors();
+      
+      // Try to apply the plan
+      if (pendingRequest) {
+        pendingRequest.advancedPairingPlan = plan;
+        
+        try {
+          const response = await fetch('/api/create-list', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(pendingRequest)
+          });
+
+          if (!response.ok) {
+            const error = await response.json();
+            
+            if (error.details && Array.isArray(error.details)) {
+              showValidationErrors(error.details);
+            } else {
+              showValidationErrors([error.error || 'Unknown error']);
+            }
+            return;
+          }
+
+          // Success! Download file
+          hideModal();
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'playlist_pairs.txt';
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(url);
+          document.body.removeChild(a);
+
+          showStatus('List created and downloaded!', 'success');
+          
+        } catch (error) {
+          showValidationErrors([error.message]);
+        }
+      }
+    });
 
     // Handle file upload
     fileInput.addEventListener('change', (e) => {
@@ -230,17 +670,86 @@
       try {
         showStatus('Creating list...', 'info');
         
-        const response = await fetch('/api/create-list', {
+        let requestBody = { spotifyUrl };
+        
+        // Optional: Add advanced pairing plan
+        // requestBody.advancedPairingPlan = {
+        //   trios: [{ original: 5, sampleA: 6, sampleB: 7 }],
+        //   ranges: [
+        //     { start: 1, end: 4, mapping: 'EVEN_ORIGINAL' },
+        //     { start: 8, end: 10, mapping: 'ODD_ORIGINAL' }
+        //   ]
+        // };
+        
+        let response = await fetch('/api/create-list', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({ spotifyUrl })
+          body: JSON.stringify(requestBody)
         });
 
+        // Handle odd playlist case
         if (!response.ok) {
           const error = await response.json();
-          throw new Error(error.error || 'Failed to create list');
+          
+          if (error.error === 'odd') {
+            // Ask if user wants to configure advanced pairing rules
+            const useAdvanced = confirm('Playlist has an odd number of tracks. Configure advanced pairing rules?');
+            
+            if (useAdvanced) {
+              // Store request and track count for modal
+              pendingRequest = requestBody;
+              currentTrackCount = error.totalTracks;
+              
+              // Clear and reset modal
+              trioRows.innerHTML = '';
+              rangeRows.innerHTML = '';
+              clearValidationErrors();
+              
+              // Show modal
+              showModal();
+              return; // Wait for user to complete modal form
+            } else {
+              // User chose not to configure advanced rules, use simple cutoff
+              const cutoff = prompt('Playlist has odd paring which breaks rules. Please insert the song # you want me to stop at');
+              
+              if (cutoff === null) {
+                showStatus('Operation cancelled', 'info');
+                return;
+              }
+              
+              const cutoffNum = parseInt(cutoff.trim());
+              
+              // Validate input
+              if (isNaN(cutoffNum) || cutoffNum < 1 || cutoffNum > error.totalTracks) {
+                showStatus(`Invalid input. Please enter a number between 1 and ${error.totalTracks}`, 'error');
+                return;
+              }
+              
+              if (cutoffNum % 2 !== 0) {
+                showStatus('Cutoff must be an even number to form complete pairs', 'error');
+                return;
+              }
+              
+              // Retry with cutoff
+              requestBody.cutoffTrackNumber = cutoffNum;
+              response = await fetch('/api/create-list', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(requestBody)
+              });
+              
+              if (!response.ok) {
+                const retryError = await response.json();
+                throw new Error(retryError.error || 'Failed to create list');
+              }
+            }
+          } else {
+            throw new Error(error.error || 'Failed to create list');
+          }
         }
 
         // Download the file
