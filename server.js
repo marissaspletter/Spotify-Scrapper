@@ -1,8 +1,10 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 const SpotifyWebApi = require('spotify-web-api-node');
-const { normalizePlan, validatePlan, buildPairsFromPlan } = require('./pairingPlan');
+const { normalizePlan, validatePlan, buildPairsFromPlan, getExcludedTracks } = require('./pairingPlan');
+const { getPairKey } = require('./dedupe');
 
 const app = express();
 const PORT = 3000;
@@ -128,6 +130,31 @@ app.post('/api/create-list', async (req, res) => {
   }
 
   try {
+    // DEBUG: Test dedupe key normalization
+    if (process.env.DEBUG_DEDUPE === 'true') {
+      const testPair1 = {
+        originalTrack: { title: 'Hello  World', artist: 'Artist  Name' },
+        sampledTrack: { title: 'Sample   Song', artist: 'Sample   Artist' }
+      };
+      const testPair2 = {
+        originalTrack: { title: 'HELLO WORLD', artist: 'artist name' },
+        sampledTrack: { title: 'sample song', artist: 'SAMPLE ARTIST' }
+      };
+      
+      const key1 = getPairKey(testPair1);
+      const key2 = getPairKey(testPair2);
+      
+      if (key1 === key2) {
+        console.log('✓ DEBUG: Dedupe key normalization works!');
+        console.log(`  Key1: ${key1}`);
+        console.log(`  Key2: ${key2}`);
+      } else {
+        console.warn('⚠️  DEBUG: Dedupe key normalization FAILED');
+        console.warn(`  Key1: ${key1}`);
+        console.warn(`  Key2: ${key2}`);
+      }
+    }
+
     // Get access token
     const authenticated = await getAccessToken();
     if (!authenticated) {
@@ -137,6 +164,9 @@ app.post('/api/create-list', async (req, res) => {
     // Fetch all tracks
     let tracks = await fetchAllPlaylistTracks(playlistId);
     const totalTracks = tracks.length;
+
+    // Always send total tracks to frontend
+    res.setHeader('X-Total-Tracks', totalTracks.toString());
 
     // Handle cutoff if provided
     if (cutoffTrackNumber) {
@@ -161,6 +191,7 @@ app.post('/api/create-list', async (req, res) => {
 
     let txtContent;
     let useAdvancedPairing = false;
+    let scrapedPairs = [];
 
     // Try advanced pairing plan if provided
     if (advancedPairingPlan) {
@@ -180,9 +211,22 @@ app.post('/api/create-list', async (req, res) => {
         }
         
         // Build pairs using advanced plan
-        const pairs = buildPairsFromPlan(tracks, normalizedPlan);
-        txtContent = generatePlaylistPairsTextFromPairs(pairs);
+        scrapedPairs = buildPairsFromPlan(tracks, normalizedPlan);
         useAdvancedPairing = true;
+        
+        // Get excluded tracks (not in ranges/trios)
+        const excludedTrackNumbers = getExcludedTracks(normalizedPlan, tracks.length);
+        const excludedTracks = excludedTrackNumbers.map(trackNum => ({
+          trackNumber: trackNum,
+          title: tracks[trackNum - 1].title,
+          artist: tracks[trackNum - 1].artist
+        }));
+        
+        // Send excluded tracks via header
+        if (excludedTracks.length > 0) {
+          res.setHeader('X-Excluded-Tracks', JSON.stringify(excludedTracks));
+          console.log(`ℹ️  ${excludedTracks.length} track(s) excluded (not in ranges/trios)`);
+        }
         
         console.log('✓ Advanced pairing plan applied successfully\n');
       } catch (error) {
@@ -213,13 +257,140 @@ app.post('/api/create-list', async (req, res) => {
         });
       }
 
-      // Generate text content using default pairing
-      txtContent = generatePlaylistPairsText(tracks);
+      // Build pairs from tracks (default odd/even pairing)
+      for (let i = 0; i < tracks.length; i += 2) {
+        scrapedPairs.push({
+          originalTrack: tracks[i],
+          sampledTrack: tracks[i + 1],
+          originalPos: i + 1,
+          sampledPos: i + 2
+        });
+      }
     }
+
+    // Load stored pairs from pairs.enriched.json (source of truth)
+    let storedPairs = [];
+    const pairsFilePath = path.join(__dirname, 'pairs.enriched.json');
+    
+    try {
+      if (fs.existsSync(pairsFilePath)) {
+        const fileContent = fs.readFileSync(pairsFilePath, 'utf-8');
+        storedPairs = JSON.parse(fileContent);
+        console.log(`✓ Loaded ${storedPairs.length} stored pairs from pairs.enriched.json`);
+      } else {
+        console.log('ℹ️  pairs.enriched.json not found, treating as empty');
+      }
+    } catch (parseError) {
+      console.error('⚠️  Failed to parse pairs.enriched.json:', parseError.message);
+      console.log('   Treating stored pairs as empty');
+      storedPairs = [];
+    }
+
+    // Build set of existing pair keys for deduplication
+    const existingKeys = new Set();
+    storedPairs.forEach(pair => {
+      const key = getPairKey(pair);
+      if (key) {
+        existingKeys.add(key);
+      }
+    });
+
+    console.log(`📊 Dedupe stats: ${storedPairs.length} stored pairs, ${existingKeys.size} unique keys`);
+
+    // Filter scraped pairs for duplicates
+    console.log(`\n🔍 Filtering ${scrapedPairs.length} scraped pairs...`);
+    
+    const filteredPairs = [];
+    const removedDuplicates = [];
+    const seenInScrape = new Set();
+
+    scrapedPairs.forEach((pair, index) => {
+      const pairKey = getPairKey(pair);
+      
+      if (!pairKey) {
+        // Skip pairs with invalid keys
+        return;
+      }
+
+      // Check if duplicate within scraped pairs itself
+      if (seenInScrape.has(pairKey)) {
+        removedDuplicates.push({
+          originalTitle: pair.originalTrack?.title || '',
+          originalArtist: pair.originalTrack?.artist || '',
+          sampledTitle: pair.sampledTrack?.title || '',
+          sampledArtist: pair.sampledTrack?.artist || '',
+          reason: 'duplicate_in_scrape'
+        });
+        return;
+      }
+
+      // Check if already in stored pairs
+      if (existingKeys.has(pairKey)) {
+        removedDuplicates.push({
+          originalTitle: pair.originalTrack?.title || '',
+          originalArtist: pair.originalTrack?.artist || '',
+          sampledTitle: pair.sampledTrack?.title || '',
+          sampledArtist: pair.sampledTrack?.artist || '',
+          reason: 'already_stored'
+        });
+        return;
+      }
+
+      // Pair is unique, keep it
+      seenInScrape.add(pairKey);
+      filteredPairs.push(pair);
+    });
+
+    console.log(`✓ Scraped pairs: ${scrapedPairs.length}`);
+    console.log(`✓ Removed duplicates: ${removedDuplicates.length}`);
+    console.log(`✓ Filtered pairs (new): ${filteredPairs.length}`);
+
+    if (removedDuplicates.length > 0) {
+      console.log('\n📝 Removed duplicates breakdown:');
+      const inScrape = removedDuplicates.filter(d => d.reason === 'duplicate_in_scrape').length;
+      const alreadyStored = removedDuplicates.filter(d => d.reason === 'already_stored').length;
+      console.log(`   - Duplicate in scrape: ${inScrape}`);
+      console.log(`   - Already stored: ${alreadyStored}`);
+    }
+
+    // Merge and persist updated canonical store
+    console.log('\n💾 Updating canonical store...');
+    
+    // Merge stored pairs with newly filtered pairs
+    const allPairs = [...storedPairs, ...filteredPairs];
+    console.log(`   Total before dedup: ${allPairs.length}`);
+
+    // Deduplicate merged pairs using a Map
+    const dedupedMap = new Map();
+    allPairs.forEach(pair => {
+      const key = getPairKey(pair);
+      if (key && !dedupedMap.has(key)) {
+        dedupedMap.set(key, pair);
+      }
+    });
+
+    const dedupedPairs = Array.from(dedupedMap.values());
+    console.log(`   Total after dedup: ${dedupedPairs.length}`);
+
+    // Write to pairs.enriched.json
+    try {
+      const jsonContent = JSON.stringify(dedupedPairs, null, 2);
+      fs.writeFileSync(pairsFilePath, jsonContent, 'utf-8');
+      console.log(`✓ Saved ${dedupedPairs.length} pairs to pairs.enriched.json`);
+    } catch (writeError) {
+      console.error('⚠️  Failed to write pairs.enriched.json:', writeError.message);
+    }
+
+    // Generate output file from filtered pairs only (no duplicates)
+    txtContent = generatePlaylistPairsTextFromPairs(filteredPairs);
     
     // Set headers to trigger download
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     res.setHeader('Content-Disposition', 'attachment; filename="playlist_pairs.txt"');
+    
+    // Always add removed duplicates info as header for frontend display
+    res.setHeader('X-Removed-Duplicates', JSON.stringify(removedDuplicates));
+    
     res.send(txtContent);
 
   } catch (error) {

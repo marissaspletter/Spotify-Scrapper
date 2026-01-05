@@ -1,0 +1,4574 @@
+[
+  {
+    "originalTrack": {
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "spotifyUrl": "https://open.spotify.com/track/2sXp9Qmvc7mRaDBjBgcGGi",
+      "youtubeId": "OMOGaugKpzs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "I'll Be Missing You (feat. Faith Evans, 112)",
+      "artist": "Diddy",
+      "spotifyUrl": "https://open.spotify.com/track/3QHONiXGMGU3z68mQInncF",
+      "youtubeId": "pNPf-aP-bsA",
+      "startSec": 0
+    },
+    "originalPos": 1,
+    "sampledPos": 2
+  },
+  {
+    "originalTrack": {
+      "title": "He's the Greatest Dancer",
+      "artist": "Sister Sledge",
+      "spotifyUrl": "https://open.spotify.com/track/5MuNxNox3zTanAFIO5KcTl",
+      "youtubeId": "https://www.youtube.com/watch?v=fLLSwHaYk6k&list=RDfLLSwHaYk6k&start_radio=1",
+      "startSec": 37
+    },
+    "sampledTrack": {
+      "title": "Gettin' Jiggy Wit It",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
+      "youtubeId": "-sOPCY6_If8",
+      "startSec": 0
+    },
+    "originalPos": 3,
+    "sampledPos": 4
+  },
+  {
+    "originalTrack": {
+      "title": "Sang And Dance",
+      "artist": "The Bar-Kays",
+      "spotifyUrl": "https://open.spotify.com/track/6FeSikZKv0158fhRtWnMoT",
+      "youtubeId": "aDKKEei9wn4&list=RDaDKKEei9wn4&start_radio=1",
+      "startSec": 52
+    },
+    "sampledTrack": {
+      "title": "Gettin' Jiggy Wit It",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp",
+      "youtubeId": "-sOPCY6_If8",
+      "startSec": 0
+    },
+    "originalPos": 5,
+    "sampledPos": 6
+  },
+  {
+    "originalTrack": {
+      "title": "Valerie",
+      "artist": "Steve Winwood",
+      "spotifyUrl": "https://open.spotify.com/track/0CvELCKAsz9ymRXcuATHWN",
+      "youtubeId": "https://www.youtube.com/watch?v=cbKNICg-REA&list=RDcbKNICg-REA&start_radio=1",
+      "startSec": 63
+    },
+    "sampledTrack": {
+      "title": "Call On Me",
+      "artist": "Eric Prydz",
+      "spotifyUrl": "https://open.spotify.com/track/6E0dc82Da4W5QWXR8ktoGT",
+      "youtubeId": "qetW6R9Jxs4",
+      "startSec": 21
+    },
+    "originalPos": 7,
+    "sampledPos": 8
+  },
+  {
+    "originalTrack": {
+      "title": "Smile Happy",
+      "artist": "War",
+      "spotifyUrl": "https://open.spotify.com/track/6JL2RAeGJYGUl6sx5duJ13",
+      "youtubeId": "YqY27mEHK5g",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "It Wasn't Me",
+      "artist": "Shaggy",
+      "spotifyUrl": "https://open.spotify.com/track/1Bt6TZfF8FSqdiHPN0vy4u",
+      "youtubeId": "EHYRfukHToc",
+      "startSec": 0
+    },
+    "originalPos": 9,
+    "sampledPos": 10
+  },
+  {
+    "originalTrack": {
+      "title": "Ex-Factor",
+      "artist": "Ms. Lauryn Hill",
+      "spotifyUrl": "https://open.spotify.com/track/2VjXGuPVVxyhMgER3Uz2Fe",
+      "youtubeId": "cE-bnWqLqxE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Nice For What",
+      "artist": "Drake",
+      "spotifyUrl": "https://open.spotify.com/track/38hSjSZecuHFsOHaffA2Pm",
+      "youtubeId": "U9BwWKXjVaI",
+      "startSec": 0
+    },
+    "originalPos": 11,
+    "sampledPos": 12
+  },
+  {
+    "originalTrack": {
+      "title": "I'm Coming Out",
+      "artist": "Diana Ross",
+      "spotifyUrl": "https://open.spotify.com/track/3SnGymj6ijE2iuUfWxLo1q",
+      "youtubeId": "-xMvP6PsD9A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase)",
+      "artist": "The Notorious B.I.G.",
+      "spotifyUrl": "https://open.spotify.com/track/4twB8kC49VFnvgCdCrOskb",
+      "youtubeId": "gUhRKVIjJtw",
+      "startSec": 102
+    },
+    "originalPos": 13,
+    "sampledPos": 14
+  },
+  {
+    "originalTrack": {
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase)",
+      "artist": "The Notorious B.I.G.",
+      "spotifyUrl": "https://open.spotify.com/track/4twB8kC49VFnvgCdCrOskb",
+      "youtubeId": "gUhRKVIjJtw",
+      "startSec": 102
+    },
+    "sampledTrack": {
+      "title": "Break Your Heart Right Back",
+      "artist": "Ariana Grande",
+      "spotifyUrl": "https://open.spotify.com/track/0HGcQDbRen8luCnwH53sNl",
+      "youtubeId": "80Q30ebnXpU",
+      "startSec": 42
+    },
+    "originalPos": 15,
+    "sampledPos": 16
+  },
+  {
+    "originalTrack": {
+      "title": "Rise",
+      "artist": "Herb Alpert",
+      "spotifyUrl": "https://open.spotify.com/track/7znZstuIvZjldNIO1E11U4",
+      "youtubeId": "q7O3eYJptTc&list=RDq7O3eYJptTc&start_radio=1",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hypnotize",
+      "artist": "The Notorious B.I.G.",
+      "spotifyUrl": "https://open.spotify.com/track/3xVymXqV3exaYiU1oXZIII",
+      "youtubeId": "eaPzCHEQExs",
+      "startSec": 0
+    },
+    "originalPos": 17,
+    "sampledPos": 18
+  },
+  {
+    "originalTrack": {
+      "title": "Are You My Woman? (Tell Me So)",
+      "artist": "The Chi-Lites",
+      "spotifyUrl": "https://open.spotify.com/track/7B32ckntos5QYbV9o7GF3q",
+      "youtubeId": "4GqOt3gBSOA",
+      "startSec": 9
+    },
+    "sampledTrack": {
+      "title": "Crazy In Love (feat. JAY-Z)",
+      "artist": "Beyoncé",
+      "spotifyUrl": "https://open.spotify.com/track/5IVuqXILoxVWvWEPm82Jxr",
+      "youtubeId": "ViwtNLUqkMY",
+      "startSec": 0
+    },
+    "originalPos": 19,
+    "sampledPos": 20
+  },
+  {
+    "originalTrack": {
+      "title": "Pastime Paradise",
+      "artist": "Stevie Wonder",
+      "spotifyUrl": "https://open.spotify.com/track/5d4TyVzPS8cDmGRzZ746hI",
+      "youtubeId": "hmbEI2Z1Is0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio",
+      "spotifyUrl": "https://open.spotify.com/track/7lQWRAjyhTpCWFC0jmclT4",
+      "youtubeId": "7DXlY8LhWnI",
+      "startSec": 0
+    },
+    "originalPos": 21,
+    "sampledPos": 22
+  },
+  {
+    "originalTrack": {
+      "title": "I've Got a Woman",
+      "artist": "Ray Charles",
+      "spotifyUrl": "https://open.spotify.com/track/2xar08Fq5xra2KKZs5Bw9j",
+      "youtubeId": "l89SFv0n3pc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "spotifyUrl": "https://open.spotify.com/track/43PBE5b3RJgwfi1i9xKtEs",
+      "youtubeId": "6vwNcNOTVzY",
+      "startSec": 0
+    },
+    "originalPos": 23,
+    "sampledPos": 24
+  },
+  {
+    "originalTrack": {
+      "title": "Beat Girl",
+      "artist": "John Barry",
+      "spotifyUrl": "https://open.spotify.com/track/5TreRVeCIj0BFEQJy7dmeb",
+      "youtubeId": "KImbQwcpzq0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Rockafeller Skank",
+      "artist": "Fatboy Slim",
+      "spotifyUrl": "https://open.spotify.com/track/6QuBlKmaadzwQn21IUTPPX",
+      "youtubeId": "FMrIy9zm7QY",
+      "startSec": 0
+    },
+    "originalPos": 25,
+    "sampledPos": 26
+  },
+  {
+    "originalTrack": {
+      "title": "Sliced Tomatoes",
+      "artist": "Just Brothers",
+      "spotifyUrl": "https://open.spotify.com/track/4AxrlOlmlKducWdz18bLYB",
+      "youtubeId": "7cqT7Vg-8M4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Rockafeller Skank",
+      "artist": "Fatboy Slim",
+      "spotifyUrl": "https://open.spotify.com/track/6QuBlKmaadzwQn21IUTPPX",
+      "youtubeId": "FMrIy9zm7QY",
+      "startSec": 0
+    },
+    "originalPos": 27,
+    "sampledPos": 28
+  },
+  {
+    "originalTrack": {
+      "title": "Super Freak",
+      "artist": "Rick James",
+      "spotifyUrl": "https://open.spotify.com/track/2dCmGcEOQrMQhMMS8Vj7Ca",
+      "youtubeId": "XESxsUl6hGU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "U Can't Touch This",
+      "artist": "MC Hammer",
+      "spotifyUrl": "https://open.spotify.com/track/1B75hgRqe7A4fwee3g3Wmu",
+      "youtubeId": "otCpCn0l4Wo",
+      "startSec": 0
+    },
+    "originalPos": 29,
+    "sampledPos": 30
+  },
+  {
+    "originalTrack": {
+      "title": "Wanna Be Startin' Somethin'",
+      "artist": "Michael Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/2kulOHR2XY6YDZCWXb38hn",
+      "youtubeId": "1XMvPTFzgVU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Don't Stop The Music",
+      "artist": "Rihanna",
+      "spotifyUrl": "https://open.spotify.com/track/0ByMNEPAPpOR5H69DVrTNy",
+      "youtubeId": "yd8jh9QYfEs",
+      "startSec": 0
+    },
+    "originalPos": 31,
+    "sampledPos": 32
+  },
+  {
+    "originalTrack": {
+      "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artist": "ABBA",
+      "spotifyUrl": "https://open.spotify.com/track/2PzCOP5Aj9SABiBgNEZ52G",
+      "youtubeId": "XEjLoHdbVeE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hung Up",
+      "artist": "Madonna",
+      "spotifyUrl": "https://open.spotify.com/track/03UAID5OeTwjDIKCM7M3rg",
+      "youtubeId": "cvT9RP5uUks",
+      "startSec": 0
+    },
+    "originalPos": 33,
+    "sampledPos": 34
+  },
+  {
+    "originalTrack": {
+      "title": "It's Ecstasy When You Lay Down Next To Me",
+      "artist": "Barry White",
+      "spotifyUrl": "https://open.spotify.com/track/1LKk8ObE1ih2eV0gJP3pnu",
+      "youtubeId": "dk5WCc1iEwk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Rock DJ",
+      "artist": "Robbie Williams",
+      "spotifyUrl": "https://open.spotify.com/track/7oQSevUCbYs4QawXTHQVV1",
+      "youtubeId": "BnO3nijfYmU",
+      "startSec": 0
+    },
+    "originalPos": 35,
+    "sampledPos": 36
+  },
+  {
+    "originalTrack": {
+      "title": "Ma Baker (ZDF Starparade 02.06.1977)",
+      "artist": "Boney M.",
+      "spotifyUrl": "https://open.spotify.com/track/48C219M8L2HGsFTLudljk5",
+      "youtubeId": "f3XcNskAxp0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "spotifyUrl": "https://open.spotify.com/track/0WfKDYeUAoLA3vdvLKKWMW",
+      "youtubeId": "s1A3X_VA-us",
+      "startSec": 0
+    },
+    "originalPos": 37,
+    "sampledPos": 38
+  },
+  {
+    "originalTrack": {
+      "title": "Ma Baker (ZDF Starparade 02.06.1977)",
+      "artist": "Boney M.",
+      "spotifyUrl": "https://open.spotify.com/track/48C219M8L2HGsFTLudljk5",
+      "youtubeId": "f3XcNskAxp0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Live At Dominoes",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/6hQ4FNfbxDiETvXAgHMGp9",
+      "youtubeId": "CRVSuE61nA0",
+      "startSec": 0
+    },
+    "originalPos": 39,
+    "sampledPos": 40
+  },
+  {
+    "originalTrack": {
+      "title": "M.E.",
+      "artist": "Gary Numan",
+      "spotifyUrl": "https://open.spotify.com/track/3OiBc6E43P6Y5LoqNbbMKf",
+      "youtubeId": "JeucohIa5LQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Where's Your Head At",
+      "artist": "Basement Jaxx",
+      "spotifyUrl": "https://open.spotify.com/track/25ys1lEf3z6lvkDEE5mG0R",
+      "youtubeId": "5rAOyh7YmEc",
+      "startSec": 0
+    },
+    "originalPos": 41,
+    "sampledPos": 42
+  },
+  {
+    "originalTrack": {
+      "title": "More, More, More",
+      "artist": "Andrea True Connection",
+      "spotifyUrl": "https://open.spotify.com/track/3AW4fSXHe51jnjyL34QasT",
+      "youtubeId": "73RYirgeLV4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Steal My Sunshine",
+      "artist": "LEN",
+      "spotifyUrl": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj",
+      "youtubeId": "E1fzJ_AYajA",
+      "startSec": 0
+    },
+    "originalPos": 43,
+    "sampledPos": 44
+  },
+  {
+    "originalTrack": {
+      "title": "Edge of Seventeen",
+      "artist": "Stevie Nicks",
+      "spotifyUrl": "https://open.spotify.com/track/7L3b6iaVhDVjfo52Hbvh9Z",
+      "youtubeId": "3oZunnY-Cbs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Bootylicious",
+      "artist": "Destiny's Child",
+      "spotifyUrl": "https://open.spotify.com/track/31CsLSgn0HdZEVC8Bnnmvr",
+      "youtubeId": "IyYnnUcgeMc",
+      "startSec": 0
+    },
+    "originalPos": 45,
+    "sampledPos": 46
+  },
+  {
+    "originalTrack": {
+      "title": "Bring Down the Birds",
+      "artist": "Herbie Hancock",
+      "spotifyUrl": "",
+      "youtubeId": "0yLHOAkj9ss",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Groove Is in the Heart",
+      "artist": "Deee-Lite",
+      "spotifyUrl": "https://open.spotify.com/track/2UVLuddklEVak5PXgC7baA",
+      "youtubeId": "etviGf1uWlg",
+      "startSec": 0
+    },
+    "originalPos": 47,
+    "sampledPos": 48
+  },
+  {
+    "originalTrack": {
+      "title": "Hippy Skippy Moon Strut",
+      "artist": "The Mighty Show-stoppers",
+      "spotifyUrl": "https://open.spotify.com/track/779sQfozhZIYbNz4Suoz28",
+      "youtubeId": "PZGF6pGUZfQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ain't No Other Man",
+      "artist": "Christina Aguilera",
+      "spotifyUrl": "https://open.spotify.com/track/7huo2wvrCgRucUsjdSDLQV",
+      "youtubeId": "8x7Ta89QLo4",
+      "startSec": 0
+    },
+    "originalPos": 49,
+    "sampledPos": 50
+  },
+  {
+    "originalTrack": {
+      "title": "Mambo No. 5",
+      "artist": "Pérez Prado",
+      "spotifyUrl": "https://open.spotify.com/track/3rfG5eLWPtKo4FE1XsaPWy",
+      "youtubeId": "7E9O0udSdOw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Mambo No. 5 (a Little Bit of...)",
+      "artist": "Lou Bega",
+      "spotifyUrl": "https://open.spotify.com/track/6x4tKaOzfNJpEJHySoiJcs",
+      "youtubeId": "EK_LN3XEcnw",
+      "startSec": 0
+    },
+    "originalPos": 51,
+    "sampledPos": 52
+  },
+  {
+    "originalTrack": {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "spotifyUrl": "https://open.spotify.com/track/0cGG2EouYCEEC3xfa0tDFV",
+      "youtubeId": "EWZxFSo-XZY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "SOS",
+      "artist": "Rihanna",
+      "spotifyUrl": "https://open.spotify.com/track/30cSNer6TV8x2utjULVeQ5",
+      "youtubeId": "IXmF4GbA86E",
+      "startSec": 0
+    },
+    "originalPos": 53,
+    "sampledPos": 54
+  },
+  {
+    "originalTrack": {
+      "title": "Between the Sheets",
+      "artist": "The Isley Brothers",
+      "spotifyUrl": "https://open.spotify.com/track/3ApIYu95WxjzpQCnsLBbrv",
+      "youtubeId": "Pf_si60K9nM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Big Poppa",
+      "artist": "The Notorious B.I.G.",
+      "spotifyUrl": "https://open.spotify.com/track/5eKcayEb4qWJq0pGFWOM8i",
+      "youtubeId": "QceVTChhlJM",
+      "startSec": 0
+    },
+    "originalPos": 55,
+    "sampledPos": 56
+  },
+  {
+    "originalTrack": {
+      "title": "The Last Time",
+      "artist": "Andrew Oldham Orchestra",
+      "spotifyUrl": "https://open.spotify.com/track/7wLtyMDljwAziOVC9d3FOh",
+      "youtubeId": "9YrllfAMwHI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Bitter Sweet Symphony",
+      "artist": "The Verve",
+      "spotifyUrl": "https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw",
+      "youtubeId": "JnRw8bXVbPI",
+      "startSec": 0
+    },
+    "originalPos": 57,
+    "sampledPos": 58
+  },
+  {
+    "originalTrack": {
+      "title": "I Like It Like That",
+      "artist": "Pete Rodriguez",
+      "spotifyUrl": "https://open.spotify.com/track/2s3TL6sMAZwaJsUfVAXbFU",
+      "youtubeId": "DEjN42FW2sU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "I Like It",
+      "artist": "Cardi B",
+      "spotifyUrl": "https://open.spotify.com/track/3bsycjdQtbcJeR6822SBvd",
+      "youtubeId": "U4fErC9skHE",
+      "startSec": 0
+    },
+    "originalPos": 59,
+    "sampledPos": 60
+  },
+  {
+    "originalTrack": {
+      "title": "Funky Worm",
+      "artist": "Ohio Players",
+      "spotifyUrl": "https://open.spotify.com/track/4SGcV28NuS1IdCaEsnYKi5",
+      "youtubeId": "wWiBJJ2dvBg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Jump",
+      "artist": "Kris Kross",
+      "spotifyUrl": "https://open.spotify.com/track/27AHAtAirQapVldIm4c9ZX",
+      "youtubeId": "010KyIQjkTk",
+      "startSec": 0
+    },
+    "originalPos": 61,
+    "sampledPos": 62
+  },
+  {
+    "originalTrack": {
+      "title": "Funky Worm",
+      "artist": "Ohio Players",
+      "spotifyUrl": "https://open.spotify.com/track/4SGcV28NuS1IdCaEsnYKi5",
+      "youtubeId": "wWiBJJ2dvBg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Boom! Shake the Room",
+      "artist": "DJ Jazzy Jeff & The Fresh Prince",
+      "spotifyUrl": "https://open.spotify.com/track/5ZDL1Ap2Mwhk5xhmQ41Ei2",
+      "youtubeId": "FfHtiCVA5d8",
+      "startSec": 0
+    },
+    "originalPos": 63,
+    "sampledPos": 64
+  },
+  {
+    "originalTrack": {
+      "title": "Straight to Hell",
+      "artist": "The Clash",
+      "spotifyUrl": "https://open.spotify.com/track/2ax1vei61BzRGsEn6ckEdL",
+      "youtubeId": "t7SvtikTkrM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Paper Planes",
+      "artist": "M.I.A.",
+      "spotifyUrl": "https://open.spotify.com/track/1wgqttlPacpvmX5DKVboOa",
+      "youtubeId": "ewRjZoRtu0Y",
+      "startSec": 0
+    },
+    "originalPos": 65,
+    "sampledPos": 66
+  },
+  {
+    "originalTrack": {
+      "title": "Take Yo' Praise",
+      "artist": "Camille Yarbrough",
+      "spotifyUrl": "https://open.spotify.com/track/72gugwdcoiR4AcKzdhx9E0",
+      "youtubeId": "iYa8F0827_g",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Praise You",
+      "artist": "Fatboy Slim",
+      "spotifyUrl": "https://open.spotify.com/track/3yGy1JYz3zQKlxSgjgpQqX",
+      "youtubeId": "1BoXlv-TV2c",
+      "startSec": 0
+    },
+    "originalPos": 67,
+    "sampledPos": 68
+  },
+  {
+    "originalTrack": {
+      "title": "Something's Got A Hold On Me",
+      "artist": "Etta James",
+      "spotifyUrl": "https://open.spotify.com/track/5QC07jdKdQrH1cW7Ag3OJ2",
+      "youtubeId": "2B8zW8uNToI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Good Feeling",
+      "artist": "Flo Rida",
+      "spotifyUrl": "https://open.spotify.com/track/2LEF1A8DOZ9wRYikWgVlZ8",
+      "youtubeId": "hV2z4oBNFKs",
+      "startSec": 0
+    },
+    "originalPos": 69,
+    "sampledPos": 70
+  },
+  {
+    "originalTrack": {
+      "title": "My Woman",
+      "artist": "Lew Stone & the Monseigneur Band",
+      "spotifyUrl": "https://open.spotify.com/track/5IP0alz84x3MGmg4IuXggH",
+      "youtubeId": "YlQdjR85EaU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Levels",
+      "artist": "Avicii",
+      "spotifyUrl": "https://open.spotify.com/track/6f54knyJHYJ1v6P591HPWU",
+      "youtubeId": "wDuoOapZ9Z0",
+      "startSec": 0
+    },
+    "originalPos": 71,
+    "sampledPos": 72
+  },
+  {
+    "originalTrack": {
+      "title": "Sometimes",
+      "artist": "Bessie Jones",
+      "spotifyUrl": "https://open.spotify.com/track/2SAWOoDsgdXqeQihHVR4hL",
+      "youtubeId": "w7Y-6kmFtsg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Natural Blues",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/4qUVntQ46fmejnJDlRlJpw",
+      "youtubeId": "E6ICOU1iUf8",
+      "startSec": 0
+    },
+    "originalPos": 73,
+    "sampledPos": 74
+  },
+  {
+    "originalTrack": {
+      "title": "Street Player",
+      "artist": "Chicago",
+      "spotifyUrl": "https://open.spotify.com/track/1HiaZTm2nGQL4wtnJLPNV0",
+      "youtubeId": "TeQy-YxGPP4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Honey",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/7oY2906MviwUEFIF3DskB2",
+      "youtubeId": "IJWlBfo5Oj0",
+      "startSec": 0
+    },
+    "originalPos": 75,
+    "sampledPos": 76
+  },
+  {
+    "originalTrack": {
+      "title": "My Woman",
+      "artist": "Lew Stone & the Monseigneur Band",
+      "spotifyUrl": "https://open.spotify.com/track/5IP0alz84x3MGmg4IuXggH",
+      "youtubeId": "YlQdjR85EaU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Your Woman",
+      "artist": "White Town",
+      "spotifyUrl": "https://open.spotify.com/track/4ACxa9buEUnOdYEoPcnMpi",
+      "youtubeId": "3NoIusrv9OA",
+      "startSec": 0
+    },
+    "originalPos": 77,
+    "sampledPos": 78
+  },
+  {
+    "originalTrack": {
+      "title": "My Woman",
+      "artist": "Lew Stone & the Monseigneur Band",
+      "spotifyUrl": "https://open.spotify.com/track/5IP0alz84x3MGmg4IuXggH",
+      "youtubeId": "YlQdjR85EaU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Love Again",
+      "artist": "Dua Lipa",
+      "spotifyUrl": "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB",
+      "youtubeId": "6GzDle_ohek",
+      "startSec": 0
+    },
+    "originalPos": 79,
+    "sampledPos": 80
+  },
+  {
+    "originalTrack": {
+      "title": "Apache",
+      "artist": "Incredible Bongo Band",
+      "spotifyUrl": "https://open.spotify.com/track/51ml2bJs9zDLv1PbzNQzPP",
+      "youtubeId": "-Udnb6F1A0g",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Apache",
+      "artist": "The Sugarhill Gang",
+      "spotifyUrl": "https://open.spotify.com/track/4UCkX8nrBlpxjrrEqtb46a",
+      "youtubeId": "0D9HGM8fsWU",
+      "startSec": 0
+    },
+    "originalPos": 81,
+    "sampledPos": 82
+  },
+  {
+    "originalTrack": {
+      "title": "Ring My Bell",
+      "artist": "Anita Ward",
+      "spotifyUrl": null,
+      "youtubeId": "jrXkleks57E",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Bust A Move",
+      "artist": "Young MC",
+      "spotifyUrl": "https://open.spotify.com/track/4CYyheknaH5R2xfEndtixD",
+      "youtubeId": "jCsmta01w-I",
+      "startSec": 0
+    },
+    "originalPos": 83,
+    "sampledPos": 84
+  },
+  {
+    "originalTrack": {
+      "title": "Hide and Seek",
+      "artist": "Imogen Heap",
+      "spotifyUrl": "https://open.spotify.com/track/7mMlbJlXXo2mRtQ4R9sIzD",
+      "youtubeId": "UYIAfiVGluk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Sorry",
+      "artist": "Justin Bieber",
+      "spotifyUrl": "https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF",
+      "youtubeId": "fRh_vgS2dFE",
+      "startSec": 0
+    },
+    "originalPos": 85,
+    "sampledPos": 86
+  },
+  {
+    "originalTrack": {
+      "title": "Amores Como el Nuestro",
+      "artist": "Jerry Rivera",
+      "spotifyUrl": "https://open.spotify.com/track/1RpCXjlxFGS6LfPOvqSJ7M",
+      "youtubeId": "sJqDmVekMWU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Whatcha Say",
+      "artist": "Jason Derulo",
+      "spotifyUrl": "https://open.spotify.com/track/2zJZwWF7BTGIIvrAlgzJEx",
+      "youtubeId": "pBI3lc18k8Q",
+      "startSec": 0
+    },
+    "originalPos": 87,
+    "sampledPos": 88
+  },
+  {
+    "originalTrack": {
+      "title": "Why Can't We Live Together",
+      "artist": "Timmy Thomas",
+      "spotifyUrl": "https://open.spotify.com/track/46TGI4jpicmYEuWYYF6oPr",
+      "youtubeId": "hULALx9PuXA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hips Don't Lie (feat. Wyclef Jean)",
+      "artist": "Shakira",
+      "spotifyUrl": "https://open.spotify.com/track/3ZFTkvIE7kyPt6Nu3PEa7V",
+      "youtubeId": "DUT5rEU6pqM",
+      "startSec": 0
+    },
+    "originalPos": 89,
+    "sampledPos": 90
+  },
+  {
+    "originalTrack": {
+      "title": "Why Can't We Live Together",
+      "artist": "Timmy Thomas",
+      "spotifyUrl": "https://open.spotify.com/track/46TGI4jpicmYEuWYYF6oPr",
+      "youtubeId": "hULALx9PuXA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "spotifyUrl": "https://open.spotify.com/track/0wwPcA6wtMf6HUMpIRdeP7",
+      "youtubeId": "zt6aRKpf9T4",
+      "startSec": 0
+    },
+    "originalPos": 91,
+    "sampledPos": 92
+  },
+  {
+    "originalTrack": {
+      "title": "Low Rider",
+      "artist": "War",
+      "spotifyUrl": "https://open.spotify.com/track/0ZqhrTXYPA9DZR527ZnFdO",
+      "youtubeId": "sDBSQF_j5Cw",
+      "startSec": 53
+    },
+    "sampledTrack": {
+      "title": "GDFR (feat. Sage the Gemini & Lookas)",
+      "artist": "Flo Rida",
+      "spotifyUrl": "https://open.spotify.com/track/26rdOwwjC2UnweK3xeS58u",
+      "youtubeId": "r1lAOwupmrQ",
+      "startSec": 0
+    },
+    "originalPos": 93,
+    "sampledPos": 94
+  },
+  {
+    "originalTrack": {
+      "title": "Boadicea",
+      "artist": "Enya",
+      "spotifyUrl": "https://open.spotify.com/track/2AUcU2mCQlEFZpvkfvIM8q",
+      "youtubeId": "Edek5yMYlJw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Round Round",
+      "artist": "Sugababes",
+      "spotifyUrl": "https://open.spotify.com/track/5O2Ft5ENCfAh6JCgykJs76",
+      "youtubeId": "FHh86ySgKrA",
+      "startSec": 0
+    },
+    "originalPos": 95,
+    "sampledPos": 96
+  },
+  {
+    "originalTrack": {
+      "title": "Boadicea",
+      "artist": "Enya",
+      "spotifyUrl": "https://open.spotify.com/track/2AUcU2mCQlEFZpvkfvIM8q",
+      "youtubeId": "Edek5yMYlJw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ready or Not",
+      "artist": "Fugees",
+      "spotifyUrl": "https://open.spotify.com/track/74Yv0wbf4JLG1Rb5QVNcBJ",
+      "youtubeId": "PWOa_eeKzO0",
+      "startSec": 0
+    },
+    "originalPos": 97,
+    "sampledPos": 98
+  },
+  {
+    "originalTrack": {
+      "title": "I Don't Wanna Know (feat. Enya & P. Diddy)",
+      "artist": "Mario Winans",
+      "spotifyUrl": "https://open.spotify.com/track/2yr2HnFYl7XvqJk4fXoQBt",
+      "youtubeId": "T0BH9THi0-0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Creepin' (with The Weeknd & 21 Savage)",
+      "artist": "Metro Boomin",
+      "spotifyUrl": "https://open.spotify.com/track/7jHi6opPq439ruUlfH90Aw",
+      "youtubeId": "LOqGYF0oFIg",
+      "startSec": 0
+    },
+    "originalPos": 99,
+    "sampledPos": 100
+  },
+  {
+    "originalTrack": {
+      "title": "Under Pressure",
+      "artist": "Queen",
+      "spotifyUrl": "https://open.spotify.com/track/1mSClObliRtgPVT399COQH",
+      "youtubeId": "8Wdqh13AOhg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ice Ice Baby",
+      "artist": "Vanilla Ice",
+      "spotifyUrl": "https://open.spotify.com/track/11d9oUiwHuYt216EFA2tiz",
+      "youtubeId": "8819CVkxKPk",
+      "startSec": 0
+    },
+    "originalPos": 101,
+    "sampledPos": 102
+  },
+  {
+    "originalTrack": {
+      "title": "The Edge",
+      "artist": "David McCallum",
+      "spotifyUrl": "https://open.spotify.com/track/4cPynHy6YisnxMhPCMglO5",
+      "youtubeId": "y05mMRJrUnE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Next Episode",
+      "artist": "Dr. Dre",
+      "spotifyUrl": "https://open.spotify.com/track/3tHEJsKdVY8mg7YGDpUIFM",
+      "youtubeId": "QZXc39hT8t4",
+      "startSec": 0
+    },
+    "originalPos": 103,
+    "sampledPos": 104
+  },
+  {
+    "originalTrack": {
+      "title": "Pon De Floor",
+      "artist": "Major Lazer",
+      "spotifyUrl": "https://open.spotify.com/track/3S7hj7i6ibxRbpKkXJtio3",
+      "youtubeId": "g2nmgcVbfKE",
+      "startSec": 80
+    },
+    "sampledTrack": {
+      "title": "Run the World (Girls)",
+      "artist": "Beyoncé",
+      "spotifyUrl": "https://open.spotify.com/track/1uXbwHHfgsXcUKfSZw5ZJ0",
+      "youtubeId": "VBmMU_iwe6U",
+      "startSec": 57
+    },
+    "originalPos": 105,
+    "sampledPos": 106
+  },
+  {
+    "originalTrack": {
+      "title": "Love Is Strange",
+      "artist": "Mickey & Sylvia",
+      "spotifyUrl": "https://open.spotify.com/track/66Yxbr2UODJjVBKdZtbnOL",
+      "youtubeId": "5SwMB9v1pQ4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Back in Time",
+      "artist": "Pitbull",
+      "spotifyUrl": null,
+      "youtubeId": "ILgn4eBflf0",
+      "startSec": 0
+    },
+    "originalPos": 107,
+    "sampledPos": 108
+  },
+  {
+    "originalTrack": {
+      "title": "Funky Drummer",
+      "artist": "James Brown",
+      "spotifyUrl": null,
+      "youtubeId": "QXw6YZltKJk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Mama Said Knock You Out",
+      "artist": "LL COOL J",
+      "spotifyUrl": "https://open.spotify.com/track/7vP671IKgFYxIS9Nn78Laa",
+      "youtubeId": "rgLEj0LBRZo",
+      "startSec": 0
+    },
+    "originalPos": 109,
+    "sampledPos": 110
+  },
+  {
+    "originalTrack": {
+      "title": "Are 'Friends' Electric?",
+      "artist": "Tubeway Army",
+      "spotifyUrl": "https://open.spotify.com/track/6Y0gqGszwuiaa10jYPyYRV",
+      "youtubeId": "fyKWArpq-Fk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Freak Like Me",
+      "artist": "Sugababes",
+      "spotifyUrl": "https://open.spotify.com/track/34BqftHZ1In9YfAwqycB8E",
+      "youtubeId": "OSfCCt6aemc",
+      "startSec": 0
+    },
+    "originalPos": 111,
+    "sampledPos": 112
+  },
+  {
+    "originalTrack": {
+      "title": "What A Man",
+      "artist": "Linda Lyndell",
+      "spotifyUrl": "https://open.spotify.com/track/7dwJqwTXDtsrX1QLqb0o96",
+      "youtubeId": "-ayrECoSDOs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Whatta Man (feat. En Vogue)",
+      "artist": "Salt-N-Pepa",
+      "spotifyUrl": "https://open.spotify.com/track/5UKGE3tI0s5Lq0Puf6Fn0S",
+      "youtubeId": "Z0v4Hd431Gg",
+      "startSec": 0
+    },
+    "originalPos": 113,
+    "sampledPos": 114
+  },
+  {
+    "originalTrack": {
+      "title": "Whatever Lola Wants",
+      "artist": "Les Baxter",
+      "spotifyUrl": "https://open.spotify.com/track/5x3DRcoZo2CLiC3G8rH2tP",
+      "youtubeId": "0hfKDtQEz7U",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "GDFR (feat. Sage the Gemini & Lookas)",
+      "artist": "Flo Rida",
+      "spotifyUrl": "https://open.spotify.com/track/26rdOwwjC2UnweK3xeS58u",
+      "youtubeId": "r1lAOwupmrQ",
+      "startSec": 0
+    },
+    "originalPos": 115,
+    "sampledPos": 116
+  },
+  {
+    "originalTrack": {
+      "title": "Tom's Diner",
+      "artist": "Suzanne Vega",
+      "spotifyUrl": "https://open.spotify.com/track/7f9sC9fvtjYSZYOLSmKJlq",
+      "youtubeId": "j4jtIDaeaWI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Centuries",
+      "artist": "Fall Out Boy",
+      "spotifyUrl": "https://open.spotify.com/track/04aAxqtGp5pv12UXAg4pkq",
+      "youtubeId": "oPA0z4W-kcU",
+      "startSec": 0
+    },
+    "originalPos": 117,
+    "sampledPos": 118
+  },
+  {
+    "originalTrack": {
+      "title": "A Little Bit Of Love",
+      "artist": "Brenda Russell",
+      "spotifyUrl": "https://open.spotify.com/track/2YxeP08YriFGQI7bEIctdx",
+      "youtubeId": "rfzPtyPZEpc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Still Not a Player (feat. Joe)",
+      "artist": "Big Pun",
+      "spotifyUrl": "https://open.spotify.com/track/3GKL13lkM5nRc4zC1lIOrR",
+      "youtubeId": "Y27l81cgOI8",
+      "startSec": 0
+    },
+    "originalPos": 119,
+    "sampledPos": 120
+  },
+  {
+    "originalTrack": {
+      "title": "Still Not a Player (feat. Joe)",
+      "artist": "Big Pun",
+      "spotifyUrl": "https://open.spotify.com/track/3GKL13lkM5nRc4zC1lIOrR",
+      "youtubeId": "Y27l81cgOI8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Way",
+      "artist": "Ariana Grande",
+      "spotifyUrl": "https://open.spotify.com/track/06EL94D0TA27Ik0Ke5usbj",
+      "youtubeId": "UaCaf7ZAfNQ",
+      "startSec": 0
+    },
+    "originalPos": 121,
+    "sampledPos": 122
+  },
+  {
+    "originalTrack": {
+      "title": "Hail to the Chief",
+      "artist": "US Marine Band",
+      "spotifyUrl": "https://open.spotify.com/track/5rOAtI2EVb3aqVplWZHJOW",
+      "youtubeId": "VFhgdZOP9Fk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Inauguration",
+      "artist": "Bun B",
+      "spotifyUrl": null,
+      "youtubeId": "kbkA7YnTCTk",
+      "startSec": 0
+    },
+    "originalPos": 123,
+    "sampledPos": 124
+  },
+  {
+    "originalTrack": {
+      "title": "Just the Two of Us (feat. Bill Withers)",
+      "artist": "Grover Washington, Jr.",
+      "spotifyUrl": "https://open.spotify.com/track/1ko2lVN0vKGUl9zrU0qSlT",
+      "youtubeId": "6IO74QV6wHY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Just The Two Of Us",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/01F8B0dhzGdWvmcSO6vUdi",
+      "youtubeId": "_WamkRSDeD8",
+      "startSec": 0
+    },
+    "originalPos": 125,
+    "sampledPos": 126
+  },
+  {
+    "originalTrack": {
+      "title": "Lovin' You",
+      "artist": "Minnie Riperton",
+      "spotifyUrl": "https://open.spotify.com/track/4twhYPDyCP6ICeW3TtQVxP",
+      "youtubeId": "KhaUnHJjS8A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Bentley Coupe (Intro)",
+      "artist": "MoneyatMidnight",
+      "spotifyUrl": "https://open.spotify.com/track/1uR5Ucmc9bl2UfdLMS09RB",
+      "youtubeId": "WLFpFSCTQSk",
+      "startSec": 0
+    },
+    "originalPos": 127,
+    "sampledPos": 128
+  },
+  {
+    "originalTrack": {
+      "title": "Christine Sixteen",
+      "artist": "KISS",
+      "spotifyUrl": "https://open.spotify.com/track/5CDjsfoaBs7pTi97rUcNnf",
+      "youtubeId": "kgNAmFP0g3k",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Funky Cold Medina",
+      "artist": "Tone-Loc",
+      "spotifyUrl": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
+      "youtubeId": "WOkn90h_VWg",
+      "startSec": 0
+    },
+    "originalPos": 129,
+    "sampledPos": 130
+  },
+  {
+    "originalTrack": {
+      "title": "Hot Blooded",
+      "artist": "Foreigner",
+      "spotifyUrl": "https://open.spotify.com/track/6xMHglHoafdDFGXS6qfwSH",
+      "youtubeId": "Ug1qRiLUwac",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Funky Cold Medina",
+      "artist": "Tone-Loc",
+      "spotifyUrl": "https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe",
+      "youtubeId": "WOkn90h_VWg",
+      "startSec": 0
+    },
+    "originalPos": 131,
+    "sampledPos": 132
+  },
+  {
+    "originalTrack": {
+      "title": "Genius of Love",
+      "artist": "Tom Tom Club",
+      "spotifyUrl": "https://open.spotify.com/track/6UBQONiLH8kNmmB8UrV2Ef",
+      "youtubeId": "ECiMhe4E0pI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Fantasy",
+      "artist": "Mariah Carey",
+      "spotifyUrl": "https://open.spotify.com/track/6xkryXuiZU360Lngd4sx13",
+      "youtubeId": "qq09UkPRdFY",
+      "startSec": 0
+    },
+    "originalPos": 133,
+    "sampledPos": 134
+  },
+  {
+    "originalTrack": {
+      "title": "Genius of Love",
+      "artist": "Tom Tom Club",
+      "spotifyUrl": "https://open.spotify.com/track/6UBQONiLH8kNmmB8UrV2Ef",
+      "youtubeId": "ECiMhe4E0pI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Big Energy",
+      "artist": "Latto",
+      "spotifyUrl": "https://open.spotify.com/track/5lHxARJJrZc3ss4ZVmGWfz",
+      "youtubeId": "T8GpG8C0YzA",
+      "startSec": 0
+    },
+    "originalPos": 135,
+    "sampledPos": 136
+  },
+  {
+    "originalTrack": {
+      "title": "Games",
+      "artist": "Chuckii Booker",
+      "spotifyUrl": "https://open.spotify.com/track/1zyqa3Hv2KpCGz8L9AirJi",
+      "youtubeId": "ZKupNvVnXn8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Return of the Mack",
+      "artist": "Mark Morrison",
+      "spotifyUrl": "https://open.spotify.com/track/3jDdpx9PMlfMBS5tOBHFm9",
+      "youtubeId": "vSLgiE8uEbY",
+      "startSec": 0
+    },
+    "originalPos": 137,
+    "sampledPos": 138
+  },
+  {
+    "originalTrack": {
+      "title": "(You) Got What I Need",
+      "artist": "Freddie Scott",
+      "spotifyUrl": "https://open.spotify.com/track/0paX6B3a9OdUUrXav1hys7",
+      "youtubeId": "i8HnQX2f158",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Just a Friend",
+      "artist": "Biz Markie",
+      "spotifyUrl": "https://open.spotify.com/track/3yNVfRQlUPViUh8O2V9SQn",
+      "youtubeId": "9aofoBrFNdg",
+      "startSec": 0
+    },
+    "originalPos": 139,
+    "sampledPos": 140
+  },
+  {
+    "originalTrack": {
+      "title": "My Sharona",
+      "artist": "The Knack",
+      "spotifyUrl": "https://open.spotify.com/track/1HOMkjp0nHMaTnfAkslCQj",
+      "youtubeId": "bbr60I0u2Ng",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "It's Tricky",
+      "artist": "Run–D.M.C.",
+      "spotifyUrl": "https://open.spotify.com/track/6jBCehpNMkwFVF3dz4nLIW",
+      "youtubeId": "f3KnUxhCo3s",
+      "startSec": 0
+    },
+    "originalPos": 141,
+    "sampledPos": 142
+  },
+  {
+    "originalTrack": {
+      "title": "Pump It Up",
+      "artist": "Elvis Costello & The Attractions",
+      "spotifyUrl": "https://open.spotify.com/track/0JgMHia55MBfhfqZIRi3kF",
+      "youtubeId": "3Y71iDvCYXA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Voodoo Child",
+      "artist": "Rogue Traders",
+      "spotifyUrl": "https://open.spotify.com/track/7uU3Jb0ELZN8ilYwwMdEjd",
+      "youtubeId": "SrlhLaNClgw",
+      "startSec": 0
+    },
+    "originalPos": 143,
+    "sampledPos": 144
+  },
+  {
+    "originalTrack": {
+      "title": "Tu Vuo Fà L'Americano",
+      "artist": "Renato Carosone",
+      "spotifyUrl": "https://open.spotify.com/track/7HgG6kaNPUltGHFP6aIS4L",
+      "youtubeId": "grjGaROUzcQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "We No Speak Americano",
+      "artist": "Yolanda Be Cool",
+      "spotifyUrl": "https://open.spotify.com/track/2bGDdgjS7HYSlzpHk8ClKU",
+      "youtubeId": "lj2gs8DuJXk",
+      "startSec": 0
+    },
+    "originalPos": 145,
+    "sampledPos": 146
+  },
+  {
+    "originalTrack": {
+      "title": "Blind Alley",
+      "artist": "The Emotions",
+      "spotifyUrl": "https://open.spotify.com/track/5Gq3FcDnESp5UWmnATqEX1",
+      "youtubeId": "Eg_RR0CO-N8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ain't No Half-Steppin'",
+      "artist": "Big Daddy Kane",
+      "spotifyUrl": "https://open.spotify.com/track/0dNiLb9FEHrRK7VFDJctiR",
+      "youtubeId": "nqPlF5Mn32M",
+      "startSec": 0
+    },
+    "originalPos": 147,
+    "sampledPos": 148
+  },
+  {
+    "originalTrack": {
+      "title": "Blind Alley",
+      "artist": "The Emotions",
+      "spotifyUrl": "https://open.spotify.com/track/5Gq3FcDnESp5UWmnATqEX1",
+      "youtubeId": "Eg_RR0CO-N8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Dreamlover",
+      "artist": "Mariah Carey",
+      "spotifyUrl": "https://open.spotify.com/track/2ocDF2DDhIALebfIaGxBkF",
+      "youtubeId": "TmLDwvVVjrY",
+      "startSec": 0
+    },
+    "originalPos": 149,
+    "sampledPos": 150
+  },
+  {
+    "originalTrack": {
+      "title": "The Way It Is",
+      "artist": "Bruce Hornsby and the Range",
+      "spotifyUrl": "https://open.spotify.com/track/6V50MyHPGhEmwYu0Wdyf0t",
+      "youtubeId": "WyYC9qRlJxY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Changes",
+      "artist": "2Pac",
+      "spotifyUrl": "https://open.spotify.com/track/33CdK2WiQfodCIHiXfgoLJ",
+      "youtubeId": "M8Wj6-gPY0g",
+      "startSec": 0
+    },
+    "originalPos": 151,
+    "sampledPos": 152
+  },
+  {
+    "originalTrack": {
+      "title": "Video Killed The Radio Star",
+      "artist": "The Buggles",
+      "spotifyUrl": "https://open.spotify.com/track/7o7E1nrHWncYY7PY94gCiX",
+      "youtubeId": "W8r-tXRLazs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Check It Out",
+      "artist": "will.i.am",
+      "spotifyUrl": "https://open.spotify.com/track/0mzZDvbmKxuoO2ZMxbu5tJ",
+      "youtubeId": "nRYiB-sY3xo",
+      "startSec": 0
+    },
+    "originalPos": 153,
+    "sampledPos": 154
+  },
+  {
+    "originalTrack": {
+      "title": "The Roof Is on Fire",
+      "artist": "Rock Master Scott & the Dynamic Three",
+      "spotifyUrl": null,
+      "youtubeId": "pLSmrYy6lxw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hey Boy Hey Girl",
+      "artist": "The Chemical Brothers",
+      "spotifyUrl": "https://open.spotify.com/track/7kXmJwrZGIhDaLT9sNo3ut",
+      "youtubeId": "lKVTVdK7SZA",
+      "startSec": 0
+    },
+    "originalPos": 155,
+    "sampledPos": 156
+  },
+  {
+    "originalTrack": {
+      "title": "Ma quale idea",
+      "artist": "Pino D'Angiò",
+      "spotifyUrl": "https://open.spotify.com/track/50f0mt35cIwwu3Krk7nS7b",
+      "youtubeId": "hg9gvz5n614",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Don't Call Me Baby",
+      "artist": "Madison Avenue",
+      "spotifyUrl": "https://open.spotify.com/track/4fazGt0v2v2zkzddQOcDZD",
+      "youtubeId": "LIWrcD4ImwA",
+      "startSec": 0
+    },
+    "originalPos": 157,
+    "sampledPos": 158
+  },
+  {
+    "originalTrack": {
+      "title": "Walk On the Wild Side",
+      "artist": "Lou Reed",
+      "spotifyUrl": "https://open.spotify.com/track/5p3JunprHCxClJjOmcLV8G",
+      "youtubeId": "oG6fayQBm9w",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Can I Kick It?",
+      "artist": "A Tribe Called Quest",
+      "spotifyUrl": "https://open.spotify.com/track/3Ti0GdlrotgwsAVBBugv0I",
+      "youtubeId": "D-uV8TGjaGU",
+      "startSec": 0
+    },
+    "originalPos": 159,
+    "sampledPos": 160
+  },
+  {
+    "originalTrack": {
+      "title": "The Lonely Goatherd",
+      "artist": "Julie Andrews",
+      "spotifyUrl": "https://open.spotify.com/track/6Muj7ClPWwbuR7T7ObDqO6",
+      "youtubeId": "UmmOJx_Hxto",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wind It Up",
+      "artist": "Gwen Stefani",
+      "spotifyUrl": "https://open.spotify.com/track/1GeECVH4Msg1zLm8DExkbH",
+      "youtubeId": "9sY-TsLXiDo",
+      "startSec": 0
+    },
+    "originalPos": 161,
+    "sampledPos": 162
+  },
+  {
+    "originalTrack": {
+      "title": "Crazy Train",
+      "artist": "Ozzy Osbourne",
+      "spotifyUrl": "https://open.spotify.com/track/2b9lp5A6CqSzwOrBfAFhof",
+      "youtubeId": "tMDFv5m18Pw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wind It Up",
+      "artist": "Gwen Stefani",
+      "spotifyUrl": "https://open.spotify.com/track/1GeECVH4Msg1zLm8DExkbH",
+      "youtubeId": "9sY-TsLXiDo",
+      "startSec": 0
+    },
+    "originalPos": 163,
+    "sampledPos": 164
+  },
+  {
+    "originalTrack": {
+      "title": "Into My Own Thing",
+      "artist": "Sly & The Family Stone",
+      "spotifyUrl": "https://open.spotify.com/track/1jKFBuegXD4DPc7Gd8HhJm",
+      "youtubeId": "9-gt5fRWH6c",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Let's Go (feat. Big D & Twista)",
+      "artist": "Trick Daddy",
+      "spotifyUrl": "https://open.spotify.com/track/4MatugKuTLRqQGLss6Ch4a",
+      "youtubeId": "-YnO8vCDCHU",
+      "startSec": 0
+    },
+    "originalPos": 165,
+    "sampledPos": 166
+  },
+  {
+    "originalTrack": {
+      "title": "All Strung Out Over You",
+      "artist": "The Chambers Brothers",
+      "spotifyUrl": "https://open.spotify.com/track/1buOLndG7wg2lSdZzQWShK",
+      "youtubeId": "g018ffN-040",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Weapon of Choice",
+      "artist": "Fatboy Slim",
+      "spotifyUrl": "https://open.spotify.com/track/08kB9HSfrcIi83rymwgjMz",
+      "youtubeId": "3LK0I97KSZo",
+      "startSec": 0
+    },
+    "originalPos": 167,
+    "sampledPos": 168
+  },
+  {
+    "originalTrack": {
+      "title": "Push The Feeling On",
+      "artist": "Nightcrawlers",
+      "spotifyUrl": "https://open.spotify.com/track/1EWsVHU4FNAdtN4R8FETag",
+      "youtubeId": "kmG9sWo5Tw0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hotel Room Service",
+      "artist": "Pitbull",
+      "spotifyUrl": "https://open.spotify.com/track/6Rb0ptOEjBjPPQUlQtQGbL",
+      "youtubeId": "2up_Eq6r6Ko",
+      "startSec": 24
+    },
+    "originalPos": 169,
+    "sampledPos": 170
+  },
+  {
+    "originalTrack": {
+      "title": "Hollywood Swinging",
+      "artist": "Kool & The Gang",
+      "spotifyUrl": "https://open.spotify.com/track/6igsoAR6Co9u7Rq3U7mlOD",
+      "youtubeId": "Uxc9KSPLMxY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Let Me Clear My Throat",
+      "artist": "DJ Kool",
+      "spotifyUrl": "https://open.spotify.com/track/7k3sn5TIQ3qRVJ8FPTG9kx",
+      "youtubeId": "gnsqvz9iIlA",
+      "startSec": 0
+    },
+    "originalPos": 171,
+    "sampledPos": 172
+  },
+  {
+    "originalTrack": {
+      "title": "Footsteps in the Dark",
+      "artist": "The Isley Brothers",
+      "spotifyUrl": null,
+      "youtubeId": "Dyq9zlYMw9g",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Feel so Good",
+      "artist": "Mase",
+      "spotifyUrl": "https://open.spotify.com/track/00ovV8FIZewk6NmLd8kZhi",
+      "youtubeId": "4pjCcIh9O5c",
+      "startSec": 0
+    },
+    "originalPos": 173,
+    "sampledPos": 174
+  },
+  {
+    "originalTrack": {
+      "title": "Grandma's Hands",
+      "artist": "Bill Withers",
+      "spotifyUrl": "https://open.spotify.com/track/1qfDfZAvrkSAFrAR2FTQDv",
+      "youtubeId": "TdrChyGb574",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "It Was A Good Day",
+      "artist": "Ice Cube",
+      "spotifyUrl": "https://open.spotify.com/track/0m9ul5FMXzR2k2BRZKamcn",
+      "youtubeId": "Gb_-rZB2Foc",
+      "startSec": 0
+    },
+    "originalPos": 175,
+    "sampledPos": 176
+  },
+  {
+    "originalTrack": {
+      "title": "As Long as I've Got You",
+      "artist": "The Charmels",
+      "spotifyUrl": "https://open.spotify.com/track/2tzTVxgsdFyPJLKjdoyVst",
+      "youtubeId": "Z4kzMcVPgIs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "No Diggity",
+      "artist": "Blackstreet",
+      "spotifyUrl": "https://open.spotify.com/track/6MdqqkQ8sSC0WB4i8PyRuQ",
+      "youtubeId": "fMzmUZTdzTQ",
+      "startSec": 0
+    },
+    "originalPos": 177,
+    "sampledPos": 178
+  },
+  {
+    "originalTrack": {
+      "title": "I Can't Go for That (No Can Do)",
+      "artist": "Daryl Hall & John Oates",
+      "spotifyUrl": "https://open.spotify.com/track/41dDygR3r7e926oGUXfrLt",
+      "youtubeId": "ccenFp_3kq8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+      "artist": "Wu-Tang Clan",
+      "spotifyUrl": "https://open.spotify.com/track/441fSUzU17J5WKFu3wU291",
+      "youtubeId": "ecRs1sWZIL4",
+      "startSec": 0
+    },
+    "originalPos": 179,
+    "sampledPos": 180
+  },
+  {
+    "originalTrack": {
+      "title": "Shoo-Be-Doo-Be-Doo-Da-Day",
+      "artist": "Stevie Wonder",
+      "spotifyUrl": null,
+      "youtubeId": "ysxUWx7dNO4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Sunrise",
+      "artist": "Simply Red",
+      "spotifyUrl": "https://open.spotify.com/track/0jGVEPscW8KmqktoHqv2Pa",
+      "youtubeId": "PE3g2zeBVQQ",
+      "startSec": 0
+    },
+    "originalPos": 181,
+    "sampledPos": 182
+  },
+  {
+    "originalTrack": {
+      "title": "Sho' Nuff",
+      "artist": "Sly, Slick & Wicked",
+      "spotifyUrl": "https://open.spotify.com/track/4Jg1hIE4HZgxbOYwvh0dh2",
+      "youtubeId": "G_L9HzeAqOM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Red Alert",
+      "artist": "Basement Jaxx",
+      "spotifyUrl": "https://open.spotify.com/track/2S5CHSeaE3s6zCePzAHJuH",
+      "youtubeId": "MGQ_Lifd-Wg",
+      "startSec": 0
+    },
+    "originalPos": 183,
+    "sampledPos": 184
+  },
+  {
+    "originalTrack": {
+      "title": "I Keep Forgettin' (Every Time You're Near)",
+      "artist": "Michael McDonald",
+      "spotifyUrl": "https://open.spotify.com/track/5GvWrvLIqoHroq7YvO260M",
+      "youtubeId": "1Z1z7oipqPc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Regulate",
+      "artist": "Warren G",
+      "spotifyUrl": "https://open.spotify.com/track/4CH0xitatFkBKNIDWGE0lu",
+      "youtubeId": "l3Re2-scHUI",
+      "startSec": 0
+    },
+    "originalPos": 185,
+    "sampledPos": 186
+  },
+  {
+    "originalTrack": {
+      "title": "Forget Me Nots",
+      "artist": "Patrice Rushen",
+      "spotifyUrl": "https://open.spotify.com/track/7vuSGejUXpD365Nl9tyehq",
+      "youtubeId": "dKgLx6WiYKg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Men In Black",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/3Dq2FHZ73hBUG815MoapQu",
+      "youtubeId": "9WtPQmZZyOY",
+      "startSec": 0
+    },
+    "originalPos": 187,
+    "sampledPos": 188
+  },
+  {
+    "originalTrack": {
+      "title": "Ashes The Rain And I",
+      "artist": "James Gang",
+      "spotifyUrl": "https://open.spotify.com/track/4E8l6H6TGZHzHR63m4Ix09",
+      "youtubeId": "_tKiUkos44I",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Right Here, Right Now",
+      "artist": "Fatboy Slim",
+      "spotifyUrl": "https://open.spotify.com/track/2aeduPcWC2V8GLhuE1J1d5",
+      "youtubeId": "l0i6jBM15Bg",
+      "startSec": 0
+    },
+    "originalPos": 189,
+    "sampledPos": 190
+  },
+  {
+    "originalTrack": {
+      "title": "Amen Brother",
+      "artist": "The Winstons",
+      "spotifyUrl": "https://open.spotify.com/track/32Rf95ZT8gxisQMK6xAhba",
+      "youtubeId": "GxZuq57_bYM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A.",
+      "spotifyUrl": "https://open.spotify.com/track/5QKM7U6l7bMdJItolkM4x4",
+      "youtubeId": "XnAUz7ld1SU",
+      "startSec": 0
+    },
+    "originalPos": 191,
+    "sampledPos": 192
+  },
+  {
+    "originalTrack": {
+      "title": "Rain Dance",
+      "artist": "Jeff Lorber Fusion",
+      "spotifyUrl": "https://open.spotify.com/track/0P2zpkhyIslhGym8j5974Q",
+      "youtubeId": "XOtLX4Yvu7E",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Right There",
+      "artist": "Ariana Grande",
+      "spotifyUrl": "https://open.spotify.com/track/3yiopxxeHuwcpAg4e57Zjt",
+      "youtubeId": "TiiRTYRg-qU",
+      "startSec": 0
+    },
+    "originalPos": 193,
+    "sampledPos": 194
+  },
+  {
+    "originalTrack": {
+      "title": "Don't Let My Rainbow Pass Me By",
+      "artist": "Cloud One",
+      "spotifyUrl": "https://open.spotify.com/track/5F030QnPpy1nMh8UmlHdKD",
+      "youtubeId": "wbrpzlKGjpM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Romeo",
+      "artist": "Basement Jaxx",
+      "spotifyUrl": "https://open.spotify.com/track/2GRmo9dlcUUDPfhbQmeE2Q",
+      "youtubeId": "NKia6bT7xcI",
+      "startSec": 0
+    },
+    "originalPos": 195,
+    "sampledPos": 196
+  },
+  {
+    "originalTrack": {
+      "title": "Soul Power '74",
+      "artist": "Maceo & The Macks",
+      "spotifyUrl": null,
+      "youtubeId": "zL0qJ9VLG2A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Get Right",
+      "artist": "Jennifer Lopez",
+      "spotifyUrl": "https://open.spotify.com/track/3jVSV60WZE5jPE2a6KGNFy",
+      "youtubeId": "D53-dIITbG0",
+      "startSec": 0
+    },
+    "originalPos": 197,
+    "sampledPos": 198
+  },
+  {
+    "originalTrack": {
+      "title": "Children's Story",
+      "artist": "Slick Rick",
+      "spotifyUrl": "https://open.spotify.com/track/3DoMwA60orAI34ZDjSe1pB",
+      "youtubeId": "DA2ZoFZza5A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "This Is How We Do It",
+      "artist": "Montell Jordan",
+      "spotifyUrl": "https://open.spotify.com/track/6uQKuonTU8VKBz5SHZuQXD",
+      "youtubeId": "J5fKon1mckM",
+      "startSec": 0
+    },
+    "originalPos": 199,
+    "sampledPos": 200
+  },
+  {
+    "originalTrack": {
+      "title": "I'm Blue",
+      "artist": "The Sweet Inspirations",
+      "spotifyUrl": "https://open.spotify.com/track/7J03JWNKYxrCFhYt7esvGz",
+      "youtubeId": "3NAxSv_YGwQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Check Yo Self",
+      "artist": "Ice Cube",
+      "spotifyUrl": "https://open.spotify.com/track/0dhxE0JTayqMycMva3D3rM",
+      "youtubeId": "HdOhwPovkHI",
+      "startSec": 0
+    },
+    "originalPos": 201,
+    "sampledPos": 202
+  },
+  {
+    "originalTrack": {
+      "title": "The Message",
+      "artist": "Grandmaster Flash",
+      "spotifyUrl": "https://open.spotify.com/track/5bvNTjZl2XURJEDHTkN71h",
+      "youtubeId": "aFhEIlXAAwU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Shoop",
+      "artist": "Salt-N-Pepa",
+      "spotifyUrl": "https://open.spotify.com/track/0Pu71wxadDlB8fJXfjIjeJ",
+      "youtubeId": "4vaN01VLYSQ",
+      "startSec": 0
+    },
+    "originalPos": 203,
+    "sampledPos": 204
+  },
+  {
+    "originalTrack": {
+      "title": "Check Yo Self",
+      "artist": "Ice Cube",
+      "spotifyUrl": "https://open.spotify.com/track/0dhxE0JTayqMycMva3D3rM",
+      "youtubeId": "HdOhwPovkHI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Players",
+      "artist": "Coi Leray",
+      "spotifyUrl": "https://open.spotify.com/track/10RmUrJ28kkj7XgekcfZpc",
+      "youtubeId": "MZV0CIFQbbE",
+      "startSec": 0
+    },
+    "originalPos": 205,
+    "sampledPos": 206
+  },
+  {
+    "originalTrack": {
+      "title": "The Big Beat",
+      "artist": "Billy Squier",
+      "spotifyUrl": "https://open.spotify.com/track/1kGb78PHGlylL7s9Nw79Si",
+      "youtubeId": "MGn5mZtlyFw",
+      "startSec": 10
+    },
+    "sampledTrack": {
+      "title": "Girl on Fire",
+      "artist": "Alicia Keys",
+      "spotifyUrl": "https://open.spotify.com/track/4esOae7i4rqTbAu9o5Pxco",
+      "youtubeId": "mVuSfxqpZa4",
+      "startSec": 45
+    },
+    "originalPos": 207,
+    "sampledPos": 208
+  },
+  {
+    "originalTrack": {
+      "title": "Papa Don't Take No Mess",
+      "artist": "James Brown",
+      "spotifyUrl": null,
+      "youtubeId": "T0QQUps8954",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "That's The Way Love Goes",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/29rQJydAlO0uMyWvRIZxQg",
+      "youtubeId": "VITU-kdhiVs",
+      "startSec": 0
+    },
+    "originalPos": 209,
+    "sampledPos": 210
+  },
+  {
+    "originalTrack": {
+      "title": "Everyday",
+      "artist": "The Main Attraction",
+      "spotifyUrl": "https://open.spotify.com/track/3928LKEu7EvKIVRmWsizNV",
+      "youtubeId": "Ttw4qZY3nr4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Since I Left You",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/516V4vS25xnGdVgkBWO6Wf",
+      "youtubeId": "wpqm-05R2Jk",
+      "startSec": 0
+    },
+    "originalPos": 211,
+    "sampledPos": 212
+  },
+  {
+    "originalTrack": {
+      "title": "Holiday",
+      "artist": "Madonna",
+      "spotifyUrl": "https://open.spotify.com/track/7arHM2KZ0KzIZXFVDRGClI",
+      "youtubeId": "kJQ8boTf0wo",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Stay Another Season",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/7kp0pGc7BjSe6aTyWUUQvT",
+      "youtubeId": "-Be5fSzRqpI",
+      "startSec": 0
+    },
+    "originalPos": 213,
+    "sampledPos": 214
+  },
+  {
+    "originalTrack": {
+      "title": "ABC",
+      "artist": "The Jackson 5",
+      "spotifyUrl": "https://open.spotify.com/track/6wDviYDtmSDZ0S6TVMM9Vc",
+      "youtubeId": "ISqzbbZVIiU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "O.P.P",
+      "artist": "Naughty By Nature",
+      "spotifyUrl": "https://open.spotify.com/track/3voxsfqnGr9V74jkkzPhXC",
+      "youtubeId": "aNYCfmrEcL0",
+      "startSec": 0
+    },
+    "originalPos": 215,
+    "sampledPos": 216
+  },
+  {
+    "originalTrack": {
+      "title": "The Munsters Theme",
+      "artist": "Jack Marshall",
+      "spotifyUrl": null,
+      "youtubeId": "szT09wfRfJI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Uma Thurman",
+      "artist": "Fall Out Boy",
+      "spotifyUrl": "https://open.spotify.com/track/5PUawWFG1oIS2NwEcyHaCr",
+      "youtubeId": "2VTxYQL2SbA",
+      "startSec": 0
+    },
+    "originalPos": 217,
+    "sampledPos": 218
+  },
+  {
+    "originalTrack": {
+      "title": "Want Ads",
+      "artist": "Honey Cone",
+      "spotifyUrl": "https://open.spotify.com/track/3YpN9pvaTXKSXurj3HBq8M",
+      "youtubeId": "wfGA6EAMEf4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Because I’m Me",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/3f3HHRPF5vAo90GwdpDMaQ",
+      "youtubeId": "eu0KsZ_MVBc",
+      "startSec": 0
+    },
+    "originalPos": 219,
+    "sampledPos": 220
+  },
+  {
+    "originalTrack": {
+      "title": "Rock Of Ages",
+      "artist": "Def Leppard",
+      "spotifyUrl": "https://open.spotify.com/track/2AmEv442DGwSxMGZ9XEvBA",
+      "youtubeId": "nhSdljm909Y",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Pretty Fly (For A White Guy)",
+      "artist": "The Offspring",
+      "spotifyUrl": "https://open.spotify.com/track/3SFXsFpeGmBTtQvKiwYMDA",
+      "youtubeId": "QtTR-_Klcq8",
+      "startSec": 0
+    },
+    "originalPos": 221,
+    "sampledPos": 222
+  },
+  {
+    "originalTrack": {
+      "title": "Attack of the Name Game",
+      "artist": "Stacy Lattisaw",
+      "spotifyUrl": "https://open.spotify.com/track/5UWcAoVoUpFteuMd5DUYlH",
+      "youtubeId": "sT6QY_Pgt80",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Heartbreaker (feat. JAY-Z)",
+      "artist": "Mariah Carey",
+      "spotifyUrl": "https://open.spotify.com/track/0jsANwwkkHyyeNyuTFq2XO",
+      "youtubeId": "kMCGvtlL4fw",
+      "startSec": 0
+    },
+    "originalPos": 223,
+    "sampledPos": 224
+  },
+  {
+    "originalTrack": {
+      "title": "Le Freak",
+      "artist": "CHIC",
+      "spotifyUrl": "https://open.spotify.com/track/6Lphpr9Z6H282Sguw0dUWa",
+      "youtubeId": "IHfsRbUjTXQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Chillin'",
+      "artist": "Modjo",
+      "spotifyUrl": "https://open.spotify.com/track/3Nxw6eeFpBwUbxVuSY6NC0",
+      "youtubeId": "L7gsWdxmOSU",
+      "startSec": 0
+    },
+    "originalPos": 225,
+    "sampledPos": 226
+  },
+  {
+    "originalTrack": {
+      "title": "The Humpty Dance",
+      "artist": "Digital Underground",
+      "spotifyUrl": "https://open.spotify.com/track/3UZZ5Xf6qI4umo1yeHeZSb",
+      "youtubeId": "jesawx0ROYQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "If U Can't Dance",
+      "artist": "Spice Girls",
+      "spotifyUrl": "https://open.spotify.com/track/6bh25NILjNfJnIvGRT2emC",
+      "youtubeId": "_PbcgC1t9oY",
+      "startSec": 0
+    },
+    "originalPos": 227,
+    "sampledPos": 228
+  },
+  {
+    "originalTrack": {
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "spotifyUrl": "https://open.spotify.com/track/2KH16WveTQWT6KOG9Rg6e2",
+      "youtubeId": "XxxfQ7-aMrE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Rock The BeaT",
+      "artist": "LMFAO",
+      "spotifyUrl": "https://open.spotify.com/track/6H1Y824JIWiZenL9FFvUli",
+      "youtubeId": "3ptqJvihek8",
+      "startSec": 0
+    },
+    "originalPos": 229,
+    "sampledPos": 230
+  },
+  {
+    "originalTrack": {
+      "title": "I'm Gonna Love You Just A Little More Baby",
+      "artist": "Barry White",
+      "spotifyUrl": "https://open.spotify.com/track/1QR3Wcba5NBidmxEE8DW3w",
+      "youtubeId": "dELXCjSWYIg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Da Funk",
+      "artist": "Daft Punk",
+      "spotifyUrl": "https://open.spotify.com/track/0MyY4WcN7DIfbSmp5yej5z",
+      "youtubeId": "PwILkY9gRrc",
+      "startSec": 0
+    },
+    "originalPos": 231,
+    "sampledPos": 232
+  },
+  {
+    "originalTrack": {
+      "title": "I Put a Spell On You",
+      "artist": "Screamin' Jay Hawkins",
+      "spotifyUrl": "https://open.spotify.com/track/3sLhMSePzxSrmxluIqeoAZ",
+      "youtubeId": "82cdnAUvsw8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Kick in the Door",
+      "artist": "The Notorious B.I.G.",
+      "spotifyUrl": "https://open.spotify.com/track/7zDkxF2xa9uRuCcmL5WUGb",
+      "youtubeId": "78SV9tguyVM",
+      "startSec": 0
+    },
+    "originalPos": 233,
+    "sampledPos": 234
+  },
+  {
+    "originalTrack": {
+      "title": "Play That Funky Music",
+      "artist": "Wild Cherry",
+      "spotifyUrl": "https://open.spotify.com/track/5uuJruktM9fMdN9Va0DUMl",
+      "youtubeId": "JTvlujbJ5vg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Play That Funky Music",
+      "artist": "Vanilla Ice",
+      "spotifyUrl": "https://open.spotify.com/track/1Ezs8eYxuZjhlgyoI1Bo76",
+      "youtubeId": "zNJ8_Dh3Onk",
+      "startSec": 0
+    },
+    "originalPos": 235,
+    "sampledPos": 236
+  },
+  {
+    "originalTrack": {
+      "title": "You're So Vain",
+      "artist": "Carly Simon",
+      "spotifyUrl": "https://open.spotify.com/track/2DnJjbjNTV9Nd5NOa1KGba",
+      "youtubeId": "mQZmCJUSC6g",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Son Of A Gun (I Betcha Think This Song Is About You)",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/7iBjvDLhfBrXxsVEUjENOu",
+      "youtubeId": "cXqIpndjJgk",
+      "startSec": 0
+    },
+    "originalPos": 237,
+    "sampledPos": 238
+  },
+  {
+    "originalTrack": {
+      "title": "I Wish",
+      "artist": "Stevie Wonder",
+      "spotifyUrl": "https://open.spotify.com/track/687YZan9Gol1UVvbpUSO6Y",
+      "youtubeId": "B6cqrjlqjuM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wild Wild West (feat. Dru Hill & Kool Mo Dee)",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/5AMvBCtX2rspUdoeJ9IsPN",
+      "youtubeId": "_zXKtfKnfT8",
+      "startSec": 0
+    },
+    "originalPos": 239,
+    "sampledPos": 240
+  },
+  {
+    "originalTrack": {
+      "title": "Cloudbusting",
+      "artist": "Kate Bush",
+      "spotifyUrl": "https://open.spotify.com/track/0cuMpt0w9ahbhJl0R2fbkY",
+      "youtubeId": "WataeV4WsI4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Something Good",
+      "artist": "Utah Saints",
+      "spotifyUrl": "https://open.spotify.com/track/22AvpWbOtNTiem8jKDk8QO",
+      "youtubeId": "BMZPObjP_bU",
+      "startSec": 0
+    },
+    "originalPos": 241,
+    "sampledPos": 242
+  },
+  {
+    "originalTrack": {
+      "title": "Million Voices",
+      "artist": "Wyclef Jean",
+      "spotifyUrl": "https://open.spotify.com/track/3CrACrGT03DuW2KV8qM7Aw",
+      "youtubeId": "GwMoU1cYYYI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Million Voices",
+      "artist": "Otto Knows",
+      "spotifyUrl": "https://open.spotify.com/track/2nIDPOUOprhe14XoCK6gxw",
+      "youtubeId": "S8jhXmfdRFY",
+      "startSec": 0
+    },
+    "originalPos": 243,
+    "sampledPos": 244
+  },
+  {
+    "originalTrack": {
+      "title": "Baby, This Love I Have",
+      "artist": "Minnie Riperton",
+      "spotifyUrl": "https://open.spotify.com/track/397fxHew7NyjryGWGr1Imy",
+      "youtubeId": "3vuYaozki_Q",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Check the Rhime",
+      "artist": "A Tribe Called Quest",
+      "spotifyUrl": "https://open.spotify.com/track/4HfxDJ0uLHTLe0fZrx0MbQ",
+      "youtubeId": "1QWEPdgS3As",
+      "startSec": 0
+    },
+    "originalPos": 245,
+    "sampledPos": 246
+  },
+  {
+    "originalTrack": {
+      "title": "Oh, Calcutta!",
+      "artist": "The Meters",
+      "spotifyUrl": "https://open.spotify.com/track/2SJ5On3CJUop2H2uxTlovf",
+      "youtubeId": "UJtRScjGK0U",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "1 Thing",
+      "artist": "Amerie",
+      "spotifyUrl": "https://open.spotify.com/track/1mnqraQ8oV8MX92rdOFLWW",
+      "youtubeId": "uhQwnqGtEXQ",
+      "startSec": 0
+    },
+    "originalPos": 247,
+    "sampledPos": 248
+  },
+  {
+    "originalTrack": {
+      "title": "Something Special",
+      "artist": "Earth, Wind & Fire",
+      "spotifyUrl": "https://open.spotify.com/track/1LV1v6TfV0sZ1YPnm4dVdu",
+      "youtubeId": "qml2jF1KyO4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Speed of Love",
+      "artist": "Earth, Wind & Fire",
+      "spotifyUrl": "https://open.spotify.com/track/789N3PERdR0UHhF5Pz9mez",
+      "youtubeId": "JeEVy6bQpKs",
+      "startSec": 0
+    },
+    "originalPos": 249,
+    "sampledPos": 250
+  },
+  {
+    "originalTrack": {
+      "title": "I Love Music",
+      "artist": "Ahmad Jamal Trio",
+      "spotifyUrl": "https://open.spotify.com/track/4MIPpjKWw1lLVwS6tLhis1",
+      "youtubeId": "fW8NQgqYoVQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Horny",
+      "artist": "Mousse T.",
+      "spotifyUrl": "https://open.spotify.com/track/18hpe34wFdKjpl5nMZ5tvY",
+      "youtubeId": "dH8WvayAo1M",
+      "startSec": 0
+    },
+    "originalPos": 251,
+    "sampledPos": 252
+  },
+  {
+    "originalTrack": {
+      "title": "He'll Roll Your Burdens Away",
+      "artist": "The Banks Brothers",
+      "spotifyUrl": "https://open.spotify.com/track/5YQwyoAdKFHHq5pQYRRSw4",
+      "youtubeId": "On8ML3aqJkg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The World Is Yours",
+      "artist": "Nas",
+      "spotifyUrl": "https://open.spotify.com/track/7et2Dx4GOtenAJPrLTfGTz",
+      "youtubeId": "U_u6mqary2A",
+      "startSec": 0
+    },
+    "originalPos": 253,
+    "sampledPos": 254
+  },
+  {
+    "originalTrack": {
+      "title": "I’m Not Worried at All",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/4mBL2TXTKvSJbgtXfwFtfJ",
+      "youtubeId": "9ps5a6MzUak",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Why Does My Heart Feel so Bad?",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/3QMEtL9Yh1HShyxVBZobEC",
+      "youtubeId": "fPiqAwpkS5Q",
+      "startSec": 0
+    },
+    "originalPos": 255,
+    "sampledPos": 256
+  },
+  {
+    "originalTrack": {
+      "title": "Spinnin'",
+      "artist": "Bernard Wright",
+      "spotifyUrl": "https://open.spotify.com/track/0tUYG0VaHjQDbdNQFawtDY",
+      "youtubeId": "GWXFL9LhiFI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "I Wish",
+      "artist": "Skee-Lo",
+      "spotifyUrl": "https://open.spotify.com/track/3LklW07tvdx2AHsgfi1Mng",
+      "youtubeId": "cmXZOI7cM0M",
+      "startSec": 0
+    },
+    "originalPos": 257,
+    "sampledPos": 258
+  },
+  {
+    "originalTrack": {
+      "title": "Son Of A Preacher Man",
+      "artist": "Dusty Springfield",
+      "spotifyUrl": "https://open.spotify.com/track/6ek9SiEj5a65WIs2EV7qiM",
+      "youtubeId": "oAZLgsDRUv4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hits from the Bong",
+      "artist": "Cypress Hill",
+      "spotifyUrl": "https://open.spotify.com/track/2jmEBEd7wghF5kZk8Mm9lk",
+      "youtubeId": "eMK4cfXj5c0",
+      "startSec": 0
+    },
+    "originalPos": 259,
+    "sampledPos": 260
+  },
+  {
+    "originalTrack": {
+      "title": "Rubber Band",
+      "artist": "The Trammps",
+      "spotifyUrl": "https://open.spotify.com/track/30qGwfY1Vuc4Xbdswn3cjF",
+      "youtubeId": "JcwmTqC4pUE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hate It Or Love It",
+      "artist": "The Game",
+      "spotifyUrl": "https://open.spotify.com/track/04GRz5WkRVmPSGuZFJnuma",
+      "youtubeId": "JY0Ag0fMxz8",
+      "startSec": 0
+    },
+    "originalPos": 261,
+    "sampledPos": 262
+  },
+  {
+    "originalTrack": {
+      "title": "Toy Soldiers",
+      "artist": "Martika",
+      "spotifyUrl": "https://open.spotify.com/track/4jh9olf0OKCokpzxSyLeJx",
+      "youtubeId": "nsIzQM2LiQY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Like Toy Soldiers",
+      "artist": "Eminem",
+      "spotifyUrl": "https://open.spotify.com/track/46cIgUvcF1ydRwHIa7uaVw",
+      "youtubeId": "UcjVX-mza-U",
+      "startSec": 0
+    },
+    "originalPos": 263,
+    "sampledPos": 264
+  },
+  {
+    "originalTrack": {
+      "title": "No More",
+      "artist": "Hubert Laws",
+      "spotifyUrl": "https://open.spotify.com/track/4LCHPRyXvjPBjld9jCVsmP",
+      "youtubeId": "UBKTHJipZw8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Power Trip (feat. Miguel)",
+      "artist": "J. Cole",
+      "spotifyUrl": "https://open.spotify.com/track/3hIeAAUZwE3GnnI6DMyNyz",
+      "youtubeId": "OGcYLf-g_oM",
+      "startSec": 0
+    },
+    "originalPos": 265,
+    "sampledPos": 266
+  },
+  {
+    "originalTrack": {
+      "title": "Parce que tu crois",
+      "artist": "Charles Aznavour",
+      "spotifyUrl": "https://open.spotify.com/track/2ck8edDLTmrmriuGAug4VD",
+      "youtubeId": "28nMw4zmdKE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Necessary Evil",
+      "artist": "Nikki Yanofsky",
+      "spotifyUrl": "https://open.spotify.com/track/3m3nZX0SMhKYIdGrFYoHZj",
+      "youtubeId": "lmId6FZchqQ",
+      "startSec": 0
+    },
+    "originalPos": 267,
+    "sampledPos": 268
+  },
+  {
+    "originalTrack": {
+      "title": "What's The Difference",
+      "artist": "Dr. Dre",
+      "spotifyUrl": "https://open.spotify.com/track/3ei2lkZgmVhQ6Qm1jA333S",
+      "youtubeId": "-Ubyt7iWJ8Q",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Breathe",
+      "artist": "Blu Cantrell",
+      "spotifyUrl": "https://open.spotify.com/track/3AACuESrU4V16dO6pOo0ks",
+      "youtubeId": "QryabMB9NlU",
+      "startSec": 0
+    },
+    "originalPos": 269,
+    "sampledPos": 270
+  },
+  {
+    "originalTrack": {
+      "title": "Ashley's Roachclip",
+      "artist": "The Soul Searchers",
+      "spotifyUrl": "https://open.spotify.com/track/5KTc1UNNv8HaVFSgRy4gbR",
+      "youtubeId": "yxLyjmn3sFk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Paid In Full",
+      "artist": "Eric B. & Rakim",
+      "spotifyUrl": "https://open.spotify.com/track/20s3FayrStM8GY0m4dRFsw",
+      "youtubeId": "lQl6M1pAhi8",
+      "startSec": 0
+    },
+    "originalPos": 271,
+    "sampledPos": 272
+  },
+  {
+    "originalTrack": {
+      "title": "True",
+      "artist": "Spandau Ballet",
+      "spotifyUrl": "https://open.spotify.com/track/10I09MLZCY4pK37XxAfkw0",
+      "youtubeId": "sWBueqYA2Es",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Set Adrift On Memory Bliss",
+      "artist": "P.M. Dawn",
+      "spotifyUrl": "https://open.spotify.com/track/7vo0ILIm1He4wo30ikYBHh",
+      "youtubeId": "MurZoAE40VA",
+      "startSec": 0
+    },
+    "originalPos": 273,
+    "sampledPos": 274
+  },
+  {
+    "originalTrack": {
+      "title": "Human Nature",
+      "artist": "Michael Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/35lAjvsvS9k9HHuP1fjDT8",
+      "youtubeId": "ElN_4vUvTPs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "It Ain't Hard to Tell",
+      "artist": "Nas",
+      "spotifyUrl": "https://open.spotify.com/track/0ZqGRpJknEhDtBPOuGHDlp",
+      "youtubeId": "0yCJs3GrjpE",
+      "startSec": 0
+    },
+    "originalPos": 275,
+    "sampledPos": 276
+  },
+  {
+    "originalTrack": {
+      "title": "Right Here",
+      "artist": "SWV",
+      "spotifyUrl": "https://open.spotify.com/track/5u3FywQOPJ5O7ZAjm31cnq",
+      "youtubeId": "vHwXoY0LiQk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "She Ain't You",
+      "artist": "Chris Brown",
+      "spotifyUrl": "https://open.spotify.com/track/3dhvQUA0NyrAea4vQ7X6Gn",
+      "youtubeId": "7V2GzYcRK9E",
+      "startSec": 0
+    },
+    "originalPos": 277,
+    "sampledPos": 278
+  },
+  {
+    "originalTrack": {
+      "title": "Lord Don't Leave Me",
+      "artist": "The Famous Davis Sisters",
+      "spotifyUrl": "https://open.spotify.com/track/5Jwz65pTx6TGngmWCEgr4C",
+      "youtubeId": "urUBYmRZ9go",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "In This World",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/0b8ZSXdo7myljIez3A889l",
+      "youtubeId": "5wrwcEZ3Btw",
+      "startSec": 0
+    },
+    "originalPos": 279,
+    "sampledPos": 280
+  },
+  {
+    "originalTrack": {
+      "title": "Reach Up",
+      "artist": "Toney Lee",
+      "spotifyUrl": "https://open.spotify.com/track/5o4uR9SWoccb7qJ8rUZYD5",
+      "youtubeId": "Dicp9BfVIWo",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Glow of Love",
+      "artist": "Change",
+      "spotifyUrl": "https://open.spotify.com/track/2tpRtiVvuI4WnwpPYwk9Z6",
+      "youtubeId": "TaR3oUCAe9E",
+      "startSec": 0
+    },
+    "originalPos": 281,
+    "sampledPos": 282
+  },
+  {
+    "originalTrack": {
+      "title": "Turn Around",
+      "artist": "Phats & Small",
+      "spotifyUrl": "https://open.spotify.com/track/0Ruz7A11PfQWZbFAl01s87",
+      "youtubeId": "dgealCjN2_E",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "All For You",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/5X8kkUaUlAyAUr9TYqDFTH",
+      "youtubeId": "CF6VLiW_LT4",
+      "startSec": 0
+    },
+    "originalPos": 283,
+    "sampledPos": 284
+  },
+  {
+    "originalTrack": {
+      "title": "Darkest Light",
+      "artist": "Lafayette Afro Rock Band",
+      "spotifyUrl": "https://open.spotify.com/track/72mudXRDKdCxUu0He3W6H6",
+      "youtubeId": "2orHUb91tqA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Midnight Theme",
+      "artist": "Manzel",
+      "spotifyUrl": "https://open.spotify.com/track/33XvXNcPIcglqULgSpUwKC",
+      "youtubeId": "E1wlOsX_eBI",
+      "startSec": 0
+    },
+    "originalPos": 285,
+    "sampledPos": 286
+  },
+  {
+    "originalTrack": {
+      "title": "Rump Shaker",
+      "artist": "Wreckx-N-Effect",
+      "spotifyUrl": "https://open.spotify.com/track/69dW2qerM3Q9zMqikboTcA",
+      "youtubeId": "7RtvxKtXBao",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Rhythm of the Night",
+      "artist": "Corona",
+      "spotifyUrl": "https://open.spotify.com/track/0ofMkI3jzmGCElAOgOLeo3",
+      "youtubeId": "OnT58cIJSpw",
+      "startSec": 0
+    },
+    "originalPos": 287,
+    "sampledPos": 288
+  },
+  {
+    "originalTrack": {
+      "title": "Feeling Good",
+      "artist": "Nina Simone",
+      "spotifyUrl": "https://open.spotify.com/track/6Rqn2GFlmvmV4w9Ala0I1e",
+      "youtubeId": "Yc5jwR9KUvg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "How I Feel",
+      "artist": "Flo Rida",
+      "spotifyUrl": "https://open.spotify.com/track/3et1SjQkOhOSUl9vzfDzlx",
+      "youtubeId": "vSbrhvaFaEI",
+      "startSec": 0
+    },
+    "originalPos": 289,
+    "sampledPos": 290
+  },
+  {
+    "originalTrack": {
+      "title": "Psycho Killer",
+      "artist": "Talking Heads",
+      "spotifyUrl": "https://open.spotify.com/track/1i6N76fftMZhijOzFQ5ZtL",
+      "youtubeId": "eauZzwt8Ci8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Bad Liar",
+      "artist": "Selena Gomez",
+      "spotifyUrl": "https://open.spotify.com/track/2fZQIJew3nkNe99s2PKzul",
+      "youtubeId": "NZKXkD6EgBk",
+      "startSec": 0
+    },
+    "originalPos": 291,
+    "sampledPos": 292
+  },
+  {
+    "originalTrack": {
+      "title": "La Isla Bonita",
+      "artist": "Madonna",
+      "spotifyUrl": "https://open.spotify.com/track/6r8k1vznHrzlEKYxL4dZEe",
+      "youtubeId": "ZmzjH6OjjIA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Don't Threaten Me with a Good Time",
+      "artist": "Panic! At The Disco",
+      "spotifyUrl": "https://open.spotify.com/track/2fh3bZ8jZhMxOcfESE9nQY",
+      "youtubeId": "H5NqIsnyTG8",
+      "startSec": 0
+    },
+    "originalPos": 293,
+    "sampledPos": 294
+  },
+  {
+    "originalTrack": {
+      "title": "Thank You (Falettinme Be Mice Elf Agin)",
+      "artist": "Sly & The Family Stone",
+      "spotifyUrl": "https://open.spotify.com/track/4lAnpiPDvKqpJGK38ax35t",
+      "youtubeId": "wj5VODa-eTY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "MAMACITA",
+      "artist": "Black Eyed Peas",
+      "spotifyUrl": "https://open.spotify.com/track/2XJIHLoKRwqYw8jbEWMq8Z",
+      "youtubeId": "vGm_Bj0zVrM",
+      "startSec": 0
+    },
+    "originalPos": 295,
+    "sampledPos": 296
+  },
+  {
+    "originalTrack": {
+      "title": "Jamie's Cryin'",
+      "artist": "Van Halen",
+      "spotifyUrl": "https://open.spotify.com/track/6MumccCPd4N6qBVdl0gSeM",
+      "youtubeId": "ikHwc75L8tM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Rhythm Nation",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/4nTYxxF8iWBq54LO3dBUie",
+      "youtubeId": "qC5GqbCtxbM",
+      "startSec": 0
+    },
+    "originalPos": 297,
+    "sampledPos": 298
+  },
+  {
+    "originalTrack": {
+      "title": "Oh Yeah",
+      "artist": "Yello",
+      "spotifyUrl": "https://open.spotify.com/track/1iOHLlEsMbgJfYBFWy4TjG",
+      "youtubeId": "Ya1ySdk9Oao",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wild Thing",
+      "artist": "Tone-Loc",
+      "spotifyUrl": "https://open.spotify.com/track/0gljI0CtjpdZK6ecidfxto",
+      "youtubeId": "clUdnxVHoL0",
+      "startSec": 0
+    },
+    "originalPos": 299,
+    "sampledPos": 300
+  },
+  {
+    "originalTrack": {
+      "title": "Back at Ya",
+      "artist": "Kerr",
+      "spotifyUrl": "https://open.spotify.com/track/1OFiIvlgxTfvQZ7b84sVHm",
+      "youtubeId": "CJZbU01LIig",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Turn Around (5,4,3,2,1)",
+      "artist": "Flo Rida",
+      "spotifyUrl": "https://open.spotify.com/track/6Uj8ru7TNLDIelbuQ8eBd6",
+      "youtubeId": "Q0nD2wTrvKg",
+      "startSec": 0
+    },
+    "originalPos": 301,
+    "sampledPos": 302
+  },
+  {
+    "originalTrack": {
+      "title": "Someday We'll Be Together",
+      "artist": "Diana Ross & The Supremes",
+      "spotifyUrl": "https://open.spotify.com/track/0PpgJ9OVWuRUqremzl5eu0",
+      "youtubeId": "495BNPUeq1A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Weekend",
+      "artist": "Michael Gray",
+      "spotifyUrl": "https://open.spotify.com/track/6KzkqZqhUBEsWYJJa2aBOd",
+      "youtubeId": "uDGJ9DyF25I",
+      "startSec": 0
+    },
+    "originalPos": 303,
+    "sampledPos": 304
+  },
+  {
+    "originalTrack": {
+      "title": "Heaven and Hell Is on Earth",
+      "artist": "20th Century Steel Band",
+      "spotifyUrl": "https://open.spotify.com/track/1SrGyJHwgPMqQ8KPmpUDRo",
+      "youtubeId": "wefc_JkrvNw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "If",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/0t414ewhjcIiuPVF3QECz2",
+      "youtubeId": "BTSd4vqnMwo",
+      "startSec": 0
+    },
+    "originalPos": 305,
+    "sampledPos": 306
+  },
+  {
+    "originalTrack": {
+      "title": "Smalltown Boy",
+      "artist": "Bronski Beat",
+      "spotifyUrl": "https://open.spotify.com/track/5vmRQ3zELMLUQPo2FLQ76x",
+      "youtubeId": "E5i2Wa7daDA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Jenny from the Block (feat. Jadakiss & Styles P.)",
+      "artist": "Jennifer Lopez",
+      "spotifyUrl": "https://open.spotify.com/track/4ZOyH6KjomjlqCz3oFqglr",
+      "youtubeId": "dly6p4Fu5TE",
+      "startSec": 0
+    },
+    "originalPos": 307,
+    "sampledPos": 308
+  },
+  {
+    "originalTrack": {
+      "title": "Why ?",
+      "artist": "Bronski Beat",
+      "spotifyUrl": "https://open.spotify.com/track/7vOLJwP5O0woITaIQWOoUX",
+      "youtubeId": "H3LbzjFJdSA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Tell Me Why",
+      "artist": "Supermode",
+      "spotifyUrl": "https://open.spotify.com/track/2WqfzXICc0PFpIP0AHeOwB",
+      "youtubeId": "zTDeEJyCmNA",
+      "startSec": 0
+    },
+    "originalPos": 309,
+    "sampledPos": 310
+  },
+  {
+    "originalTrack": {
+      "title": "I Only Have Eyes for You",
+      "artist": "The Flamingos",
+      "spotifyUrl": "https://open.spotify.com/track/3YdKJzcoMZMacISlpY4QoP",
+      "youtubeId": "1_urvud-Oi0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Zealots",
+      "artist": "Fugees",
+      "spotifyUrl": "https://open.spotify.com/track/4846HUwVip7OkAJDmWqhDg",
+      "youtubeId": "lR_hhoe2PDU",
+      "startSec": 0
+    },
+    "originalPos": 311,
+    "sampledPos": 312
+  },
+  {
+    "originalTrack": {
+      "title": "Daddy Cool",
+      "artist": "Boney M.",
+      "spotifyUrl": "https://open.spotify.com/track/0IUsCgM7ayMJovtwn35jPF",
+      "youtubeId": "FYGTT7YhywA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Run to You",
+      "artist": "DJ DOC",
+      "spotifyUrl": "https://open.spotify.com/track/0oDZXPwDPlx3EDVqoyBdSx",
+      "youtubeId": "pR5sDqm8Wys",
+      "startSec": 0
+    },
+    "originalPos": 313,
+    "sampledPos": 314
+  },
+  {
+    "originalTrack": {
+      "title": "Love Is You",
+      "artist": "Carol Williams",
+      "spotifyUrl": "https://open.spotify.com/track/13FRROvURTa92OYFvfVykZ",
+      "youtubeId": "J1brZUKDbM8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Groovejet (If This Ain't Love) [feat. Sophie Ellis-Bextor]",
+      "artist": "Spiller",
+      "spotifyUrl": "https://open.spotify.com/track/5ydeCNaWDmFbu4zl0roPAH",
+      "youtubeId": "Cc_nUcKYlAs",
+      "startSec": 0
+    },
+    "originalPos": 315,
+    "sampledPos": 316
+  },
+  {
+    "originalTrack": {
+      "title": "Get Ready",
+      "artist": "The Temptations",
+      "spotifyUrl": "https://open.spotify.com/track/6qbMCRQEi0DLfpaQuFTuJL",
+      "youtubeId": "mhsYOzdJjI0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Groovejet (If This Ain't Love) [feat. Sophie Ellis-Bextor]",
+      "artist": "Spiller",
+      "spotifyUrl": "https://open.spotify.com/track/5ydeCNaWDmFbu4zl0roPAH",
+      "youtubeId": "Cc_nUcKYlAs",
+      "startSec": 0
+    },
+    "originalPos": 317,
+    "sampledPos": 318
+  },
+  {
+    "originalTrack": {
+      "title": "When Doves Cry",
+      "artist": "Prince",
+      "spotifyUrl": "https://open.spotify.com/track/51H2y6YrNNXcy3dfc3qSbA",
+      "youtubeId": "Izx6DQUrsag",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Here I Come",
+      "artist": "Fergie",
+      "spotifyUrl": "https://open.spotify.com/track/5CqnB6zoEsdN2eQpvV3P1f",
+      "youtubeId": "jll37hWCLPE",
+      "startSec": 0
+    },
+    "originalPos": 319,
+    "sampledPos": 320
+  },
+  {
+    "originalTrack": {
+      "title": "Changes",
+      "artist": "Mala",
+      "spotifyUrl": "https://open.spotify.com/track/4QeJJXqKtMDFYMWhcvwdMU",
+      "youtubeId": "XpaFZhu_hhM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Pray",
+      "artist": "MC Hammer",
+      "spotifyUrl": "https://open.spotify.com/track/0l7CcMTq1k965KZPaAtsmR",
+      "youtubeId": "mJT5_Y_H4_E",
+      "startSec": 0
+    },
+    "originalPos": 321,
+    "sampledPos": 322
+  },
+  {
+    "originalTrack": {
+      "title": "The Joker",
+      "artist": "Steve Miller Band",
+      "spotifyUrl": "https://open.spotify.com/track/1bp2IO61zbQrbWNmKKxg3f",
+      "youtubeId": "q3mfENm6VJc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Look At Me!",
+      "artist": "XXXTENTACION",
+      "spotifyUrl": "https://open.spotify.com/track/1m5HcIPX2T3wSoiHWhgwpA",
+      "youtubeId": "kAgKa9YIjHc",
+      "startSec": 0
+    },
+    "originalPos": 323,
+    "sampledPos": 324
+  },
+  {
+    "originalTrack": {
+      "title": "Chic Cheer",
+      "artist": "CHIC",
+      "spotifyUrl": "https://open.spotify.com/track/54ml1gKTWGfPobglj6bKx3",
+      "youtubeId": "D2famy0TJhc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Angel",
+      "artist": "Shaggy",
+      "spotifyUrl": "https://open.spotify.com/track/7xHsIaGEmiZunovi6oFtQz",
+      "youtubeId": "XWJrPzAUzAs",
+      "startSec": 0
+    },
+    "originalPos": 325,
+    "sampledPos": 326
+  },
+  {
+    "originalTrack": {
+      "title": "Be Faithful",
+      "artist": "Fatman Scoop",
+      "spotifyUrl": "https://open.spotify.com/track/2jGUAB6hKlzK0pZmZpQ02g",
+      "youtubeId": "6FMFuZFK3NA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Love Like This",
+      "artist": "Faith Evans",
+      "spotifyUrl": "https://open.spotify.com/track/7MQywXGHEev7JmwwIzMcao",
+      "youtubeId": "HmUkGeyFDyY",
+      "startSec": 0
+    },
+    "originalPos": 327,
+    "sampledPos": 328
+  },
+  {
+    "originalTrack": {
+      "title": "Fat City Strut",
+      "artist": "Mandrill",
+      "spotifyUrl": "https://open.spotify.com/track/0jf4HB7pcMnbxNJWC9PuRB",
+      "youtubeId": "BGpUyxSeeoc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Radio",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/027CQkZSId1SGW3h7xeOTC",
+      "youtubeId": "6dajlqL8NCc",
+      "startSec": 0
+    },
+    "originalPos": 329,
+    "sampledPos": 330
+  },
+  {
+    "originalTrack": {
+      "title": "I Love You More",
+      "artist": "George Duke",
+      "spotifyUrl": "https://open.spotify.com/track/5cXFnZmxsPswg3h9CnHpyo",
+      "youtubeId": "3_i9tO-89J8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Digital Love",
+      "artist": "Daft Punk",
+      "spotifyUrl": "https://open.spotify.com/track/2VEZx7NWsZ1D0eJ4uv5Fym",
+      "youtubeId": "4whD6uAryMs",
+      "startSec": 0
+    },
+    "originalPos": 331,
+    "sampledPos": 332
+  },
+  {
+    "originalTrack": {
+      "title": "Eye In The Sky",
+      "artist": "The Alan Parsons Project",
+      "spotifyUrl": "https://open.spotify.com/track/39qYD4J4BKvZMQgxfXl5bv",
+      "youtubeId": "56hqrlQxMMI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Interstellar Love",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/4PUGAmAvt5VxbbefkhV0x5",
+      "youtubeId": "NxC0nhAKwXs",
+      "startSec": 0
+    },
+    "originalPos": 333,
+    "sampledPos": 334
+  },
+  {
+    "originalTrack": {
+      "title": "Magalenha",
+      "artist": "Sérgio Mendes",
+      "spotifyUrl": "https://open.spotify.com/track/60ji00aSJqv0njEk9RI2LD",
+      "youtubeId": "ijnujobdJ4c",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wherever You Go (feat. Jamie xx, Neneh Cherry & CLYPSO)",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/0IgbHKFkJxu7dEWJPK02CL",
+      "youtubeId": "939w8RwaLSY",
+      "startSec": 0
+    },
+    "originalPos": 335,
+    "sampledPos": 336
+  },
+  {
+    "originalTrack": {
+      "title": "Let Me Prove My Love to You",
+      "artist": "The Main Ingredient",
+      "spotifyUrl": "https://open.spotify.com/track/3WznRlBNvONR3X3vA3fyse",
+      "youtubeId": "FDM-pOH0j2w",
+      "startSec": 90
+    },
+    "sampledTrack": {
+      "title": "You Don't Know My Name",
+      "artist": "Alicia Keys",
+      "spotifyUrl": "https://open.spotify.com/track/6LGwYMXXgURfaequXipzHx",
+      "youtubeId": "ZdMxVCXEH4c",
+      "startSec": 29
+    },
+    "originalPos": 337,
+    "sampledPos": 338
+  },
+  {
+    "originalTrack": {
+      "title": "Fight For Survival",
+      "artist": "Ernest Gold",
+      "spotifyUrl": "https://open.spotify.com/track/5irgFfZPW02LOkM31qXhN0",
+      "youtubeId": "IVobDxRm-CI",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Porcelain",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/2UKYMN7VnsQo40n0qCt6Sa",
+      "youtubeId": "KtsVN__gPvQ",
+      "startSec": 0
+    },
+    "originalPos": 339,
+    "sampledPos": 340
+  },
+  {
+    "originalTrack": {
+      "title": "Walking On A Dream",
+      "artist": "Empire Of The Sun",
+      "spotifyUrl": "https://open.spotify.com/track/5r5cp9IpziiIsR6b93vcnQ",
+      "youtubeId": "r74n9GOwcA8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "A$AP Forever (feat. Moby)",
+      "artist": "A$AP Rocky",
+      "spotifyUrl": "https://open.spotify.com/track/4WLtAzODbIaQINSkiijAyf",
+      "youtubeId": "PTDhyJS50N0",
+      "startSec": 0
+    },
+    "originalPos": 341,
+    "sampledPos": 342
+  },
+  {
+    "originalTrack": {
+      "title": "Shape Of My Heart",
+      "artist": "Sting",
+      "spotifyUrl": "https://open.spotify.com/track/6CKoWCWAqEVWVjpeoJXyNH",
+      "youtubeId": "NlwIDxCjL-8",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Thrill",
+      "artist": "Wiz Khalifa",
+      "spotifyUrl": "https://open.spotify.com/track/36wDZwYLCBEyXmRGVbmH5e",
+      "youtubeId": "bf43dRUBSks",
+      "startSec": 0
+    },
+    "originalPos": 343,
+    "sampledPos": 344
+  },
+  {
+    "originalTrack": {
+      "title": "Sinnerman",
+      "artist": "Nina Simone",
+      "spotifyUrl": "https://open.spotify.com/track/66kGihUqR3kRZLxtFBSobF",
+      "youtubeId": "4IACZdwwJI4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Lucid Dreams",
+      "artist": "Juice WRLD",
+      "spotifyUrl": "https://open.spotify.com/track/1Bmn5aStO2S33dz1Di0g3K",
+      "youtubeId": "YWBohgkedIM",
+      "startSec": 0
+    },
+    "originalPos": 345,
+    "sampledPos": 346
+  },
+  {
+    "originalTrack": {
+      "title": "She Blinded Me With Science",
+      "artist": "Thomas Dolby",
+      "spotifyUrl": "https://open.spotify.com/track/1vORDwbaam9l3Z7OMXdzhw",
+      "youtubeId": "V83JR2IoI8k",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Oh Timbaland",
+      "artist": "Timbaland",
+      "spotifyUrl": "https://open.spotify.com/track/7lihIKhvJN3AcHgtxxoTLA",
+      "youtubeId": "uebzAyuo2bU",
+      "startSec": 0
+    },
+    "originalPos": 347,
+    "sampledPos": 348
+  },
+  {
+    "originalTrack": {
+      "title": "Get Out of My Mix",
+      "artist": "Thomas Dolby",
+      "spotifyUrl": null,
+      "youtubeId": "Uj2k-muKJrg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Let's Dance",
+      "artist": "David Bowie",
+      "spotifyUrl": "https://open.spotify.com/track/4cVHMHgmWgudD399ZdhQ3L",
+      "youtubeId": "ZoC9_udLNeU",
+      "startSec": 0
+    },
+    "originalPos": 349,
+    "sampledPos": 350
+  },
+  {
+    "originalTrack": {
+      "title": "Kids",
+      "artist": "MGMT",
+      "spotifyUrl": "https://open.spotify.com/track/1jJci4qxiYcOHhQR247rEU",
+      "youtubeId": "DngxJlZSpPo",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hot Stuff (Let's Dance)",
+      "artist": "Craig David",
+      "spotifyUrl": "https://open.spotify.com/track/1xHQVFM5gwg2bZJq9txEzH",
+      "youtubeId": "twXX1f8JXgw",
+      "startSec": 0
+    },
+    "originalPos": 351,
+    "sampledPos": 352
+  },
+  {
+    "originalTrack": {
+      "title": "Mercy Mercy Me (The Ecology)",
+      "artist": "Marvin Gaye",
+      "spotifyUrl": "https://open.spotify.com/track/3IDc87lrpEHWFBASmgTgFV",
+      "youtubeId": "ocYRCOUtz00",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Opposite of Adults",
+      "artist": "Chiddy Bang",
+      "spotifyUrl": "https://open.spotify.com/track/01oPNCtTniFT3YM4K3ksTf",
+      "youtubeId": "QqtmYwAIET8",
+      "startSec": 0
+    },
+    "originalPos": 353,
+    "sampledPos": 354
+  },
+  {
+    "originalTrack": {
+      "title": "Don't Go",
+      "artist": "Yazoo",
+      "spotifyUrl": "https://open.spotify.com/track/3KuAa8Y79xlfJgYtBKbynY",
+      "youtubeId": "_sQGwDeambg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Call Me When You Get This",
+      "artist": "Corinne Bailey Rae",
+      "spotifyUrl": "https://open.spotify.com/track/2KTPl195TxcS4zywV8p1EY",
+      "youtubeId": "CqZxqjtPAZU",
+      "startSec": 0
+    },
+    "originalPos": 355,
+    "sampledPos": 356
+  },
+  {
+    "originalTrack": {
+      "title": "Can't Get Used to Losing You",
+      "artist": "Andy Williams",
+      "spotifyUrl": "https://open.spotify.com/track/41zpWL98BsYKP5nvtdTM5z",
+      "youtubeId": "yzuZ0JWA6n4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Turn Me On (feat. Vula)",
+      "artist": "Riton",
+      "spotifyUrl": "https://open.spotify.com/track/0qaWEvPkts34WF68r8Dzx9",
+      "youtubeId": "ng3XUABcwDw",
+      "startSec": 0
+    },
+    "originalPos": 357,
+    "sampledPos": 358
+  },
+  {
+    "originalTrack": {
+      "title": "Stayin Alive",
+      "artist": "Bee Gees",
+      "spotifyUrl": "https://open.spotify.com/track/5ubvP9oKmxLUVq506fgLhk",
+      "youtubeId": "I_izvAbhExY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hold Up",
+      "artist": "Beyoncé",
+      "spotifyUrl": "https://open.spotify.com/track/2JCY7F0JFw5AgZYeC3CHtS",
+      "youtubeId": "maOw3fixKu4",
+      "startSec": 0
+    },
+    "originalPos": 359,
+    "sampledPos": 360
+  },
+  {
+    "originalTrack": {
+      "title": "Superfly",
+      "artist": "Curtis Mayfield",
+      "spotifyUrl": "https://open.spotify.com/track/4XsH9zBWPOCdXoH9ZDdS8r",
+      "youtubeId": "muLcm3_JSR4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Stayin' Alive",
+      "artist": "N-Trance",
+      "spotifyUrl": "https://open.spotify.com/track/7pcjhiKODADooP7IFPgetr",
+      "youtubeId": "qiKOif0UKRM",
+      "startSec": 0
+    },
+    "originalPos": 361,
+    "sampledPos": 362
+  },
+  {
+    "originalTrack": {
+      "title": "How Soon Is Now?",
+      "artist": "The Smiths",
+      "spotifyUrl": "https://open.spotify.com/track/1YrnDTqvcnUKxAIeXyaEmU",
+      "youtubeId": "4PIi1LWkfDE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Tilt Ya Head Back",
+      "artist": "Nelly",
+      "spotifyUrl": "https://open.spotify.com/track/4UgLPUCKgERZdnNG0On08D",
+      "youtubeId": "mUUw2vSvEi4",
+      "startSec": 0
+    },
+    "originalPos": 363,
+    "sampledPos": 364
+  },
+  {
+    "originalTrack": {
+      "title": "Love Child",
+      "artist": "Diana Ross & The Supremes",
+      "spotifyUrl": "https://open.spotify.com/track/5Wc8ZknL8Pat0TEr71Jezc",
+      "youtubeId": "fDkElGErS1Y",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hippychick",
+      "artist": "Soho",
+      "spotifyUrl": "https://open.spotify.com/track/6KnNSH6Os9TgxmOeRuSsme",
+      "youtubeId": "e5F1KUi8XBs",
+      "startSec": 0
+    },
+    "originalPos": 365,
+    "sampledPos": 366
+  },
+  {
+    "originalTrack": {
+      "title": "I Won't Hold You Back",
+      "artist": "TOTO",
+      "spotifyUrl": "https://open.spotify.com/track/7D4EtbE7LfQiH8CWj7fQoz",
+      "youtubeId": "rQysrhYnWHg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "You Want This",
+      "artist": "Janet Jackson",
+      "spotifyUrl": "https://open.spotify.com/track/52kDYmU0aE3txkZBKjl0nP",
+      "youtubeId": "utxsSg1n_SQ",
+      "startSec": 0
+    },
+    "originalPos": 367,
+    "sampledPos": 368
+  },
+  {
+    "originalTrack": {
+      "title": "Ain't Talkin' 'Bout Love",
+      "artist": "Van Halen",
+      "spotifyUrl": "https://open.spotify.com/track/6fybp4N6eW3bsFAvARxyVe",
+      "youtubeId": "qtwBFz6lfrY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Another Chance",
+      "artist": "Roger Sanchez",
+      "spotifyUrl": "https://open.spotify.com/track/0EvphKjVl4hVGvvAFYoJt1",
+      "youtubeId": "Bj_qd2EWthY",
+      "startSec": 0
+    },
+    "originalPos": 369,
+    "sampledPos": 370
+  },
+  {
+    "originalTrack": {
+      "title": "My Cherie Amour",
+      "artist": "Stevie Wonder",
+      "spotifyUrl": "https://open.spotify.com/track/5ZoDwIP1ntHwciLjydJ8X2",
+      "youtubeId": "Fjufjv4rH0s",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ain't Talkin' 'Bout Dub",
+      "artist": "Apollo 440",
+      "spotifyUrl": "https://open.spotify.com/track/2SgWbfclzWv42aJDXnVGAX",
+      "youtubeId": "RkFKbd0LraY",
+      "startSec": 0
+    },
+    "originalPos": 371,
+    "sampledPos": 372
+  },
+  {
+    "originalTrack": {
+      "title": "I Want Candy",
+      "artist": "Bow Wow Wow",
+      "spotifyUrl": "https://open.spotify.com/track/2FMcDUopGfjBh3xMsrm78S",
+      "youtubeId": "JoXVYSV4Xcs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Wish You Were Mine",
+      "artist": "Philip George",
+      "spotifyUrl": "https://open.spotify.com/track/412luShbmlgqqgYFStIB1s",
+      "youtubeId": "ld3eRk_HoEU",
+      "startSec": 0
+    },
+    "originalPos": 373,
+    "sampledPos": 374
+  },
+  {
+    "originalTrack": {
+      "title": "The Game Of Love",
+      "artist": "Wayne Fontana & The Mindbenders",
+      "spotifyUrl": "https://open.spotify.com/track/0jUfBCWrfrZGueD8MjvgMo",
+      "youtubeId": "rzh0TAon7Bc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Electric City",
+      "artist": "Black Eyed Peas",
+      "spotifyUrl": "https://open.spotify.com/track/2jfI3Lbw6f4Bvm978JuEY6",
+      "youtubeId": "52he1hpehQg",
+      "startSec": 0
+    },
+    "originalPos": 375,
+    "sampledPos": 376
+  },
+  {
+    "originalTrack": {
+      "title": "Joanna",
+      "artist": "Kool & The Gang",
+      "spotifyUrl": "https://open.spotify.com/track/6edQfeOlqbGteYixpJl3Sm",
+      "youtubeId": "8nZmGasRzdA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Love Game",
+      "artist": "Eminem",
+      "spotifyUrl": "https://open.spotify.com/track/4414HW4nMf0a3np8rTztYH",
+      "youtubeId": "Cz_gK0Ahpxo",
+      "startSec": 0
+    },
+    "originalPos": 377,
+    "sampledPos": 378
+  },
+  {
+    "originalTrack": {
+      "title": "Spacer",
+      "artist": "Sheila",
+      "spotifyUrl": "https://open.spotify.com/track/2HnfVsBDEesQJPcXSyB7L2",
+      "youtubeId": "xeRfywfkd8o",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Casin",
+      "artist": "glue70",
+      "spotifyUrl": "https://open.spotify.com/track/04U72dJzpaGsMl4edd1ZyX",
+      "youtubeId": "3Z1h2VE0hzs",
+      "startSec": 0
+    },
+    "originalPos": 379,
+    "sampledPos": 380
+  },
+  {
+    "originalTrack": {
+      "title": "Love Sensation",
+      "artist": "Loleatta Holloway",
+      "spotifyUrl": "https://open.spotify.com/track/4OmDRl8nlE1IkWkwS82nY3",
+      "youtubeId": "1h6Su3t5Lqs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Crying at the Discoteque",
+      "artist": "Alcazar",
+      "spotifyUrl": "https://open.spotify.com/track/7gQAFGUyHPcY0cQNPsjMf0",
+      "youtubeId": "7CiOWcUVGJM",
+      "startSec": 0
+    },
+    "originalPos": 381,
+    "sampledPos": 382
+  },
+  {
+    "originalTrack": {
+      "title": "Good Vibrations",
+      "artist": "Marky Mark And The Funky Bunch",
+      "spotifyUrl": "https://open.spotify.com/track/5hWdgGVcfTeLPAiHM6EZG9",
+      "youtubeId": "_kctwd4w7R0",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ride on Time",
+      "artist": "Black Box",
+      "spotifyUrl": "https://open.spotify.com/track/3pgainA2dH9c7e8JVYGRCN",
+      "youtubeId": "M0quXl_od3g",
+      "startSec": 0
+    },
+    "originalPos": 383,
+    "sampledPos": 384
+  },
+  {
+    "originalTrack": {
+      "title": "Whistle Stop",
+      "artist": "Roger Miller",
+      "spotifyUrl": "https://open.spotify.com/track/6zrgiJFGA620b5GvqCvG1w",
+      "youtubeId": "Wry_ABzCCa4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The HampsterDance Song",
+      "artist": "Hampton The Hampster",
+      "spotifyUrl": "https://open.spotify.com/track/0ouSkB2t2fGeW60MPcvmXl",
+      "youtubeId": "H9K8-3PHZOU",
+      "startSec": 0
+    },
+    "originalPos": 385,
+    "sampledPos": 386
+  },
+  {
+    "originalTrack": {
+      "title": "Rock the Casbah",
+      "artist": "The Clash",
+      "spotifyUrl": "https://open.spotify.com/track/56KqaFSGTb7ifpt16t5Y1N",
+      "youtubeId": "bJ9r8LMU9bQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Will 2K (feat. K-Ci)",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/59xpdlaIK1l5hiYP1KsBxK",
+      "youtubeId": "Y6Rms5J7nGI",
+      "startSec": 0
+    },
+    "originalPos": 387,
+    "sampledPos": 388
+  },
+  {
+    "originalTrack": {
+      "title": "Long As I Can See The Light",
+      "artist": "Creedence Clearwater Revival",
+      "spotifyUrl": "https://open.spotify.com/track/3ZcFy6KzILYzlmkQhszjSk",
+      "youtubeId": "GIjUcPyyRgg",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Sky Is Broken",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/4hZo60pktAP5MEcByWKLuM",
+      "youtubeId": "c6ZwcJTHCpg",
+      "startSec": 0
+    },
+    "originalPos": 389,
+    "sampledPos": 390
+  },
+  {
+    "originalTrack": {
+      "title": "Shake Your Body (Down to the Ground)",
+      "artist": "The Jacksons",
+      "spotifyUrl": "https://open.spotify.com/track/6lSVidZXCnOnYAWcgIqVDF",
+      "youtubeId": "-qBqHnevIn4",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Dance & Shout",
+      "artist": "Shaggy",
+      "spotifyUrl": "https://open.spotify.com/track/1ghhmrZCtWlKl9ZyGCpV5U",
+      "youtubeId": "ULhHralzl6o",
+      "startSec": 0
+    },
+    "originalPos": 391,
+    "sampledPos": 392
+  },
+  {
+    "originalTrack": {
+      "title": "Time of the Season",
+      "artist": "The Zombies",
+      "spotifyUrl": "https://open.spotify.com/track/6im4Ks6SWUqwTGp7Cft1e7",
+      "youtubeId": "T8ecsAI3FhY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Give It To Me Right",
+      "artist": "Melanie Fiona",
+      "spotifyUrl": "https://open.spotify.com/track/51nhSIsg5G8hjhV4kja0Oz",
+      "youtubeId": "rTQXWxSrCx8",
+      "startSec": 0
+    },
+    "originalPos": 393,
+    "sampledPos": 394
+  },
+  {
+    "originalTrack": {
+      "title": "Mystery of Love",
+      "artist": "Mr. Fingers",
+      "spotifyUrl": "https://open.spotify.com/track/1E8hMeQvfgvQPjN3BZ2viF",
+      "youtubeId": "5tqErnknRsE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Rhyme Or Reason",
+      "artist": "Eminem",
+      "spotifyUrl": "https://open.spotify.com/track/0kEXA9WAH3zgYGZtZaFqWM",
+      "youtubeId": "RnDKaDCQGhA",
+      "startSec": 0
+    },
+    "originalPos": 395,
+    "sampledPos": 396
+  },
+  {
+    "originalTrack": {
+      "title": "Diamonds Are Forever",
+      "artist": "Shirley Bassey",
+      "spotifyUrl": "https://open.spotify.com/track/3Tp3nTswQmMzmQRqZu4iM2",
+      "youtubeId": "jboEolwHIIA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "The Story of O.J.",
+      "artist": "JAY-Z",
+      "spotifyUrl": "https://open.spotify.com/track/4oiJo0s5xg6pVGPoYSzhOW",
+      "youtubeId": "RM7lw0Ovzq0",
+      "startSec": 0
+    },
+    "originalPos": 397,
+    "sampledPos": 398
+  },
+  {
+    "originalTrack": {
+      "title": "Diamonds Are Forever",
+      "artist": "Shirley Bassey",
+      "spotifyUrl": "https://open.spotify.com/track/3Tp3nTswQmMzmQRqZu4iM2",
+      "youtubeId": "jboEolwHIIA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Diamonds From Sierra Leone",
+      "artist": "Kanye West",
+      "spotifyUrl": "https://open.spotify.com/track/66VueiRZubO0SwPAFtPZpu",
+      "youtubeId": "wjIL2dTDkUQ",
+      "startSec": 0
+    },
+    "originalPos": 399,
+    "sampledPos": 400
+  },
+  {
+    "originalTrack": {
+      "title": "Double Dutch Bus",
+      "artist": "Frankie Smith",
+      "spotifyUrl": "https://open.spotify.com/track/1EVJeWeItAPcATFolrw3VR",
+      "youtubeId": "mbOmRlCU3rE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Gossip Folks (feat. Ludacris)",
+      "artist": "Missy Elliott",
+      "spotifyUrl": "https://open.spotify.com/track/5lphRkHnFHrvF6v1WZPeKo",
+      "youtubeId": "XyB8fAAEJZ4",
+      "startSec": 0
+    },
+    "originalPos": 401,
+    "sampledPos": 402
+  },
+  {
+    "originalTrack": {
+      "title": "Better Off Alone",
+      "artist": "Alice Deejay",
+      "spotifyUrl": "https://open.spotify.com/track/0pMUR7Uvp6vxlbG0qBFvgM",
+      "youtubeId": "Ck0LO6b6OQc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Play Hard (feat. Ne-Yo & Akon)",
+      "artist": "David Guetta",
+      "spotifyUrl": "https://open.spotify.com/track/2QD4C6RRHgRNRAyrfnoeAo",
+      "youtubeId": "5dbEhBKGOtY",
+      "startSec": 0
+    },
+    "originalPos": 403,
+    "sampledPos": 404
+  },
+  {
+    "originalTrack": {
+      "title": "Easy",
+      "artist": "Commodores",
+      "spotifyUrl": "https://open.spotify.com/track/1JQ6Xm1JrvHfvAqhl5pwaA",
+      "youtubeId": "aCsZ3_db_Fk",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hey Ma",
+      "artist": "Cam'ron",
+      "spotifyUrl": "https://open.spotify.com/track/5UqktKBd3bznpOkjnIyWXa",
+      "youtubeId": "xo9K7DguLpM",
+      "startSec": 0
+    },
+    "originalPos": 405,
+    "sampledPos": 406
+  },
+  {
+    "originalTrack": {
+      "title": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "spotifyUrl": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0",
+      "youtubeId": "GLvohMXgcBo",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Under the Bridge",
+      "artist": "All Saints",
+      "spotifyUrl": "https://open.spotify.com/track/78M2x5ojbdTmUOpWrbijG3",
+      "youtubeId": "9fNkYYxvk-Q",
+      "startSec": 0
+    },
+    "originalPos": 407,
+    "sampledPos": 408
+  },
+  {
+    "originalTrack": {
+      "title": "I Want'a Do Something Freaky To You",
+      "artist": "Leon Haywood",
+      "spotifyUrl": "https://open.spotify.com/track/4xiVqeo21JSq78pFGojGVY",
+      "youtubeId": "K8OZux6hp1Q",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Running Away",
+      "artist": "VANO 3000",
+      "spotifyUrl": "https://open.spotify.com/track/2lDODk7inZnmUHbIjUnIwP",
+      "youtubeId": "BbGsL3iWD94",
+      "startSec": 0
+    },
+    "originalPos": 409,
+    "sampledPos": 410
+  },
+  {
+    "originalTrack": {
+      "title": "Very Good Advice",
+      "artist": "Kathryn Beaumont",
+      "spotifyUrl": "https://open.spotify.com/track/0JqYb8oElGJVV5HBjkhjPe",
+      "youtubeId": "GQmJvi03JdM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Nuthin' But A \"G\" Thang",
+      "artist": "Dr. Dre",
+      "spotifyUrl": "https://open.spotify.com/track/0yVqOHB6XEvD7w5ijnjczz",
+      "youtubeId": "5y-eJ-yMfEo",
+      "startSec": 0
+    },
+    "originalPos": 411,
+    "sampledPos": 412
+  },
+  {
+    "originalTrack": {
+      "title": "Spring (La Primavera)",
+      "artist": "Antonio Vivaldi",
+      "spotifyUrl": null,
+      "youtubeId": "3LiztfE1X7E",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Alice",
+      "artist": "Pogo",
+      "spotifyUrl": "https://open.spotify.com/track/6h4yONyGIFXYhrvEX6jVeb",
+      "youtubeId": "7Q0F02uU39E",
+      "startSec": 0
+    },
+    "originalPos": 413,
+    "sampledPos": 414
+  },
+  {
+    "originalTrack": {
+      "title": "It's A Shame",
+      "artist": "The Spinners",
+      "spotifyUrl": "https://open.spotify.com/track/5LuVBkfELaydohNZahwvNN",
+      "youtubeId": "kDFFHLrzTDM",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "It's a Shame (My Sister)",
+      "artist": "Monie Love",
+      "spotifyUrl": "https://open.spotify.com/track/6ir6C7AHGMVLGQN7hv7gTA",
+      "youtubeId": "gTLJSokfDvI",
+      "startSec": 0
+    },
+    "originalPos": 415,
+    "sampledPos": 416
+  },
+  {
+    "originalTrack": {
+      "title": "Love on a Two-Way Street",
+      "artist": "The Moments",
+      "spotifyUrl": "https://open.spotify.com/track/0jiRuwY4M0akGkEYbRiI6U",
+      "youtubeId": "tDOYVtpebEw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Empire State Of Mind",
+      "artist": "JAY-Z",
+      "spotifyUrl": "https://open.spotify.com/track/1tSjFlsXMVAyjmMRGxj2Lc",
+      "youtubeId": "vk6014HuxcE",
+      "startSec": 0
+    },
+    "originalPos": 417,
+    "sampledPos": 418
+  },
+  {
+    "originalTrack": {
+      "title": "Put Your Head on My Shoulder",
+      "artist": "Paul Anka",
+      "spotifyUrl": "https://open.spotify.com/track/7eqNATKM78MkWP6aHGXHEV",
+      "youtubeId": "kvazBqAlx58",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Freak",
+      "artist": "Doja Cat",
+      "spotifyUrl": "https://open.spotify.com/track/0EzzaUL5pFDxa8IQx45LoD",
+      "youtubeId": "Wc9_dsv5YYA",
+      "startSec": 0
+    },
+    "originalPos": 419,
+    "sampledPos": 420
+  },
+  {
+    "originalTrack": {
+      "title": "Differences",
+      "artist": "Ginuwine",
+      "spotifyUrl": "https://open.spotify.com/track/0Uyh92tLyb9JawG8lmWCzJ",
+      "youtubeId": "I0GLd_mR_iQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "What You Know Bout Love",
+      "artist": "Pop Smoke",
+      "spotifyUrl": "https://open.spotify.com/track/4g7ErSF4oImNnITtyiFowz",
+      "youtubeId": "jhTkV1r2Mpg",
+      "startSec": 0
+    },
+    "originalPos": 421,
+    "sampledPos": 422
+  },
+  {
+    "originalTrack": {
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "spotifyUrl": "https://open.spotify.com/track/4PTG3Z6ehGkBFwjybzWkR8",
+      "youtubeId": "dQw4w9WgXcQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Betty (Get Money)",
+      "artist": "Yung Gravy",
+      "spotifyUrl": "https://open.spotify.com/track/4cacyP5c3PMlfnyjpg13xW",
+      "youtubeId": "8oE5Z2GLhNc",
+      "startSec": 0
+    },
+    "originalPos": 423,
+    "sampledPos": 424
+  },
+  {
+    "originalTrack": {
+      "title": "Mr. Sandman",
+      "artist": "The Chordettes",
+      "spotifyUrl": "https://open.spotify.com/track/5VbwM8nvvQLXcwsZUwgm9K",
+      "youtubeId": "1Mgpg2cj-Ew",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Mr. Clean",
+      "artist": "Yung Gravy",
+      "spotifyUrl": "https://open.spotify.com/track/37C1WWnQkchfg1aDmJX4sh",
+      "youtubeId": "yx2piPUudlE",
+      "startSec": 0
+    },
+    "originalPos": 425,
+    "sampledPos": 426
+  },
+  {
+    "originalTrack": {
+      "title": "You Only Live Twice",
+      "artist": "Nancy Sinatra",
+      "spotifyUrl": "https://open.spotify.com/track/7e3RGqZ2FkFmcInDdgfJze",
+      "youtubeId": "Joip4cIKEew",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Millennium",
+      "artist": "Robbie Williams",
+      "spotifyUrl": "https://open.spotify.com/track/1nrackcWUBo87xecPgry2G",
+      "youtubeId": "xcWOviMI6Lk",
+      "startSec": 0
+    },
+    "originalPos": 427,
+    "sampledPos": 428
+  },
+  {
+    "originalTrack": {
+      "title": "Wade in the Water",
+      "artist": "Harvey Mandel",
+      "spotifyUrl": "https://open.spotify.com/track/2Gk2z3svzrHOClWzNGwO8n",
+      "youtubeId": "729ZP_BjsBs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Frontier Psychiatrist",
+      "artist": "The Avalanches",
+      "spotifyUrl": "https://open.spotify.com/track/3mPJHVpCvzykoxmWnYdnFq",
+      "youtubeId": "qLrnkK2YEcE",
+      "startSec": 0
+    },
+    "originalPos": 429,
+    "sampledPos": 430
+  },
+  {
+    "originalTrack": {
+      "title": "Tonight You Belong To Me",
+      "artist": "Patience & Prudence",
+      "spotifyUrl": "https://open.spotify.com/track/6TGjPUIJuJYRnHc4tXiQDI",
+      "youtubeId": "NJd0MLBuJjA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Hummingbird (Metro Boomin & James Blake)",
+      "artist": "Metro Boomin",
+      "spotifyUrl": "https://open.spotify.com/track/6HexNTb392JS071DoTGo0y",
+      "youtubeId": "TENzstSjsus",
+      "startSec": 0
+    },
+    "originalPos": 431,
+    "sampledPos": 432
+  },
+  {
+    "originalTrack": {
+      "title": "Walk on By",
+      "artist": "Dionne Warwick",
+      "spotifyUrl": "https://open.spotify.com/track/3xsOtNxtBW0oTI1OWKAzTm",
+      "youtubeId": "xuVHEpQhi5U",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Paint The Town Red",
+      "artist": "Doja Cat",
+      "spotifyUrl": "https://open.spotify.com/track/4dHRp03oxqJQfjGU8ECo7v",
+      "youtubeId": "fGe8drSjqHI",
+      "startSec": 0
+    },
+    "originalPos": 433,
+    "sampledPos": 434
+  },
+  {
+    "originalTrack": {
+      "title": "Best of My Love",
+      "artist": "The Emotions",
+      "spotifyUrl": "https://open.spotify.com/track/2M2WJ7gBlcKNxdhyfPp9zY",
+      "youtubeId": "Pbg66_KdJ5Q",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Lil Boo Thang",
+      "artist": "Paul Russell",
+      "spotifyUrl": "https://open.spotify.com/track/0cVyQfDyRnMJ0V3rjjdlU3",
+      "youtubeId": "MoCaWpRAkVA",
+      "startSec": 0
+    },
+    "originalPos": 435,
+    "sampledPos": 436
+  },
+  {
+    "originalTrack": {
+      "title": "Uhh Ahh",
+      "artist": "Boyz II Men",
+      "spotifyUrl": "https://open.spotify.com/track/3yeBDuXAnxRKUCtd3P3opC",
+      "youtubeId": "yKoo5Bzy9FY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Countdown",
+      "artist": "Beyoncé",
+      "spotifyUrl": "https://open.spotify.com/track/3axkNosdVQLZiq1HakuGhc",
+      "youtubeId": "2XY3AvVgDns",
+      "startSec": 25
+    },
+    "originalPos": 437,
+    "sampledPos": 438
+  },
+  {
+    "originalTrack": {
+      "title": "Flava in Ya Ear",
+      "artist": "Craig Mack",
+      "spotifyUrl": "https://open.spotify.com/track/7fcTciTYcKnwrSnbzD5MkR",
+      "youtubeId": "v5fi01iQNpA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Ain't It Funny (feat. Ja Rule & Cadillac Tah)",
+      "artist": "Jennifer Lopez",
+      "spotifyUrl": "https://open.spotify.com/track/5ahFyKndeg1hqfmNumL3WF",
+      "youtubeId": "ZAAgPK9dV8Q",
+      "startSec": 0
+    },
+    "originalPos": 439,
+    "sampledPos": 440
+  },
+  {
+    "originalTrack": {
+      "title": "Barbie Girl",
+      "artist": "Aqua",
+      "spotifyUrl": "https://open.spotify.com/track/5ZrDlcxIDZyjOzHdYW1ydr",
+      "youtubeId": "ZyhrYis509A",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Barbie World (with Aqua) [From Barbie The Album]",
+      "artist": "Nicki Minaj",
+      "spotifyUrl": "https://open.spotify.com/track/749HNBEskSdXTKtGYvASFH",
+      "youtubeId": "CUj2AWEJnwQ",
+      "startSec": 0
+    },
+    "originalPos": 441,
+    "sampledPos": 442
+  },
+  {
+    "originalTrack": {
+      "title": "Pump It",
+      "artist": "Black Eyed Peas",
+      "spotifyUrl": "https://open.spotify.com/track/6btyEL6NwUa97Nex9cZFvo",
+      "youtubeId": "ZaI2IlHwmgQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Pump It Louder",
+      "artist": "Tiësto",
+      "spotifyUrl": "https://open.spotify.com/track/2yEHX6MqAXPyD7bm47A2Br",
+      "youtubeId": "Rh96R7jl10E",
+      "startSec": 0
+    },
+    "originalPos": 443,
+    "sampledPos": 444
+  },
+  {
+    "originalTrack": {
+      "title": "Funky Kingston",
+      "artist": "Toots & The Maytals",
+      "spotifyUrl": "https://open.spotify.com/track/26WPI2aksB9XdqmeLfca5z",
+      "youtubeId": "Or2_x8hsGTs",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Funky Vodka",
+      "artist": "TJR",
+      "spotifyUrl": "https://open.spotify.com/track/4oJnPMMBftqQRjWFqwvblo",
+      "youtubeId": "h_ViL9tyJJ8",
+      "startSec": 0
+    },
+    "originalPos": 445,
+    "sampledPos": 446
+  },
+  {
+    "originalTrack": {
+      "title": "I Got You (I Feel Good)",
+      "artist": "James Brown & The Famous Flames",
+      "spotifyUrl": "https://open.spotify.com/track/5haXbSJqjjM0TCJ5XkfEaC",
+      "youtubeId": "pTdihu-mp90",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Don't Stop the Party (feat. TJR)",
+      "artist": "Pitbull",
+      "spotifyUrl": "https://open.spotify.com/track/3Tu7uWBecS6GsLsL8UONKn",
+      "youtubeId": "pz4Gd_u98ok",
+      "startSec": 0
+    },
+    "originalPos": 447,
+    "sampledPos": 448
+  },
+  {
+    "originalTrack": {
+      "title": "Gotta Go Home",
+      "artist": "Boney M.",
+      "spotifyUrl": "https://open.spotify.com/track/4MvGHDenL4t9JW1RHB4rK2",
+      "youtubeId": "F4I8EOao11I",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "SUPA GOOD!!!",
+      "artist": "Yung Gravy",
+      "spotifyUrl": "https://open.spotify.com/track/5va6bVfelXkGBu4XnVzqGh",
+      "youtubeId": "b0fJnJkahUA",
+      "startSec": 0
+    },
+    "originalPos": 449,
+    "sampledPos": 450
+  },
+  {
+    "originalTrack": {
+      "title": "Spider-Man Theme",
+      "artist": "Bob Harris",
+      "spotifyUrl": null,
+      "youtubeId": "iE5Hk5mKmGQ",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Barbra Streisand",
+      "artist": "Duck Sauce",
+      "spotifyUrl": "https://open.spotify.com/track/782lNGn2rEHVn8JomdtRA7",
+      "youtubeId": "nTx_1rli-Lw",
+      "startSec": 0
+    },
+    "originalPos": 451,
+    "sampledPos": 452
+  },
+  {
+    "originalTrack": {
+      "title": "Seville",
+      "artist": "Luiz Bonfá",
+      "spotifyUrl": "https://open.spotify.com/track/6AnO2VhMq5G5bDPNMqCKJB",
+      "youtubeId": "qPsYRy9HHsc",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "How You Like Me Now",
+      "artist": "The Heavy",
+      "spotifyUrl": "https://open.spotify.com/track/7D180Q77XAEP7atBLmMTgK",
+      "youtubeId": "sVzvRsl4rEM",
+      "startSec": 0
+    },
+    "originalPos": 453,
+    "sampledPos": 454
+  },
+  {
+    "originalTrack": {
+      "title": "Somebody That I Used To Know",
+      "artist": "Gotye",
+      "spotifyUrl": "https://open.spotify.com/track/4wCmqSrbyCgxEXROQE6vtV",
+      "youtubeId": "8UVNT4wvIGY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Anxiety",
+      "artist": "Doechii",
+      "spotifyUrl": "https://open.spotify.com/track/2RMeldjCXW6xnd1ZeLycv7",
+      "youtubeId": "1EF0VOd3WGA",
+      "startSec": 0
+    },
+    "originalPos": 455,
+    "sampledPos": 456
+  },
+  {
+    "originalTrack": {
+      "title": "Fantastic Voyage",
+      "artist": "Lakeside",
+      "spotifyUrl": "https://open.spotify.com/track/6lFQTBeL6VQcQ1ztAYPekp",
+      "youtubeId": "jop32UA5y8k",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "ANXIETY (feat. Doechii)",
+      "artist": "Sleepy Hallow",
+      "spotifyUrl": "https://open.spotify.com/track/3FjK86616FbluOfTxNK2gY",
+      "youtubeId": "AkUeD0kzWaI",
+      "startSec": 0
+    },
+    "originalPos": 457,
+    "sampledPos": 458
+  },
+  {
+    "originalTrack": {
+      "title": "I Just Want To Celebrate",
+      "artist": "Rare Earth",
+      "spotifyUrl": "https://open.spotify.com/track/4iW98ZK1gNzcXmQ5TgTD9X",
+      "youtubeId": "8ouNWSiYn6w",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Fantastic Voyage",
+      "artist": "Coolio",
+      "spotifyUrl": "https://open.spotify.com/track/5vpDsiVqiZLRwKAzQO708k",
+      "youtubeId": "C37Spsk8TQI",
+      "startSec": 0
+    },
+    "originalPos": 459,
+    "sampledPos": 460
+  },
+  {
+    "originalTrack": {
+      "title": "Glamorous",
+      "artist": "Fergie",
+      "spotifyUrl": "https://open.spotify.com/track/5IGMzRLdXsDKTjcLQbamaS",
+      "youtubeId": "q0SyUgw98tE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Celebrate",
+      "artist": "Pitbull",
+      "spotifyUrl": "https://open.spotify.com/track/3hm9Df6fGtYVPicuJulXyN",
+      "youtubeId": "QqLs0CBNoSA",
+      "startSec": 0
+    },
+    "originalPos": 461,
+    "sampledPos": 462
+  },
+  {
+    "originalTrack": {
+      "title": "Girls It Ain't Easy",
+      "artist": "Honey Cone",
+      "spotifyUrl": "https://open.spotify.com/track/5Tfbxaz2DfeL1C9Q9op1CC",
+      "youtubeId": "Tdoih0Vx1Hw",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "First Class",
+      "artist": "Jack Harlow",
+      "spotifyUrl": "https://open.spotify.com/track/3os9JEuXCDI2u8uoKi0xPY",
+      "youtubeId": "5CVrij8tcP8",
+      "startSec": 0
+    },
+    "originalPos": 463,
+    "sampledPos": 464
+  },
+  {
+    "originalTrack": {
+      "title": "Rich Girl",
+      "artist": "Daryl Hall & John Oates",
+      "spotifyUrl": "https://open.spotify.com/track/0qRR9d89hIS0MHRkQ0ejxX",
+      "youtubeId": "AmHE65RAkSY",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Your Man",
+      "artist": "Down With Webster",
+      "spotifyUrl": "https://open.spotify.com/track/4TPffFD4gwGRkTlRBHCfLN",
+      "youtubeId": "54OznGq5K3M",
+      "startSec": 0
+    },
+    "originalPos": 465,
+    "sampledPos": 466
+  },
+  {
+    "originalTrack": {
+      "title": "Green Sally, Up",
+      "artist": "Jesse Lee Pratcher & Mattie Garder",
+      "spotifyUrl": "https://open.spotify.com/track/63Ix85QfTDiX72nYFqZruf",
+      "youtubeId": "s8QqJwW6a90",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Rich Girl$",
+      "artist": "Down With Webster",
+      "spotifyUrl": "https://open.spotify.com/track/0MzzUbsxedRyso4TQnTtXW",
+      "youtubeId": "8D-Y4fBvLDE",
+      "startSec": 0
+    },
+    "originalPos": 467,
+    "sampledPos": 468
+  },
+  {
+    "originalTrack": {
+      "title": "Streets of Your Town",
+      "artist": "The Go-Betweens",
+      "spotifyUrl": "https://open.spotify.com/track/4ImZYT2EsMgcracYQIQ5vH",
+      "youtubeId": "2mcp8N5Am3w",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Flower",
+      "artist": "Moby",
+      "spotifyUrl": "https://open.spotify.com/track/1dzrG2Vo2LNH4vAQBHxqrT",
+      "youtubeId": "6A2V9Bu80J4",
+      "startSec": 0
+    },
+    "originalPos": 469,
+    "sampledPos": 470
+  },
+  {
+    "originalTrack": {
+      "title": "Be My Lady",
+      "artist": "Kool & The Gang",
+      "spotifyUrl": "https://open.spotify.com/track/2E5I3d41LCqAJPWmSzrVXv",
+      "youtubeId": "Qs20rdt1iyE",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Just The Way You Are",
+      "artist": "Milky",
+      "spotifyUrl": "https://open.spotify.com/track/2kJo0J02qdTsD1omMouIro",
+      "youtubeId": "ujo1kMqFqmo",
+      "startSec": 0
+    },
+    "originalPos": 471,
+    "sampledPos": 472
+  },
+  {
+    "originalTrack": {
+      "title": "And the Beat Goes On",
+      "artist": "The Whispers",
+      "spotifyUrl": "https://open.spotify.com/track/5cpWKbKN3Zlwr8i6I5mEDa",
+      "youtubeId": "2dME9lfh6xU",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Miami",
+      "artist": "Will Smith",
+      "spotifyUrl": "https://open.spotify.com/track/6e8Ou0wiqAzIpWb2eSxll8",
+      "youtubeId": "xVginwat89k",
+      "startSec": 0
+    },
+    "originalPos": 473,
+    "sampledPos": 474
+  },
+  {
+    "originalTrack": {
+      "title": "Summertime",
+      "artist": "Billy Stewart",
+      "spotifyUrl": "https://open.spotify.com/track/3Ot3ooDLDJeyUvI0CkvGbP",
+      "youtubeId": "ZvpnIOXna0Y",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "And The Living Is Easy",
+      "artist": "Guts",
+      "spotifyUrl": "https://open.spotify.com/track/4Vldw0eUgCbhgyxAWY6JMk",
+      "youtubeId": "2tvx3k6AJwg",
+      "startSec": 0
+    },
+    "originalPos": 475,
+    "sampledPos": 476
+  },
+  {
+    "originalTrack": {
+      "title": "Alors on danse",
+      "artist": "Stromae",
+      "spotifyUrl": "https://open.spotify.com/track/2GYHyAoLWpkxLVa4oYTVko",
+      "youtubeId": "8nW4jypamrA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "OUT OUT (feat. Charli XCX & Saweetie)",
+      "artist": "Joel Corry",
+      "spotifyUrl": "https://open.spotify.com/track/6Dy1jexKYriXAVG6evyUTJ",
+      "youtubeId": "zqyEwjFid0c",
+      "startSec": 0
+    },
+    "originalPos": 477,
+    "sampledPos": 478
+  },
+  {
+    "originalTrack": {
+      "title": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "spotifyUrl": "https://open.spotify.com/track/4y1LsJpmMti1PfRQV9AWWe",
+      "youtubeId": "jRr5EasAq84",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Pink Friday Girls",
+      "artist": "Nicki Minaj",
+      "spotifyUrl": "https://open.spotify.com/track/5rpnhUoJojoH8zYs8xdz7H",
+      "youtubeId": "7IxDJiQ3tMI",
+      "startSec": 0
+    },
+    "originalPos": 479,
+    "sampledPos": 480
+  },
+  {
+    "originalTrack": {
+      "title": "Move Your Feet",
+      "artist": "Junior Senior",
+      "spotifyUrl": "https://open.spotify.com/track/4DX82Vc8qAH4jJPvKxvwg6",
+      "youtubeId": "c-0tvTqLw2s",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Everybody (feat. Lil Uzi Vert)",
+      "artist": "Nicki Minaj",
+      "spotifyUrl": "https://open.spotify.com/track/0mAf9TNr3a2jIHsq2PIagH",
+      "youtubeId": "Z_9Lf_NN5NY",
+      "startSec": 0
+    },
+    "originalPos": 481,
+    "sampledPos": 482
+  },
+  {
+    "originalTrack": {
+      "title": "Technicolor",
+      "artist": "Channel One",
+      "spotifyUrl": "https://open.spotify.com/track/1fKlQDk7Z4olBPSapTwJX4",
+      "youtubeId": "8Q0jZWUSe7I",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Baby Got Back",
+      "artist": "Sir Mix-A-Lot",
+      "spotifyUrl": "https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl",
+      "youtubeId": "X53ZSxkQ3Ho",
+      "startSec": 0
+    },
+    "originalPos": 483,
+    "sampledPos": 484
+  },
+  {
+    "originalTrack": {
+      "title": "Baby Got Back",
+      "artist": "Sir Mix-a-Lot",
+      "spotifyUrl": "https://open.spotify.com/track/5W3cjX2J3tjhG8zb6u0qHn",
+      "youtubeId": "X53ZSxkQ3Ho",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Anaconda",
+      "artist": "Nicki Minaj",
+      "spotifyUrl": "https://open.spotify.com/track/2oFVgnDaPLd482rdvNq7Rh",
+      "youtubeId": "LDZX4ooRsWs",
+      "startSec": 32
+    },
+    "originalPos": 485,
+    "sampledPos": 486
+  },
+  {
+    "originalTrack": {
+      "title": "Let A Woman Be A Woman - Let A Man Be A Man",
+      "artist": "Dyke & The Blazers",
+      "spotifyUrl": "https://open.spotify.com/track/17Y2K7uNxMkaTDBtf1Tcv3",
+      "youtubeId": "E9DTQn6sxGA",
+      "startSec": 0
+    },
+    "sampledTrack": {
+      "title": "Neighbor Like Me",
+      "artist": "The Math Club",
+      "spotifyUrl": "https://open.spotify.com/track/2wogAW9Yxufq70Gsa4WxN7",
+      "youtubeId": "jJpCOU9wJtU",
+      "startSec": 0
+    },
+    "originalPos": 487,
+    "sampledPos": 488
+  },
+  {
+    "originalTrack": {
+      "title": "Through the Fire",
+      "artist": "Chaka Khan"
+    },
+    "sampledTrack": {
+      "title": "Through The Wire",
+      "artist": "Kanye West"
+    },
+    "originalPos": 1,
+    "sampledPos": 2
+  },
+  {
+    "originalTrack": {
+      "title": "Juicy Fruit",
+      "artist": "Mtume"
+    },
+    "sampledTrack": {
+      "title": "Juicy - 2007 Remaster",
+      "artist": "The Notorious B.I.G."
+    },
+    "originalPos": 3,
+    "sampledPos": 4
+  },
+  {
+    "originalTrack": {
+      "title": "Moon River",
+      "artist": "Frank Sinatra"
+    },
+    "sampledTrack": {
+      "title": "Moon River (From Breakfast at Tiffany's) [Remastered]",
+      "artist": "Audrey Hepburn"
+    },
+    "originalPos": 5,
+    "sampledPos": 6
+  },
+  {
+    "originalTrack": {
+      "title": "Moon River",
+      "artist": "Frank Sinatra"
+    },
+    "sampledTrack": {
+      "title": "Moon River",
+      "artist": "Frank Ocean"
+    },
+    "originalPos": 5,
+    "sampledPos": 7
+  },
+  {
+    "originalTrack": {
+      "title": "Bam Bam",
+      "artist": "Sister Nancy"
+    },
+    "sampledTrack": {
+      "title": "Bam",
+      "artist": "JAY-Z, Damian Marley"
+    },
+    "originalPos": 8,
+    "sampledPos": 9
+  },
+  {
+    "originalTrack": {
+      "title": "Silver Soul",
+      "artist": "Beach House"
+    },
+    "sampledTrack": {
+      "title": "Money Trees",
+      "artist": "Kendrick Lamar, Jay Rock"
+    },
+    "originalPos": 10,
+    "sampledPos": 11
+  },
+  {
+    "originalTrack": {
+      "title": "Bound",
+      "artist": "The Ponderosa Twins Plus One"
+    },
+    "sampledTrack": {
+      "title": "Bound 2",
+      "artist": "Kanye West"
+    },
+    "originalPos": 12,
+    "sampledPos": 13
+  },
+  {
+    "originalTrack": {
+      "title": "Father I Stretch My Hands",
+      "artist": "Pastor T.L. Barrett and the Youth for Christ Choir"
+    },
+    "sampledTrack": {
+      "title": "Father Stretch My Hands Pt. 1",
+      "artist": "Kanye West"
+    },
+    "originalPos": 14,
+    "sampledPos": 15
+  },
+  {
+    "originalTrack": {
+      "title": "Rich Girl",
+      "artist": "Louchie Lou, Michie One"
+    },
+    "sampledTrack": {
+      "title": "Rich Girl",
+      "artist": "Gwen Stefani, Eve"
+    },
+    "originalPos": 16,
+    "sampledPos": 17
+  },
+  {
+    "originalTrack": {
+      "title": "Maria Maria (feat. The Product G&B)",
+      "artist": "Santana, The Product G&B"
+    },
+    "sampledTrack": {
+      "title": "Wild Thoughts (feat. Rihanna & Bryson Tiller)",
+      "artist": "DJ Khaled, Rihanna, Bryson Tiller"
+    },
+    "originalPos": 18,
+    "sampledPos": 19
+  },
+  {
+    "originalTrack": {
+      "title": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey"
+    },
+    "sampledTrack": {
+      "title": "All I Want For Christmas Is You (SuperFestive!) Duet with Mariah Carey",
+      "artist": "Justin Bieber, Mariah Carey"
+    },
+    "originalPos": 20,
+    "sampledPos": 21
+  },
+  {
+    "originalTrack": {
+      "title": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey"
+    },
+    "sampledTrack": {
+      "title": "All I Want for Christmas Is You - Indian Christmas Remix",
+      "artist": "Vindaloo Singh"
+    },
+    "originalPos": 20,
+    "sampledPos": 22
+  },
+  {
+    "originalTrack": {
+      "title": "Every Breath You Take - Remastered 2003",
+      "artist": "The Police"
+    },
+    "sampledTrack": {
+      "title": "I'll Be Missing You (feat. Faith Evans, 112)",
+      "artist": "Diddy, Faith Evans, 112"
+    },
+    "originalPos": 23,
+    "sampledPos": 24
+  },
+  {
+    "originalTrack": {
+      "title": "I've Got a Woman",
+      "artist": "Ray Charles"
+    },
+    "sampledTrack": {
+      "title": "Gold Digger",
+      "artist": "Kanye West, Jamie Foxx"
+    },
+    "originalPos": 25,
+    "sampledPos": 26
+  },
+  {
+    "originalTrack": {
+      "title": "I've Got a Woman",
+      "artist": "Ray Charles"
+    },
+    "sampledTrack": {
+      "title": "American Boy",
+      "artist": "Estelle, Kanye West"
+    },
+    "originalPos": 25,
+    "sampledPos": 27
+  }
+]

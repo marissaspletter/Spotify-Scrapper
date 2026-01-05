@@ -142,6 +142,18 @@
       gap: 10px;
     }
 
+    /* Odd warning styles */
+    .odd-warning {
+      background-color: #fff3cd;
+      border: 2px solid #ffc107;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      color: #856404;
+      font-weight: 500;
+      text-align: center;
+    }
+
     /* Modal styles */
     .modal-overlay {
       display: none;
@@ -390,6 +402,11 @@
       </div>
       
       <div class="modal-body">
+        <!-- Odd Playlist Warning -->
+        <div id="oddWarning" class="odd-warning" style="display: none;">
+          ⚠️ This playlist has an odd number of tracks. You must configure cutoff, trios, or ranges to proceed.
+        </div>
+        
         <!-- Trios Section -->
         <div class="modal-section">
           <h3>🎵 Trios</h3>
@@ -619,6 +636,31 @@
 
           // Success! Download file
           hideModal();
+          
+          // Get duplicates info from header before processing blob
+          const removedDuplicatesHeader = response.headers.get('X-Removed-Duplicates');
+          let removedDuplicates = [];
+          
+          if (removedDuplicatesHeader) {
+            try {
+              removedDuplicates = JSON.parse(removedDuplicatesHeader);
+            } catch (e) {
+              console.error('Failed to parse removed duplicates:', e);
+            }
+          }
+          
+          // Get excluded tracks from header
+          const excludedTracksHeader = response.headers.get('X-Excluded-Tracks');
+          let excludedTracks = [];
+          
+          if (excludedTracksHeader) {
+            try {
+              excludedTracks = JSON.parse(excludedTracksHeader);
+            } catch (e) {
+              console.error('Failed to parse excluded tracks:', e);
+            }
+          }
+          
           const blob = await response.blob();
           const url = window.URL.createObjectURL(blob);
           const a = document.createElement('a');
@@ -630,6 +672,14 @@
           document.body.removeChild(a);
 
           showStatus('List created and downloaded!', 'success');
+          
+          // Show excluded tracks popup first (if any)
+          if (excludedTracks.length > 0) {
+            showExcludedTracksPopup(excludedTracks);
+          }
+          
+          // Show duplicates popup
+          showDuplicatesPopup(removedDuplicates);
           
         } catch (error) {
           showValidationErrors([error.message]);
@@ -681,6 +731,7 @@
         //   ]
         // };
         
+        // First request - just to get track count
         let response = await fetch('/api/create-list', {
           method: 'POST',
           headers: {
@@ -689,85 +740,76 @@
           body: JSON.stringify(requestBody)
         });
 
-        // Handle odd playlist case
+        // Get total tracks from header (always sent by server now)
+        const totalTracksHeader = response.headers.get('X-Total-Tracks');
+        let totalTracks = 0;
+        let isOdd = false;
+
+        if (totalTracksHeader) {
+          totalTracks = parseInt(totalTracksHeader);
+          isOdd = totalTracks % 2 !== 0;
+        }
+
+        // If odd, capture error info
         if (!response.ok) {
           const error = await response.json();
           
           if (error.error === 'odd') {
-            // Ask if user wants to configure advanced pairing rules
-            const useAdvanced = confirm('Playlist has an odd number of tracks. Configure advanced pairing rules?');
-            
-            if (useAdvanced) {
-              // Store request and track count for modal
-              pendingRequest = requestBody;
-              currentTrackCount = error.totalTracks;
-              
-              // Clear and reset modal
-              trioRows.innerHTML = '';
-              rangeRows.innerHTML = '';
-              clearValidationErrors();
-              
-              // Show modal
-              showModal();
-              return; // Wait for user to complete modal form
-            } else {
-              // User chose not to configure advanced rules, use simple cutoff
-              const cutoff = prompt('Playlist has odd paring which breaks rules. Please insert the song # you want me to stop at');
-              
-              if (cutoff === null) {
-                showStatus('Operation cancelled', 'info');
-                return;
-              }
-              
-              const cutoffNum = parseInt(cutoff.trim());
-              
-              // Validate input
-              if (isNaN(cutoffNum) || cutoffNum < 1 || cutoffNum > error.totalTracks) {
-                showStatus(`Invalid input. Please enter a number between 1 and ${error.totalTracks}`, 'error');
-                return;
-              }
-              
-              if (cutoffNum % 2 !== 0) {
-                showStatus('Cutoff must be an even number to form complete pairs', 'error');
-                return;
-              }
-              
-              // Retry with cutoff
-              requestBody.cutoffTrackNumber = cutoffNum;
-              response = await fetch('/api/create-list', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(requestBody)
-              });
-              
-              if (!response.ok) {
-                const retryError = await response.json();
-                throw new Error(retryError.error || 'Failed to create list');
-              }
-            }
+            totalTracks = error.totalTracks;
+            isOdd = true;
           } else {
             throw new Error(error.error || 'Failed to create list');
           }
         }
 
-        // Download the file
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'playlist_pairs.txt';
-        document.body.appendChild(a);
-        a.click();
-        window.URL.revokeObjectURL(url);
-        document.body.removeChild(a);
-
-        showStatus('List created and downloaded!', 'success');
+        // ALWAYS show modal - give user option for cutoff/trios/ranges
+        // Store request and track count for modal
+        pendingRequest = requestBody;
+        currentTrackCount = totalTracks;
+        
+        // Clear and reset modal
+        trioRows.innerHTML = '';
+        rangeRows.innerHTML = '';
+        clearValidationErrors();
+        
+        // Show/hide odd warning based on track count
+        const oddWarning = document.getElementById('oddWarning');
+        oddWarning.style.display = isOdd ? 'block' : 'none';
+        
+        // Show modal and wait for user to configure
+        showModal();
       } catch (error) {
         showStatus(error.message, 'error');
       }
     });
+
+    // Function to show excluded tracks popup
+    function showExcludedTracksPopup(excludedTracks) {
+      let message = `${excludedTracks.length} track(s) were excluded (not in ranges or trios):\n\n`;
+      
+      excludedTracks.forEach((track) => {
+        message += `Track #${track.trackNumber}: "${track.title}" by ${track.artist}\n`;
+      });
+
+      alert(message);
+    }
+
+    // Function to show duplicates popup
+    function showDuplicatesPopup(removedDuplicates) {
+      if (removedDuplicates.length === 0) {
+        alert('No duplicates were removed.');
+        return;
+      }
+
+      let message = `${removedDuplicates.length} duplicate pair(s) were removed:\n\n`;
+      
+      removedDuplicates.forEach((dup, idx) => {
+        message += `${idx + 1}. Original: "${dup.originalTitle}" by ${dup.originalArtist}\n`;
+        message += `   Sampled: "${dup.sampledTitle}" by ${dup.sampledArtist}\n\n`;
+      });
+
+      alert(message);
+    }
 
     // Create JSON button handler
     createJsonBtn.addEventListener('click', async () => {

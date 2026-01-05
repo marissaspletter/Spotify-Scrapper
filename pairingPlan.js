@@ -180,7 +180,8 @@ function validatePlan(plan, trackCount) {
     }
   }
 
-  // Check that all non-trio tracks are covered by exactly one range
+  // Check that tracks are covered by at most one range (overlaps with trios allowed)
+  // Tracks NOT covered will be excluded from output
   for (let trackNum = 1; trackNum <= trackCount; trackNum++) {
     // Skip tracks in trios
     if (trioTracks.has(trackNum)) {
@@ -192,9 +193,8 @@ function validatePlan(plan, trackCount) {
       trackNum >= range.start && trackNum <= range.end
     );
 
-    if (coveringRanges.length === 0) {
-      errors.push(`Track ${trackNum} is not covered by any range and is not in a trio`);
-    } else if (coveringRanges.length > 1) {
+    // Only error on multiple coverage, not on zero coverage
+    if (coveringRanges.length > 1) {
       errors.push(`Track ${trackNum} is covered by multiple ranges (only one allowed)`);
     }
   }
@@ -203,6 +203,45 @@ function validatePlan(plan, trackCount) {
     ok: errors.length === 0,
     errors
   };
+}
+
+/**
+ * Get list of track numbers that are excluded (not in trios or ranges)
+ * @param {PairingPlan} plan - The pairing plan
+ * @param {number} trackCount - Total number of tracks
+ * @returns {number[]} - Array of excluded track numbers (1-based)
+ */
+function getExcludedTracks(plan, trackCount) {
+  const excluded = [];
+  const trioTracks = new Set();
+  
+  // Collect trio tracks
+  if (plan.trios && plan.trios.length > 0) {
+    plan.trios.forEach(trio => {
+      trioTracks.add(trio.original);
+      trioTracks.add(trio.sampleA);
+      trioTracks.add(trio.sampleB);
+    });
+  }
+  
+  // Check each track
+  for (let trackNum = 1; trackNum <= trackCount; trackNum++) {
+    // Skip if in trio
+    if (trioTracks.has(trackNum)) {
+      continue;
+    }
+    
+    // Check if covered by any range
+    const inRange = plan.ranges.some(range => 
+      trackNum >= range.start && trackNum <= range.end
+    );
+    
+    if (!inRange) {
+      excluded.push(trackNum);
+    }
+  }
+  
+  return excluded;
 }
 
 /**
@@ -353,7 +392,8 @@ function buildPairsFromPlan(tracks, plan) {
 module.exports = {
   normalizePlan,
   validatePlan,
-  buildPairsFromPlan
+  buildPairsFromPlan,
+  getExcludedTracks
 };
 
 // ============================================================================
