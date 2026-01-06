@@ -4477,6 +4477,258 @@
   },
   {
     "originalTrack": {
+      "title": "I'll Wait for You",
+      "artist": "Alfreda Brockington"
+    },
+    "sampledTrack": {
+      "title": "Everyday Hustle",
+      "artist": "Future, Metro Boomin, Rick Ross"
+    },
+    "originalPos": 1,
+    "sampledPos": 2
+  },
+  {
+    "originalTrack": {
+      "title": "Diamonds Are Forever",
+      "artist": "Shirley Bassey"
+    },
+    "sampledTrack": {
+      "title": "Diamonds From Sierra Leone - Remix",
+      "artist": "Kanye West, JAY-Z"
+    },
+    "originalPos": 3,
+    "sampledPos": 4
+  },
+  {
+    "originalTrack": {
+      "title": "Someday",
+      "artist": "Shirley Ann Lee"
+    },
+    "sampledTrack": {
+      "title": "Take Me For a Little While",
+      "artist": "The Royal Jesters"
+    },
+    "originalPos": 5,
+    "sampledPos": 6
+  },
+  {
+    "originalTrack": {
+      "title": "Ghost Town",
+      "artist": "Kanye West, PARTYNEXTDOOR"
+    },
+    "sampledTrack": {
+      "title": "You Showed Me",
+      "artist": "Enoch Light"
+    },
+    "originalPos": 7,
+    "sampledPos": 8
+  },
+  {
+    "originalTrack": {
+      "title": "Gorgeous",
+      "artist": "Kanye West, Kid Cudi, Raekwon"
+    },
+    "sampledTrack": {
+      "title": "I Need You - Remastered",
+      "artist": "Maze, Frankie Beverly"
+    },
+    "originalPos": 9,
+    "sampledPos": 10
+  },
+  {
+    "originalTrack": {
+      "title": "Hustler's Ambition",
+      "artist": "50 Cent"
+    },
+    "sampledTrack": {
+      "title": "Why Won't You Make Up Your Mind?",
+      "artist": "Tame Impala"
+    },
+    "originalPos": 11,
+    "sampledPos": 12
+  },
+  {
+    "originalTrack": {
+      "title": "Sundress",
+      "artist": "A$AP Rocky"
+    },
+    "sampledTrack": {
+      "title": "My Song",
+      "artist": "Labi Siffre"
+    },
+    "originalPos": 13,
+    "sampledPos": 14
+  },
+  {
+    "originalTrack": {
+      "title": "I Wonder",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Silly Wasn't I",
+      "artist": "Valerie Simpson"
+    },
+    "originalPos": 15,
+    "sampledPos": 16
+  },
+  {
+    "originalTrack": {
+      "title": "Best Friend",
+      "artist": "50 Cent"
+    },
+    "sampledTrack": {
+      "title": "Everlasting Bass",
+      "artist": "Rodney O, Joe Cooley"
+    },
+    "originalPos": 17,
+    "sampledPos": 18
+  },
+  {
+    "originalTrack": {
+      "title": "BBL Drizzy",
+      "artist": "King Willonius"
+    },
+    "sampledTrack": {
+      "title": "Like That",
+      "artist": "Future, Metro Boomin, Kendrick Lamar"
+    },
+    "originalPos": 19,
+    "sampledPos": 20
+  },
+  {
+    "originalTrack": {
+      "title": "Conclusions",
+      "artist": "The Grodeck Whipperjenny"
+    },
+    "sampledTrack": {
+      "title": "Family Matters",
+      "artist": "Drake"
+    },
+    "originalPos": 21,
+    "sampledPos": 22
+  },
+  {
+    "originalTrack": {
+      "title": "Serenata do Adeus",
+      "artist": "Elza Laranjeira"
+    },
+    "sampledTrack": {
+      "title": "redrum",
+      "artist": "21 Savage"
+    },
+    "originalPos": 23,
+    "sampledPos": 24
+  },
+  {
+    "originalTrack": {
+      "title": "One Step Ahead",
+      "artist": "Aretha Franklin"
+    },
+    "sampledTrack": {
+      "title": "Surround Sound (feat. 21 Savage & Baby Tate)",
+      "artist": "JID, 21 Savage, Baby Tate"
+    },
+    "originalPos": 25,
+    "sampledPos": 26
+  },
+  {
+    "originalTrack": {
+      "title": "Don't Be so Nice",
+      "artist": "Chuck Senrick"
+    },
+    "sampledTrack": {
+      "title": "LOST FOREVER (feat. Westside Gunn)",
+      "artist": "Travis Scott, Westside Gunn"
+    },
+    "originalPos": 27,
+    "sampledPos": 28
+  },
+  {
+    "originalTrack": {
+      "title": "Over There",
+      "artist": "The Japanese House"
+    },
+    "sampledTrack": {
+      "title": "MY EYES",
+      "artist": "Travis Scott"
+    },
+    "originalPos": 29,
+    "sampledPos": 30
+  },
+  {
+    "originalTrack": {
+      "title": "Explorer Suite",
+      "artist": "New England"
+    },
+    "sampledTrack": {
+      "title": "SIRENS",
+      "artist": "Travis Scott"
+    },
+    "originalPos": 31,
+    "sampledPos": 32
+  },
+  {
+    "originalTrack": {
+      "title": "Nsunka Lwendo",
+      "artist": "Amanaz"
+    },
+    "sampledTrack": {
+      "title": "GOD'S COUNTRY",
+      "artist": "Travis Scott"
+    },
+    "originalPos": 33,
+    "sampledPos": 34
+  },
+  {
+    "originalTrack": {
+      "title": "Proclamation",
+      "artist": "Gentle Giant"
+    },
+    "sampledTrack": {
+      "title": "HYAENA",
+      "artist": "Travis Scott"
+    },
+    "originalPos": 35,
+    "sampledPos": 36
+  },
+  {
+    "originalTrack": {
+      "title": "A House Is Not a Home",
+      "artist": "Luther Vandross"
+    },
+    "sampledTrack": {
+      "title": "Slow Jamz",
+      "artist": "Twista, Kanye West, Jamie Foxx"
+    },
+    "originalPos": 37,
+    "sampledPos": 38
+  },
+  {
+    "originalTrack": {
+      "title": "Half Mast",
+      "artist": "Empire Of The Sun"
+    },
+    "sampledTrack": {
+      "title": "The Spins",
+      "artist": "Mac Miller"
+    },
+    "originalPos": 41,
+    "sampledPos": 42
+  },
+  {
+    "originalTrack": {
+      "title": "Tiden Flyver",
+      "artist": "Boom Clap Bachelors"
+    },
+    "sampledTrack": {
+      "title": "Bitch, Don’t Kill My Vibe",
+      "artist": "Kendrick Lamar"
+    },
+    "originalPos": 43,
+    "sampledPos": 44
+  },
+  {
+    "originalTrack": {
       "title": "Father I Stretch My Hands",
       "artist": "Pastor T.L. Barrett and the Youth for Christ Choir"
     },
@@ -4484,91 +4736,1915 @@
       "title": "Father Stretch My Hands Pt. 1",
       "artist": "Kanye West"
     },
-    "originalPos": 14,
-    "sampledPos": 15
+    "originalPos": 45,
+    "sampledPos": 46
   },
   {
     "originalTrack": {
-      "title": "Rich Girl",
-      "artist": "Louchie Lou, Michie One"
+      "title": "I Love You",
+      "artist": "East of Underground"
     },
     "sampledTrack": {
-      "title": "Rich Girl",
-      "artist": "Gwen Stefani, Eve"
+      "title": "a lot",
+      "artist": "21 Savage"
     },
-    "originalPos": 16,
-    "sampledPos": 17
+    "originalPos": 49,
+    "sampledPos": 50
   },
   {
     "originalTrack": {
-      "title": "Maria Maria (feat. The Product G&B)",
-      "artist": "Santana, The Product G&B"
+      "title": "Prison Song",
+      "artist": "Carlton Williams"
     },
     "sampledTrack": {
-      "title": "Wild Thoughts (feat. Rihanna & Bryson Tiller)",
-      "artist": "DJ Khaled, Rihanna, Bryson Tiller"
+      "title": "Mask Off",
+      "artist": "Future"
     },
-    "originalPos": 18,
-    "sampledPos": 19
+    "originalPos": 51,
+    "sampledPos": 52
   },
   {
     "originalTrack": {
-      "title": "All I Want for Christmas Is You",
-      "artist": "Mariah Carey"
+      "title": "Say You Love Me, One More Time",
+      "artist": "D.J. Rogers"
     },
     "sampledTrack": {
-      "title": "All I Want For Christmas Is You (SuperFestive!) Duet with Mariah Carey",
-      "artist": "Justin Bieber, Mariah Carey"
+      "title": "I Don't Fuck With You",
+      "artist": "Big Sean, E-40"
     },
-    "originalPos": 20,
-    "sampledPos": 21
+    "originalPos": 55,
+    "sampledPos": 56
   },
   {
     "originalTrack": {
-      "title": "All I Want for Christmas Is You",
-      "artist": "Mariah Carey"
+      "title": "Strange Fruit",
+      "artist": "Nina Simone"
     },
     "sampledTrack": {
-      "title": "All I Want for Christmas Is You - Indian Christmas Remix",
-      "artist": "Vindaloo Singh"
+      "title": "Blood On The Leaves",
+      "artist": "Kanye West"
     },
-    "originalPos": 20,
-    "sampledPos": 22
+    "originalPos": 59,
+    "sampledPos": 60
   },
   {
     "originalTrack": {
-      "title": "Every Breath You Take - Remastered 2003",
-      "artist": "The Police"
+      "title": "Yearning For Your Love",
+      "artist": "The Gap Band"
     },
     "sampledTrack": {
-      "title": "I'll Be Missing You (feat. Faith Evans, 112)",
-      "artist": "Diddy, Faith Evans, 112"
+      "title": "Life's a Bitch (feat. AZ & Olu Dara)",
+      "artist": "Nas, AZ, Olu Dara"
     },
-    "originalPos": 23,
-    "sampledPos": 24
+    "originalPos": 63,
+    "sampledPos": 64
   },
   {
     "originalTrack": {
-      "title": "I've Got a Woman",
+      "title": "Try a Little Tenderness",
+      "artist": "Otis Redding"
+    },
+    "sampledTrack": {
+      "title": "Otis",
+      "artist": "JAY-Z, Kanye West, Otis Redding"
+    },
+    "originalPos": 65,
+    "sampledPos": 66
+  },
+  {
+    "originalTrack": {
+      "title": "Cola Bottle Baby",
+      "artist": "Edwin Birdsong"
+    },
+    "sampledTrack": {
+      "title": "Harder, Better, Faster, Stronger",
+      "artist": "Daft Punk"
+    },
+    "originalPos": 67,
+    "sampledPos": 68
+  },
+  {
+    "originalTrack": {
+      "title": "Stronger",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Thank You",
+      "artist": "Dido"
+    },
+    "originalPos": 69,
+    "sampledPos": 70
+  },
+  {
+    "originalTrack": {
+      "title": "Stan",
+      "artist": "Eminem, Dido"
+    },
+    "sampledTrack": {
+      "title": "Aeroplane (Reprise)",
+      "artist": "Wee"
+    },
+    "originalPos": 71,
+    "sampledPos": 72
+  },
+  {
+    "originalTrack": {
+      "title": "Midnight Marauders Tour Guide",
+      "artist": "A Tribe Called Quest"
+    },
+    "sampledTrack": {
+      "title": "Intro",
+      "artist": "Logic"
+    },
+    "originalPos": 73,
+    "sampledPos": 74
+  },
+  {
+    "originalTrack": {
+      "title": "Do What You Gotta Do",
+      "artist": "Nina Simone"
+    },
+    "sampledTrack": {
+      "title": "Bam Bam",
+      "artist": "Sister Nancy"
+    },
+    "originalPos": 75,
+    "sampledPos": 76
+  },
+  {
+    "originalTrack": {
+      "title": "Famous",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Bam",
+      "artist": "JAY-Z, Damian Marley"
+    },
+    "originalPos": 77,
+    "sampledPos": 78
+  },
+  {
+    "originalTrack": {
+      "title": "I'm Coming Out",
+      "artist": "Diana Ross"
+    },
+    "sampledTrack": {
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) - 2014 Remaster",
+      "artist": "The Notorious B.I.G., Mase, Diddy"
+    },
+    "originalPos": 79,
+    "sampledPos": 80
+  },
+  {
+    "originalTrack": {
+      "title": "Will You Love Me Tomorrow?",
+      "artist": "Smokey Robinson"
+    },
+    "sampledTrack": {
+      "title": "Devil In A New Dress",
+      "artist": "Kanye West, Rick Ross"
+    },
+    "originalPos": 81,
+    "sampledPos": 82
+  },
+  {
+    "originalTrack": {
+      "title": "Don't Let Me Be Misunderstood",
+      "artist": "Nina Simone"
+    },
+    "sampledTrack": {
+      "title": "DontGetIt",
+      "artist": "Lil Wayne"
+    },
+    "originalPos": 83,
+    "sampledPos": 84
+  },
+  {
+    "originalTrack": {
+      "title": "Parce que tu crois",
+      "artist": "Charles Aznavour"
+    },
+    "sampledTrack": {
+      "title": "What's The Difference",
+      "artist": "Dr. Dre, Eminem, Xzibit"
+    },
+    "originalPos": 85,
+    "sampledPos": 86
+  },
+  {
+    "originalTrack": {
+      "title": "The Edge - Remastered",
+      "artist": "David McCallum"
+    },
+    "sampledTrack": {
+      "title": "The Next Episode",
+      "artist": "Dr. Dre, Snoop Dogg"
+    },
+    "originalPos": 87,
+    "sampledPos": 88
+  },
+  {
+    "originalTrack": {
+      "title": "Haboglabotribin'",
+      "artist": "Bernard Wright"
+    },
+    "sampledTrack": {
+      "title": "G'z And Hustlaz",
+      "artist": "Snoop Dogg"
+    },
+    "originalPos": 89,
+    "sampledPos": 90
+  },
+  {
+    "originalTrack": {
+      "title": "I Choose You",
+      "artist": "Willie Hutch"
+    },
+    "sampledTrack": {
+      "title": "Int'l Players Anthem (I Choose You) (feat. Outkast)",
+      "artist": "UGK, Outkast"
+    },
+    "originalPos": 91,
+    "sampledPos": 92
+  },
+  {
+    "originalTrack": {
+      "title": "Requiem In D Minor, K. 626: Sequence: VI. Lacrimosa Dies Illa",
+      "artist": "Slovak Philharmonic, Jaroslava Horska, Vladimir Ruso, Peter Mikulas, Stefan Klimo, Slovak Philharmonic Chorus, Jozef Kundlák, Magdaléna Hajóssyová, Wolfgang Amadeus Mozart"
+    },
+    "sampledTrack": {
+      "title": "Lord Knows (feat. Tory Lanez)",
+      "artist": "Meek Mill, Tory Lanez"
+    },
+    "originalPos": 93,
+    "sampledPos": 94
+  },
+  {
+    "originalTrack": {
+      "title": "(If Loving You Is Wrong) I Don't Want To Be Right",
+      "artist": "Bobby \"Blue\" Bland"
+    },
+    "sampledTrack": {
+      "title": "Mamacita (feat. Rich Homie Quan & Young Thug)",
+      "artist": "Travis Scott, Rich Homie Quan, Young Thug"
+    },
+    "originalPos": 95,
+    "sampledPos": 96
+  },
+  {
+    "originalTrack": {
+      "title": "Nosetalgia",
+      "artist": "Pusha T, Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Suzie Thundertussy",
+      "artist": "Junie Morrison"
+    },
+    "originalPos": 97,
+    "sampledPos": 98
+  },
+  {
+    "originalTrack": {
+      "title": "No More Parties In LA",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "That Lady - Pt. 1 & 2",
+      "artist": "The Isley Brothers"
+    },
+    "originalPos": 99,
+    "sampledPos": 100
+  },
+  {
+    "originalTrack": {
+      "title": "i",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Express Yourself - Mono; Single Version",
+      "artist": "Charles Wright & The Watts 103rd Street Rhythm Band"
+    },
+    "originalPos": 101,
+    "sampledPos": 102
+  },
+  {
+    "originalTrack": {
+      "title": "Express Yourself",
+      "artist": "N.W.A."
+    },
+    "sampledTrack": {
+      "title": "As Long As I've Got You",
+      "artist": "The Charmels"
+    },
+    "originalPos": 103,
+    "sampledPos": 104
+  },
+  {
+    "originalTrack": {
+      "title": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+      "artist": "Wu-Tang Clan"
+    },
+    "sampledTrack": {
+      "title": "Rubber Band",
+      "artist": "The Trammps"
+    },
+    "originalPos": 105,
+    "sampledPos": 106
+  },
+  {
+    "originalTrack": {
+      "title": "Hate It Or Love It",
+      "artist": "The Game, 50 Cent"
+    },
+    "sampledTrack": {
+      "title": "Someone That I Used To Love",
+      "artist": "Natalie Cole"
+    },
+    "originalPos": 107,
+    "sampledPos": 108
+  },
+  {
+    "originalTrack": {
+      "title": "Heard 'Em Say",
+      "artist": "Kanye West, Adam Levine"
+    },
+    "sampledTrack": {
+      "title": "The Message (feat. Melle Mel & Duke Bootee)",
+      "artist": "Grandmaster Flash & The Furious Five, Grandmaster Melle Mel, Duke Bootee"
+    },
+    "originalPos": 109,
+    "sampledPos": 110
+  },
+  {
+    "originalTrack": {
+      "title": "Check Yo Self - Remix",
+      "artist": "Ice Cube, Das EFX"
+    },
+    "sampledTrack": {
+      "title": "I Got a Woman",
       "artist": "Ray Charles"
     },
-    "sampledTrack": {
+    "originalPos": 111,
+    "sampledPos": 112
+  },
+  {
+    "originalTrack": {
       "title": "Gold Digger",
       "artist": "Kanye West, Jamie Foxx"
     },
-    "originalPos": 25,
-    "sampledPos": 26
+    "sampledTrack": {
+      "title": "Save the Country",
+      "artist": "Laura Nyro"
+    },
+    "originalPos": 113,
+    "sampledPos": 114
   },
   {
     "originalTrack": {
-      "title": "I've Got a Woman",
-      "artist": "Ray Charles"
+      "title": "The Glory",
+      "artist": "Kanye West"
     },
     "sampledTrack": {
-      "title": "American Boy",
-      "artist": "Estelle, Kanye West"
+      "title": "It's Too Late",
+      "artist": "Otis Redding"
     },
-    "originalPos": 25,
-    "sampledPos": 27
+    "originalPos": 115,
+    "sampledPos": 116
+  },
+  {
+    "originalTrack": {
+      "title": "Gone",
+      "artist": "Kanye West, Consequence, Cam'ron"
+    },
+    "sampledTrack": {
+      "title": "I Just Wanna Stop",
+      "artist": "The Jimmy Castor Bunch"
+    },
+    "originalPos": 117,
+    "sampledPos": 118
+  },
+  {
+    "originalTrack": {
+      "title": "We Don't Care",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Today Won’t Come Again",
+      "artist": "Donal Leace"
+    },
+    "originalPos": 119,
+    "sampledPos": 120
+  },
+  {
+    "originalTrack": {
+      "title": "Hey Mama",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Move on Up - Extended Version",
+      "artist": "Curtis Mayfield"
+    },
+    "originalPos": 121,
+    "sampledPos": 122
+  },
+  {
+    "originalTrack": {
+      "title": "Touch The Sky",
+      "artist": "Kanye West, Lupe Fiasco"
+    },
+    "sampledTrack": {
+      "title": "Someone Saved My Life Tonight",
+      "artist": "Elton John"
+    },
+    "originalPos": 123,
+    "sampledPos": 124
+  },
+  {
+    "originalTrack": {
+      "title": "Good Morning",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Woods",
+      "artist": "Bon Iver"
+    },
+    "originalPos": 125,
+    "sampledPos": 126
+  },
+  {
+    "originalTrack": {
+      "title": "Lost In The World",
+      "artist": "Kanye West, Bon Iver"
+    },
+    "sampledTrack": {
+      "title": "Mystery Of Love",
+      "artist": "Mr. Fingers"
+    },
+    "originalPos": 127,
+    "sampledPos": 128
+  },
+  {
+    "originalTrack": {
+      "title": "Fade",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Answers Me",
+      "artist": "Arthur Russell"
+    },
+    "originalPos": 129,
+    "sampledPos": 130
+  },
+  {
+    "originalTrack": {
+      "title": "30 Hours",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Martín Fierro",
+      "artist": "Grupo Vocal Argentino, Chango Farias Gomez"
+    },
+    "originalPos": 131,
+    "sampledPos": 132
+  },
+  {
+    "originalTrack": {
+      "title": "Closed On Sunday",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "God Is",
+      "artist": "James Cleveland & The Southern California Community Choir"
+    },
+    "originalPos": 133,
+    "sampledPos": 134
+  },
+  {
+    "originalTrack": {
+      "title": "God Is",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Open Your Eyes",
+      "artist": "Bobby Caldwell"
+    },
+    "originalPos": 135,
+    "sampledPos": 136
+  },
+  {
+    "originalTrack": {
+      "title": "The Light",
+      "artist": "Common"
+    },
+    "sampledTrack": {
+      "title": "The Light",
+      "artist": "The Game"
+    },
+    "originalPos": 137,
+    "sampledPos": 138
+  },
+  {
+    "originalTrack": {
+      "title": "I Get High",
+      "artist": "Freda Payne"
+    },
+    "sampledTrack": {
+      "title": "Good Times",
+      "artist": "Styles P"
+    },
+    "originalPos": 139,
+    "sampledPos": 140
+  },
+  {
+    "originalTrack": {
+      "title": "In High Places",
+      "artist": "Mike Oldfield"
+    },
+    "sampledTrack": {
+      "title": "Dark Fantasy",
+      "artist": "Kanye West"
+    },
+    "originalPos": 141,
+    "sampledPos": 142
+  },
+  {
+    "originalTrack": {
+      "title": "Lovely Day",
+      "artist": "Bill Withers"
+    },
+    "sampledTrack": {
+      "title": "Sunshine (feat. Anthony Hamilton)",
+      "artist": "Twista, Anthony Hamilton"
+    },
+    "originalPos": 143,
+    "sampledPos": 144
+  },
+  {
+    "originalTrack": {
+      "title": "Hollywood Swinging",
+      "artist": "Kool & The Gang"
+    },
+    "sampledTrack": {
+      "title": "Feel so Good",
+      "artist": "Mase"
+    },
+    "originalPos": 145,
+    "sampledPos": 146
+  },
+  {
+    "originalTrack": {
+      "title": "Maybe Tomorrow",
+      "artist": "Grant Green"
+    },
+    "sampledTrack": {
+      "title": "Sing About Me, I'm Dying Of Thirst",
+      "artist": "Kendrick Lamar"
+    },
+    "originalPos": 147,
+    "sampledPos": 148
+  },
+  {
+    "originalTrack": {
+      "title": "Be Ever Wonderful",
+      "artist": "Ted Taylor"
+    },
+    "sampledTrack": {
+      "title": "Ostavi trag",
+      "artist": "September"
+    },
+    "originalPos": 149,
+    "sampledPos": 150
+  },
+  {
+    "originalTrack": {
+      "title": "DUCKWORTH.",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Grandma's Hands",
+      "artist": "Bill Withers"
+    },
+    "originalPos": 151,
+    "sampledPos": 152
+  },
+  {
+    "originalTrack": {
+      "title": "No Diggity",
+      "artist": "Blackstreet, Dr. Dre, Queen Pen"
+    },
+    "sampledTrack": {
+      "title": "Every Nigger is a Star",
+      "artist": "Boris Gardiner"
+    },
+    "originalPos": 153,
+    "sampledPos": 154
+  },
+  {
+    "originalTrack": {
+      "title": "Wesley's Theory",
+      "artist": "Kendrick Lamar, George Clinton, Thundercat"
+    },
+    "sampledTrack": {
+      "title": "Hung Up On My Baby",
+      "artist": "Isaac Hayes"
+    },
+    "originalPos": 155,
+    "sampledPos": 156
+  },
+  {
+    "originalTrack": {
+      "title": "Mind Playing Tricks on Me",
+      "artist": "Geto Boys"
+    },
+    "sampledTrack": {
+      "title": "In A Broken Dream",
+      "artist": "Python Lee Jackson, Rod Stewart"
+    },
+    "originalPos": 157,
+    "sampledPos": 158
+  },
+  {
+    "originalTrack": {
+      "title": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
+      "artist": "A$AP Rocky, Rod Stewart, Miguel, Mark Ronson"
+    },
+    "sampledTrack": {
+      "title": "Avril 14th",
+      "artist": "Aphex Twin"
+    },
+    "originalPos": 159,
+    "sampledPos": 160
+  },
+  {
+    "originalTrack": {
+      "title": "Blame Game",
+      "artist": "Kanye West, John Legend"
+    },
+    "sampledTrack": {
+      "title": "Inner City Blues (Make Me Wanna Holler)",
+      "artist": "Marvin Gaye"
+    },
+    "originalPos": 161,
+    "sampledPos": 162
+  },
+  {
+    "originalTrack": {
+      "title": "Savage Lifestyle",
+      "artist": "The Game"
+    },
+    "sampledTrack": {
+      "title": "Home Is Where the Hatred Is",
+      "artist": "Gil Scott-Heron"
+    },
+    "originalPos": 163,
+    "sampledPos": 164
+  },
+  {
+    "originalTrack": {
+      "title": "My Way Home",
+      "artist": "Kanye West, Common"
+    },
+    "sampledTrack": {
+      "title": "You're All I Need To Get By",
+      "artist": "Marvin Gaye, Tammi Terrell"
+    },
+    "originalPos": 165,
+    "sampledPos": 166
+  },
+  {
+    "originalTrack": {
+      "title": "I'll Be There For You/You're All I Need To Get By - Puff Daddy Mix",
+      "artist": "Method Man, Mary J. Blige"
+    },
+    "sampledTrack": {
+      "title": "Dust A Sound Boy",
+      "artist": "Super Beagle"
+    },
+    "originalPos": 167,
+    "sampledPos": 168
+  },
+  {
+    "originalTrack": {
+      "title": "Mercy.1",
+      "artist": "Kanye West, Big Sean, Pusha T, 2 Chainz"
+    },
+    "sampledTrack": {
+      "title": "(You) Got What I Need",
+      "artist": "Freddie Scott"
+    },
+    "originalPos": 169,
+    "sampledPos": 170
+  },
+  {
+    "originalTrack": {
+      "title": "Just a Friend",
+      "artist": "Biz Markie"
+    },
+    "sampledTrack": {
+      "title": "For What It's Worth",
+      "artist": "Buffalo Springfield"
+    },
+    "originalPos": 171,
+    "sampledPos": 172
+  },
+  {
+    "originalTrack": {
+      "title": "He Got Game",
+      "artist": "Public Enemy, Stephen Stills"
+    },
+    "sampledTrack": {
+      "title": "Ain't No Love In The Heart Of The City - Single Version",
+      "artist": "Bobby \"Blue\" Bland"
+    },
+    "originalPos": 173,
+    "sampledPos": 174
+  },
+  {
+    "originalTrack": {
+      "title": "Heart Of The City (Ain't No Love)",
+      "artist": "JAY-Z"
+    },
+    "sampledTrack": {
+      "title": "THANKFUL (feat. Lil Wayne & Jeremih)",
+      "artist": "DJ Khaled, Lil Wayne, Jeremih"
+    },
+    "originalPos": 175,
+    "sampledPos": 176
+  },
+  {
+    "originalTrack": {
+      "title": "Chase The Devil",
+      "artist": "Max Romeo, The Upsetters"
+    },
+    "sampledTrack": {
+      "title": "Lucifer",
+      "artist": "JAY-Z"
+    },
+    "originalPos": 177,
+    "sampledPos": 178
+  },
+  {
+    "originalTrack": {
+      "title": "Killing Me Softly With His Song",
+      "artist": "Roberta Flack"
+    },
+    "sampledTrack": {
+      "title": "Killing Me Softly With His Song",
+      "artist": "Fugees, Ms. Lauryn Hill"
+    },
+    "originalPos": 179,
+    "sampledPos": 180
+  },
+  {
+    "originalTrack": {
+      "title": "A Peace Of Light",
+      "artist": "The Roots, Amber Coffman, Deradoorian, Haley Dekle"
+    },
+    "sampledTrack": {
+      "title": "Open Mic\\\\Aquarius III",
+      "artist": "Logic"
+    },
+    "originalPos": 181,
+    "sampledPos": 182
+  },
+  {
+    "originalTrack": {
+      "title": "1970s",
+      "artist": "Alkebulan, Alexis Glenn, Quentin Miller"
+    },
+    "sampledTrack": {
+      "title": "Soul Food",
+      "artist": "Logic"
+    },
+    "originalPos": 183,
+    "sampledPos": 184
+  },
+  {
+    "originalTrack": {
+      "title": "Soul Food II",
+      "artist": "Logic"
+    },
+    "sampledTrack": {
+      "title": "Carrot Man",
+      "artist": "Sepalcure"
+    },
+    "originalPos": 185,
+    "sampledPos": 186
+  },
+  {
+    "originalTrack": {
+      "title": "Gang Related",
+      "artist": "Logic"
+    },
+    "sampledTrack": {
+      "title": "Eazy-Duz-It",
+      "artist": "Eazy-E, Dr. Dre, MC Ren"
+    },
+    "originalPos": 187,
+    "sampledPos": 188
+  },
+  {
+    "originalTrack": {
+      "title": "Under Pressure",
+      "artist": "Logic"
+    },
+    "sampledTrack": {
+      "title": "Any Time, Any Place",
+      "artist": "Janet Jackson"
+    },
+    "originalPos": 189,
+    "sampledPos": 190
+  },
+  {
+    "originalTrack": {
+      "title": "Poetic Justice",
+      "artist": "Kendrick Lamar, Drake"
+    },
+    "sampledTrack": {
+      "title": "The New Workout Plan",
+      "artist": "Kanye West"
+    },
+    "originalPos": 191,
+    "sampledPos": 192
+  },
+  {
+    "originalTrack": {
+      "title": "Work Out",
+      "artist": "J. Cole"
+    },
+    "sampledTrack": {
+      "title": "No More",
+      "artist": "Hubert Laws"
+    },
+    "originalPos": 193,
+    "sampledPos": 194
+  },
+  {
+    "originalTrack": {
+      "title": "Power Trip (feat. Miguel)",
+      "artist": "J. Cole, Miguel"
+    },
+    "sampledTrack": {
+      "title": "Fool Me Once",
+      "artist": "George W. Bush"
+    },
+    "originalPos": 195,
+    "sampledPos": 196
+  },
+  {
+    "originalTrack": {
+      "title": "No Role Modelz",
+      "artist": "J. Cole"
+    },
+    "sampledTrack": {
+      "title": "One Step Ahead",
+      "artist": "Aretha Franklin"
+    },
+    "originalPos": 197,
+    "sampledPos": 198
+  },
+  {
+    "originalTrack": {
+      "title": "Ms. Fat Booty",
+      "artist": "Mos Def"
+    },
+    "sampledTrack": {
+      "title": "Impeach the President",
+      "artist": "The Honey Drippers"
+    },
+    "originalPos": 199,
+    "sampledPos": 200
+  },
+  {
+    "originalTrack": {
+      "title": "Für Elise, WoO 59",
+      "artist": "Ludwig van Beethoven, Nelly Kokinos"
+    },
+    "sampledTrack": {
+      "title": "I Can",
+      "artist": "Nas"
+    },
+    "originalPos": 201,
+    "sampledPos": 202
+  },
+  {
+    "originalTrack": {
+      "title": "The Boss",
+      "artist": "James Brown"
+    },
+    "sampledTrack": {
+      "title": "Get Down",
+      "artist": "Nas"
+    },
+    "originalPos": 203,
+    "sampledPos": 204
+  },
+  {
+    "originalTrack": {
+      "title": "Everybody Wants To Rule The World",
+      "artist": "Tears For Fears"
+    },
+    "sampledTrack": {
+      "title": "Rule (feat. Amerie)",
+      "artist": "Nas, Amerie"
+    },
+    "originalPos": 205,
+    "sampledPos": 206
+  },
+  {
+    "originalTrack": {
+      "title": "Annie: It's the Hard-Knock Life",
+      "artist": "Charles Strouse, Andrea McArdle, Annie Ensemble, Annie (Original Broadway Cast), Peter Howard"
+    },
+    "sampledTrack": {
+      "title": "Hard Knock Life (Ghetto Anthem)",
+      "artist": "JAY-Z"
+    },
+    "originalPos": 207,
+    "sampledPos": 208
+  },
+  {
+    "originalTrack": {
+      "title": "Khosara",
+      "artist": "Abdel Halim Hafez"
+    },
+    "sampledTrack": {
+      "title": "Big Pimpin'",
+      "artist": "JAY-Z, UGK"
+    },
+    "originalPos": 209,
+    "sampledPos": 210
+  },
+  {
+    "originalTrack": {
+      "title": "I Want'a Do Something Freaky To You",
+      "artist": "Leon Haywood"
+    },
+    "sampledTrack": {
+      "title": "Nuthin' But A \"G\" Thang",
+      "artist": "Dr. Dre, Snoop Dogg"
+    },
+    "originalPos": 211,
+    "sampledPos": 212
+  },
+  {
+    "originalTrack": {
+      "title": "Dreamflower",
+      "artist": "Tarika Blue"
+    },
+    "sampledTrack": {
+      "title": "man i is",
+      "artist": "Logic"
+    },
+    "originalPos": 213,
+    "sampledPos": 214
+  },
+  {
+    "originalTrack": {
+      "title": "Didn't Cha Know",
+      "artist": "Erykah Badu"
+    },
+    "sampledTrack": {
+      "title": "Indica Badu",
+      "artist": "Logic, Wiz Khalifa"
+    },
+    "originalPos": 215,
+    "sampledPos": 216
+  },
+  {
+    "originalTrack": {
+      "title": "Bag Lady - Cheeba Sac Radio Edit",
+      "artist": "Erykah Badu"
+    },
+    "sampledTrack": {
+      "title": "Xxplosive",
+      "artist": "Dr. Dre, Hittman, Six-Two, Nate Dogg, Kurupt"
+    },
+    "originalPos": 217,
+    "sampledPos": 218
+  },
+  {
+    "originalTrack": {
+      "title": "Cigarettes and Coffee",
+      "artist": "Otis Redding"
+    },
+    "sampledTrack": {
+      "title": "Modern Slavery",
+      "artist": "Huncho Jack, Travis Scott, Quavo"
+    },
+    "originalPos": 219,
+    "sampledPos": 220
+  },
+  {
+    "originalTrack": {
+      "title": "It's A Blue World",
+      "artist": "The Four Freshmen"
+    },
+    "sampledTrack": {
+      "title": "Blue World",
+      "artist": "Mac Miller"
+    },
+    "originalPos": 221,
+    "sampledPos": 222
+  },
+  {
+    "originalTrack": {
+      "title": "Easy Days",
+      "artist": "The Pointer Sisters"
+    },
+    "sampledTrack": {
+      "title": "Hood Gone Love It (feat. Kendrick Lamar)",
+      "artist": "Jay Rock, Kendrick Lamar"
+    },
+    "originalPos": 223,
+    "sampledPos": 224
+  },
+  {
+    "originalTrack": {
+      "title": "Meet the Frownies",
+      "artist": "Mr Twin Sister"
+    },
+    "sampledTrack": {
+      "title": "The Recipe - Bonus Track",
+      "artist": "Kendrick Lamar, Dr. Dre"
+    },
+    "originalPos": 229,
+    "sampledPos": 230
+  },
+  {
+    "originalTrack": {
+      "title": "She's My Baby - 2007 Remaster",
+      "artist": "The Mojo Men"
+    },
+    "sampledTrack": {
+      "title": "Hell Of A Life",
+      "artist": "Kanye West"
+    },
+    "originalPos": 231,
+    "sampledPos": 232
+  },
+  {
+    "originalTrack": {
+      "title": "Comment #1",
+      "artist": "Gil Scott-Heron"
+    },
+    "sampledTrack": {
+      "title": "Who Will Survive In America",
+      "artist": "Kanye West"
+    },
+    "originalPos": 233,
+    "sampledPos": 234
+  },
+  {
+    "originalTrack": {
+      "title": "Mystery of Iniquity - Live",
+      "artist": "Ms. Lauryn Hill"
+    },
+    "sampledTrack": {
+      "title": "All Falls Down",
+      "artist": "Kanye West, Syleena Johnson"
+    },
+    "originalPos": 235,
+    "sampledPos": 236
+  },
+  {
+    "originalTrack": {
+      "title": "Someone Saved My Life Tonight",
+      "artist": "Elton John"
+    },
+    "sampledTrack": {
+      "title": "Good Morning",
+      "artist": "Kanye West"
+    },
+    "originalPos": 237,
+    "sampledPos": 238
+  },
+  {
+    "originalTrack": {
+      "title": "Doo Wop (That Thing)",
+      "artist": "Ms. Lauryn Hill"
+    },
+    "sampledTrack": {
+      "title": "Believe What I Say",
+      "artist": "Kanye West"
+    },
+    "originalPos": 241,
+    "sampledPos": 242
+  },
+  {
+    "originalTrack": {
+      "title": "Heaven and Hell Is on Earth",
+      "artist": "20th Century Steel Band"
+    },
+    "sampledTrack": {
+      "title": "Heaven and Hell",
+      "artist": "Kanye West"
+    },
+    "originalPos": 243,
+    "sampledPos": 244
+  },
+  {
+    "originalTrack": {
+      "title": "Michelle",
+      "artist": "The Singers Unlimited, Gene Puerling"
+    },
+    "sampledTrack": {
+      "title": "Navajo",
+      "artist": "Masego"
+    },
+    "originalPos": 245,
+    "sampledPos": 246
+  },
+  {
+    "originalTrack": {
+      "title": "Champagne Poetry",
+      "artist": "Drake"
+    },
+    "sampledTrack": {
+      "title": "The Knight Hawk",
+      "artist": "Jet Age of Tomorrow"
+    },
+    "originalPos": 247,
+    "sampledPos": 248
+  },
+  {
+    "originalTrack": {
+      "title": "A.D.H.D",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "スカイレストラン",
+      "artist": "Hi-Fi Set"
+    },
+    "originalPos": 249,
+    "sampledPos": 250
+  },
+  {
+    "originalTrack": {
+      "title": "January 28th",
+      "artist": "J. Cole"
+    },
+    "sampledTrack": {
+      "title": "Mystic Brew",
+      "artist": "Ronnie Foster"
+    },
+    "originalPos": 251,
+    "sampledPos": 252
+  },
+  {
+    "originalTrack": {
+      "title": "Forbidden Fruit (feat. Kendrick Lamar)",
+      "artist": "J. Cole, Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Paulette",
+      "artist": "Balla Et Ses Balladins"
+    },
+    "originalPos": 253,
+    "sampledPos": 254
+  },
+  {
+    "originalTrack": {
+      "title": "Can't Get Enough",
+      "artist": "J. Cole, Trey Songz"
+    },
+    "sampledTrack": {
+      "title": "Find Yourself",
+      "artist": "The Meters"
+    },
+    "originalPos": 255,
+    "sampledPos": 256
+  },
+  {
+    "originalTrack": {
+      "title": "Feel Me Flow",
+      "artist": "Naughty By Nature"
+    },
+    "sampledTrack": {
+      "title": "Berta, Berta",
+      "artist": "Branford Marsalis"
+    },
+    "originalPos": 257,
+    "sampledPos": 258
+  },
+  {
+    "originalTrack": {
+      "title": "G.O.M.D.",
+      "artist": "J. Cole"
+    },
+    "sampledTrack": {
+      "title": "Amazing",
+      "artist": "Kanye West, Jeezy"
+    },
+    "originalPos": 259,
+    "sampledPos": 260
+  },
+  {
+    "originalTrack": {
+      "title": "Contact",
+      "artist": "Logic"
+    },
+    "sampledTrack": {
+      "title": "I Got The... - 2006 Remaster",
+      "artist": "Labi Siffre"
+    },
+    "originalPos": 261,
+    "sampledPos": 262
+  },
+  {
+    "originalTrack": {
+      "title": "My Name Is",
+      "artist": "Eminem"
+    },
+    "sampledTrack": {
+      "title": "I Was The Life Of The Party",
+      "artist": "The Dramatics"
+    },
+    "originalPos": 263,
+    "sampledPos": 264
+  },
+  {
+    "originalTrack": {
+      "title": "Life Of The Party (with André 3000)",
+      "artist": "Kanye West, André 3000"
+    },
+    "sampledTrack": {
+      "title": "Children Get Together",
+      "artist": "The Edwin Hawkins Singers"
+    },
+    "originalPos": 265,
+    "sampledPos": 266
+  },
+  {
+    "originalTrack": {
+      "title": "No Mistakes",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "21st Century Schizoid Man",
+      "artist": "King Crimson"
+    },
+    "originalPos": 267,
+    "sampledPos": 268
+  },
+  {
+    "originalTrack": {
+      "title": "POWER",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "It Was A Very Good Year - 2008 Remastered",
+      "artist": "Frank Sinatra"
+    },
+    "originalPos": 269,
+    "sampledPos": 270
+  },
+  {
+    "originalTrack": {
+      "title": "One (feat. Frank Sinatra)",
+      "artist": "Logic, Frank Sinatra"
+    },
+    "sampledTrack": {
+      "title": "Message from a Black Man",
+      "artist": "The Whatnauts"
+    },
+    "originalPos": 271,
+    "sampledPos": 272
+  },
+  {
+    "originalTrack": {
+      "title": "You Can't Stop Me Now",
+      "artist": "RZA"
+    },
+    "sampledTrack": {
+      "title": "Blow Job",
+      "artist": "Bruce Haack"
+    },
+    "originalPos": 273,
+    "sampledPos": 274
+  },
+  {
+    "originalTrack": {
+      "title": "Water",
+      "artist": "Kanye West, Ant Clemons"
+    },
+    "sampledTrack": {
+      "title": "Can You Lose By Following God",
+      "artist": "Whole Truth"
+    },
+    "originalPos": 275,
+    "sampledPos": 276
+  },
+  {
+    "originalTrack": {
+      "title": "Follow God",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Burn The Rain",
+      "artist": "Kurt Cobain"
+    },
+    "originalPos": 277,
+    "sampledPos": 278
+  },
+  {
+    "originalTrack": {
+      "title": "Reborn",
+      "artist": "KIDS SEE GHOSTS"
+    },
+    "sampledTrack": {
+      "title": "What Will Santa Claus Say? (When He Finds Everybody Swingin') - 78 rpm Version",
+      "artist": "Louis Prima, Joe \"Wingy\" Manone"
+    },
+    "originalPos": 279,
+    "sampledPos": 280
+  },
+  {
+    "originalTrack": {
+      "title": "Cudi Montage",
+      "artist": "KIDS SEE GHOSTS"
+    },
+    "sampledTrack": {
+      "title": "Spirit in the Dark",
+      "artist": "Aretha Franklin"
+    },
+    "originalPos": 281,
+    "sampledPos": 282
+  },
+  {
+    "originalTrack": {
+      "title": "School Spirit",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "P.Y.T. (Pretty Young Thing)",
+      "artist": "Michael Jackson"
+    },
+    "originalPos": 283,
+    "sampledPos": 284
+  },
+  {
+    "originalTrack": {
+      "title": "Good Life",
+      "artist": "Kanye West, T-Pain"
+    },
+    "sampledTrack": {
+      "title": "Dirt And Grime",
+      "artist": "Father's Children"
+    },
+    "originalPos": 285,
+    "sampledPos": 286
+  },
+  {
+    "originalTrack": {
+      "title": "Facts (Charlie Heat Version)",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "That Girl",
+      "artist": "Pharrell Williams, Snoop Dogg"
+    },
+    "originalPos": 287,
+    "sampledPos": 288
+  },
+  {
+    "originalTrack": {
+      "title": "m.A.A.d city",
+      "artist": "Kendrick Lamar, MC Eiht"
+    },
+    "sampledTrack": {
+      "title": "Harlem Shuffle",
+      "artist": "Bob & Earl"
+    },
+    "originalPos": 289,
+    "sampledPos": 290
+  },
+  {
+    "originalTrack": {
+      "title": "Jump Around",
+      "artist": "House Of Pain"
+    },
+    "sampledTrack": {
+      "title": "Jealous Guy",
+      "artist": "Donny Hathaway"
+    },
+    "originalPos": 291,
+    "sampledPos": 292
+  },
+  {
+    "originalTrack": {
+      "title": "Dreamin Of The Past (feat. Kanye West)",
+      "artist": "Pusha T, Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Late Nights & Heartbreak",
+      "artist": "Hannah Williams, The Affirmations"
+    },
+    "originalPos": 293,
+    "sampledPos": 294
+  },
+  {
+    "originalTrack": {
+      "title": "4:44",
+      "artist": "JAY-Z"
+    },
+    "sampledTrack": {
+      "title": "Porcelain",
+      "artist": "Moby"
+    },
+    "originalPos": 295,
+    "sampledPos": 296
+  },
+  {
+    "originalTrack": {
+      "title": "A$AP Forever (feat. Moby)",
+      "artist": "A$AP Rocky, Moby"
+    },
+    "sampledTrack": {
+      "title": "Poker Face",
+      "artist": "Lady Gaga"
+    },
+    "originalPos": 297,
+    "sampledPos": 298
+  },
+  {
+    "originalTrack": {
+      "title": "Make Her Say",
+      "artist": "Kid Cudi, Kanye West, Common"
+    },
+    "sampledTrack": {
+      "title": "Cherry",
+      "artist": "Chromatics"
+    },
+    "originalPos": 299,
+    "sampledPos": 300
+  },
+  {
+    "originalTrack": {
+      "title": "Man Of The Year",
+      "artist": "ScHoolboy Q"
+    },
+    "sampledTrack": {
+      "title": "Break Through",
+      "artist": "The Funkees"
+    },
+    "originalPos": 301,
+    "sampledPos": 302
+  },
+  {
+    "originalTrack": {
+      "title": "Worldwide Steppers",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Andean Stroll",
+      "artist": "Chet Nichols"
+    },
+    "originalPos": 303,
+    "sampledPos": 304
+  },
+  {
+    "originalTrack": {
+      "title": "Praise The Lord (Da Shine) (feat. Skepta)",
+      "artist": "A$AP Rocky, Skepta"
+    },
+    "sampledTrack": {
+      "title": "Cell Therapy",
+      "artist": "Goodie Mob"
+    },
+    "originalPos": 305,
+    "sampledPos": 306
+  },
+  {
+    "originalTrack": {
+      "title": "5% TINT",
+      "artist": "Travis Scott"
+    },
+    "sampledTrack": {
+      "title": "Landslide",
+      "artist": "Oh Wonder"
+    },
+    "originalPos": 307,
+    "sampledPos": 308
+  },
+  {
+    "originalTrack": {
+      "title": "The Way Life Goes (feat. Oh Wonder)",
+      "artist": "Lil Uzi Vert, Oh Wonder"
+    },
+    "sampledTrack": {
+      "title": "Through the Night",
+      "artist": "Duval Timothy"
+    },
+    "originalPos": 309,
+    "sampledPos": 310
+  },
+  {
+    "originalTrack": {
+      "title": "Crown",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Jezahel - 2000 Remaster",
+      "artist": "Shirley Bassey"
+    },
+    "originalPos": 311,
+    "sampledPos": 312
+  },
+  {
+    "originalTrack": {
+      "title": "Harder Than You Think",
+      "artist": "Public Enemy"
+    },
+    "sampledTrack": {
+      "title": "The Bomb! (These Sound Fall into My Mind) - Radio Edit",
+      "artist": "The Bucketheads"
+    },
+    "originalPos": 313,
+    "sampledPos": 314
+  },
+  {
+    "originalTrack": {
+      "title": "I Know You Want Me (Calle Ocho)",
+      "artist": "Pitbull"
+    },
+    "sampledTrack": {
+      "title": "On & On",
+      "artist": "Erykah Badu"
+    },
+    "originalPos": 315,
+    "sampledPos": 316
+  },
+  {
+    "originalTrack": {
+      "title": "On Me",
+      "artist": "The Game, Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "I'd Rather Be with You",
+      "artist": "Bootsy Collins"
+    },
+    "originalPos": 317,
+    "sampledPos": 318
+  },
+  {
+    "originalTrack": {
+      "title": "I'd Rather Fuck You",
+      "artist": "N.W.A."
+    },
+    "sampledTrack": {
+      "title": "Before the Night Is Over",
+      "artist": "Joe Simon"
+    },
+    "originalPos": 319,
+    "sampledPos": 320
+  },
+  {
+    "originalTrack": {
+      "title": "So Fresh, So Clean",
+      "artist": "Outkast"
+    },
+    "sampledTrack": {
+      "title": "Da Art of Storytellin' (Pt. 1)",
+      "artist": "Outkast"
+    },
+    "originalPos": 321,
+    "sampledPos": 322
+  },
+  {
+    "originalTrack": {
+      "title": "Land Of The Snakes",
+      "artist": "J. Cole"
+    },
+    "sampledTrack": {
+      "title": "Gole Yakh",
+      "artist": "Kourosh Yaghmaei"
+    },
+    "originalPos": 323,
+    "sampledPos": 324
+  },
+  {
+    "originalTrack": {
+      "title": "Adam and Eve",
+      "artist": "Nas, The-Dream"
+    },
+    "sampledTrack": {
+      "title": "Bad Things",
+      "artist": "Cults"
+    },
+    "originalPos": 325,
+    "sampledPos": 326
+  },
+  {
+    "originalTrack": {
+      "title": "She Knows (feat. Amber Coffman & Cults)",
+      "artist": "J. Cole, Amber Coffman, Cults"
+    },
+    "sampledTrack": {
+      "title": "Love Is Green",
+      "artist": "Jeff Beck"
+    },
+    "originalPos": 327,
+    "sampledPos": 328
+  },
+  {
+    "originalTrack": {
+      "title": "Nikki",
+      "artist": "Logic"
+    },
+    "sampledTrack": {
+      "title": "Fallin' in Love",
+      "artist": "Hamilton, Joe Frank & Reynolds, Joe Frank & Reynolds"
+    },
+    "originalPos": 329,
+    "sampledPos": 330
+  },
+  {
+    "originalTrack": {
+      "title": "Best I Ever Had",
+      "artist": "Drake"
+    },
+    "sampledTrack": {
+      "title": "24K Magic",
+      "artist": "Bruno Mars"
+    },
+    "originalPos": 331,
+    "sampledPos": 332
+  },
+  {
+    "originalTrack": {
+      "title": "LOYALTY. FEAT. RIHANNA.",
+      "artist": "Kendrick Lamar, Rihanna"
+    },
+    "sampledTrack": {
+      "title": "The Thorn",
+      "artist": "Willie Jones III"
+    },
+    "originalPos": 333,
+    "sampledPos": 334
+  },
+  {
+    "originalTrack": {
+      "title": "Rigamortus",
+      "artist": "Kendrick Lamar"
+    },
+    "sampledTrack": {
+      "title": "Just Awaken Shaken",
+      "artist": "Playa Fly"
+    },
+    "originalPos": 335,
+    "sampledPos": 336
+  },
+  {
+    "originalTrack": {
+      "title": "Jimmy Cooks (feat. 21 Savage)",
+      "artist": "Drake, 21 Savage"
+    },
+    "sampledTrack": {
+      "title": "Let Me Blow Ya Mind",
+      "artist": "Eve, Gwen Stefani"
+    },
+    "originalPos": 337,
+    "sampledPos": 338
+  },
+  {
+    "originalTrack": {
+      "title": "Doja",
+      "artist": "Central Cee"
+    },
+    "sampledTrack": {
+      "title": "Ballad for the Fallen Soldier",
+      "artist": "The Isley Brothers"
+    },
+    "originalPos": 339,
+    "sampledPos": 340
+  },
+  {
+    "originalTrack": {
+      "title": "Privileged Rappers",
+      "artist": "Drake, 21 Savage"
+    },
+    "sampledTrack": {
+      "title": "Pasadena",
+      "artist": "Gerry Stevens And Group"
+    },
+    "originalPos": 341,
+    "sampledPos": 342
+  },
+  {
+    "originalTrack": {
+      "title": "Knock Knock",
+      "artist": "Mac Miller"
+    },
+    "sampledTrack": {
+      "title": "I Don't Wanna Know (feat. Enya & P. Diddy) - 2016 Remaster",
+      "artist": "Mario Winans, Enya, Diddy"
+    },
+    "originalPos": 343,
+    "sampledPos": 344
+  },
+  {
+    "originalTrack": {
+      "title": "Creepin' (with The Weeknd & 21 Savage)",
+      "artist": "Metro Boomin, The Weeknd, 21 Savage"
+    },
+    "sampledTrack": {
+      "title": "Lambada - Original Version 1989",
+      "artist": "Kaoma"
+    },
+    "originalPos": 345,
+    "sampledPos": 346
+  },
+  {
+    "originalTrack": {
+      "title": "On The Floor",
+      "artist": "Jennifer Lopez, Pitbull"
+    },
+    "sampledTrack": {
+      "title": "Medley: Ike's Rap II / Help Me Love",
+      "artist": "Isaac Hayes"
+    },
+    "originalPos": 347,
+    "sampledPos": 348
+  },
+  {
+    "originalTrack": {
+      "title": "Nothing Burns Like The Cold",
+      "artist": "Snoh Aalegra, Vince Staples"
+    },
+    "sampledTrack": {
+      "title": "Six Day War",
+      "artist": "Colonel Bagshot"
+    },
+    "originalPos": 349,
+    "sampledPos": 350
+  },
+  {
+    "originalTrack": {
+      "title": "Just So You Remember",
+      "artist": "Pusha T"
+    },
+    "sampledTrack": {
+      "title": "Gotta Go Home",
+      "artist": "Boney M."
+    },
+    "originalPos": 351,
+    "sampledPos": 352
+  },
+  {
+    "originalTrack": {
+      "title": "Barbra Streisand",
+      "artist": "Duck Sauce, A-Trak, Armand Van Helden"
+    },
+    "sampledTrack": {
+      "title": "Kid Charlemagne",
+      "artist": "Steely Dan"
+    },
+    "originalPos": 353,
+    "sampledPos": 354
+  },
+  {
+    "originalTrack": {
+      "title": "Champion",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "Walk On By",
+      "artist": "Isaac Hayes"
+    },
+    "originalPos": 355,
+    "sampledPos": 356
+  },
+  {
+    "originalTrack": {
+      "title": "Warning - 2005 Remaster",
+      "artist": "The Notorious B.I.G."
+    },
+    "sampledTrack": {
+      "title": "Let Me Prove My Love to You",
+      "artist": "The Main Ingredient"
+    },
+    "originalPos": 357,
+    "sampledPos": 358
+  },
+  {
+    "originalTrack": {
+      "title": "You Don't Know My Name",
+      "artist": "Alicia Keys"
+    },
+    "sampledTrack": {
+      "title": "What A Man",
+      "artist": "Linda Lyndell"
+    },
+    "originalPos": 359,
+    "sampledPos": 360
+  },
+  {
+    "originalTrack": {
+      "title": "Whatta Man",
+      "artist": "Salt-N-Pepa, En Vogue"
+    },
+    "sampledTrack": {
+      "title": "Jenny from the Block (feat. Jadakiss & Styles P.) - Track Masters Remix",
+      "artist": "Jennifer Lopez, Jadakiss, Styles P"
+    },
+    "originalPos": 361,
+    "sampledPos": 362
+  },
+  {
+    "originalTrack": {
+      "title": "Heaven and Hell",
+      "artist": "Kanye West"
+    },
+    "sampledTrack": {
+      "title": "I <3 U SO",
+      "artist": "Cassius"
+    },
+    "originalPos": 363,
+    "sampledPos": 364
+  },
+  {
+    "originalTrack": {
+      "title": "Why I Love You",
+      "artist": "JAY-Z, Kanye West, Mr Hudson"
+    },
+    "sampledTrack": {
+      "title": "Stay High",
+      "artist": "Brittany Howard"
+    },
+    "originalPos": 365,
+    "sampledPos": 366
+  },
+  {
+    "originalTrack": {
+      "title": "Stay High again..",
+      "artist": "Brittany Howard, Fred again.., Joy Anonymous"
+    },
+    "sampledTrack": {
+      "title": "The Tunnel",
+      "artist": "Azimuth"
+    },
+    "originalPos": 367,
+    "sampledPos": 368
+  },
+  {
+    "originalTrack": {
+      "title": "IDGAF (feat. Yeat)",
+      "artist": "Drake, Yeat"
+    },
+    "sampledTrack": {
+      "title": "After You",
+      "artist": "Diana Ross"
+    },
+    "originalPos": 369,
+    "sampledPos": 370
+  },
+  {
+    "originalTrack": {
+      "title": "After You",
+      "artist": "Roberta Flack"
+    },
+    "sampledTrack": {
+      "title": "Coming Home (feat. Ms. Lauryn Hill)",
+      "artist": "Pusha T, Ms. Lauryn Hill"
+    },
+    "originalPos": 371,
+    "sampledPos": 372
+  },
+  {
+    "originalTrack": {
+      "title": "Trouble Man",
+      "artist": "Marvin Gaye"
+    },
+    "sampledTrack": {
+      "title": "Mr.Trouble",
+      "artist": "BigXthaPlug"
+    },
+    "originalPos": 373,
+    "sampledPos": 374
+  },
+  {
+    "originalTrack": {
+      "title": "We Want the Funk!",
+      "artist": "Tha FunkaholX"
+    },
+    "sampledTrack": {
+      "title": "King Kunta",
+      "artist": "Kendrick Lamar"
+    },
+    "originalPos": 375,
+    "sampledPos": 376
+  },
+  {
+    "originalTrack": {
+      "title": "Cola Bottle Baby",
+      "artist": "Edwin Birdsong"
+    },
+    "sampledTrack": {
+      "title": "Stronger",
+      "artist": "Kanye West"
+    },
+    "originalPos": 67,
+    "sampledPos": 69
   }
 ]
