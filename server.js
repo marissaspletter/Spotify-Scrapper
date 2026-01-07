@@ -7,7 +7,7 @@ const { normalizePlan, validatePlan, buildPairsFromPlan, getExcludedTracks } = r
 const { getPairKey } = require('./dedupe');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3004;
 
 // Initialize Spotify API
 const spotifyApi = new SpotifyWebApi({
@@ -43,8 +43,17 @@ async function getAccessToken() {
   }
 }
 
+// Helper: Get total track count for a playlist
+async function getPlaylistTrackCount(playlistId) {
+  const data = await spotifyApi.getPlaylistTracks(playlistId, {
+    limit: 1,
+    fields: 'total'
+  });
+  return data.body.total;
+}
+
 // Helper: Fetch all playlist tracks with pagination
-async function fetchAllPlaylistTracks(playlistId) {
+async function fetchAllPlaylistTracks(playlistId, maxTracks = null) {
   const allTracks = [];
   let offset = 0;
   const limit = 100;
@@ -67,6 +76,11 @@ async function fetchAllPlaylistTracks(playlistId) {
 
     allTracks.push(...tracks);
     offset += limit;
+    
+    // Stop fetching if we've reached the max tracks limit
+    if (maxTracks && allTracks.length >= maxTracks) {
+      return allTracks.slice(0, maxTracks);
+    }
   } while (offset < total);
 
   return allTracks;
@@ -161,21 +175,18 @@ app.post('/api/create-list', async (req, res) => {
       return res.status(500).json({ error: 'Failed to authenticate with Spotify API' });
     }
 
-    // Fetch all tracks
-    let tracks = await fetchAllPlaylistTracks(playlistId);
-    const totalTracks = tracks.length;
+    // First, get the total track count from the playlist
+    const totalTracksInPlaylist = await getPlaylistTrackCount(playlistId);
 
-    // Always send total tracks to frontend
-    res.setHeader('X-Total-Tracks', totalTracks.toString());
-
-    // Handle cutoff if provided
+    // Determine how many tracks to fetch based on cutoff
+    let maxTracksToFetch = totalTracksInPlaylist;
     if (cutoffTrackNumber) {
       const cutoff = parseInt(cutoffTrackNumber);
       
       // Validate cutoff
-      if (isNaN(cutoff) || cutoff < 1 || cutoff > totalTracks) {
+      if (isNaN(cutoff) || cutoff < 1 || cutoff > totalTracksInPlaylist) {
         return res.status(400).json({ 
-          error: `Invalid cutoff track number. Must be between 1 and ${totalTracks}.` 
+          error: `Invalid cutoff track number. Must be between 1 and ${totalTracksInPlaylist}.` 
         });
       }
       
@@ -185,13 +196,18 @@ app.post('/api/create-list', async (req, res) => {
         });
       }
       
-      // Slice tracks (cutoff is 1-based and inclusive)
-      tracks = tracks.slice(0, cutoff);
+      maxTracksToFetch = cutoff;
     }
+
+    // Fetch only the tracks we need (optimized to avoid fetching entire playlist)
+    console.log(`📥 Fetching ${maxTracksToFetch} of ${totalTracksInPlaylist} tracks from playlist...`);
+    let tracks = await fetchAllPlaylistTracks(playlistId, maxTracksToFetch);
+    const totalTracks = totalTracksInPlaylist; // Use playlist total for response
 
     let txtContent;
     let useAdvancedPairing = false;
     let scrapedPairs = [];
+    let excludedTracks = []; // Track excluded tracks for JSON response
 
     // Try advanced pairing plan if provided
     if (advancedPairingPlan) {
@@ -216,15 +232,13 @@ app.post('/api/create-list', async (req, res) => {
         
         // Get excluded tracks (not in ranges/trios)
         const excludedTrackNumbers = getExcludedTracks(normalizedPlan, tracks.length);
-        const excludedTracks = excludedTrackNumbers.map(trackNum => ({
+        excludedTracks = excludedTrackNumbers.map(trackNum => ({
           trackNumber: trackNum,
           title: tracks[trackNum - 1].title,
           artist: tracks[trackNum - 1].artist
         }));
         
-        // Send excluded tracks via header
         if (excludedTracks.length > 0) {
-          res.setHeader('X-Excluded-Tracks', JSON.stringify(excludedTracks));
           console.log(`ℹ️  ${excludedTracks.length} track(s) excluded (not in ranges/trios)`);
         }
         
@@ -297,11 +311,10 @@ app.post('/api/create-list', async (req, res) => {
 
     console.log(`📊 Dedupe stats: ${storedPairs.length} stored pairs, ${existingKeys.size} unique keys`);
 
-    // Filter scraped pairs for duplicates
-    console.log(`\n🔍 Filtering ${scrapedPairs.length} scraped pairs...`);
+    // Detect duplicates (for popup notification only - don't filter output)
+    console.log(`\n🔍 Detecting duplicates in ${scrapedPairs.length} scraped pairs...`);
     
-    const filteredPairs = [];
-    const removedDuplicates = [];
+    const duplicatesFound = [];
     const seenInScrape = new Set();
 
     scrapedPairs.forEach((pair, index) => {
@@ -314,41 +327,36 @@ app.post('/api/create-list', async (req, res) => {
 
       // Check if duplicate within scraped pairs itself
       if (seenInScrape.has(pairKey)) {
-        removedDuplicates.push({
+        duplicatesFound.push({
           originalTitle: pair.originalTrack?.title || '',
           originalArtist: pair.originalTrack?.artist || '',
           sampledTitle: pair.sampledTrack?.title || '',
           sampledArtist: pair.sampledTrack?.artist || '',
           reason: 'duplicate_in_scrape'
         });
-        return;
       }
-
       // Check if already in stored pairs
-      if (existingKeys.has(pairKey)) {
-        removedDuplicates.push({
+      else if (existingKeys.has(pairKey)) {
+        duplicatesFound.push({
           originalTitle: pair.originalTrack?.title || '',
           originalArtist: pair.originalTrack?.artist || '',
           sampledTitle: pair.sampledTrack?.title || '',
           sampledArtist: pair.sampledTrack?.artist || '',
           reason: 'already_stored'
         });
-        return;
       }
 
-      // Pair is unique, keep it
+      // Always add to seen set (even if duplicate)
       seenInScrape.add(pairKey);
-      filteredPairs.push(pair);
     });
 
     console.log(`✓ Scraped pairs: ${scrapedPairs.length}`);
-    console.log(`✓ Removed duplicates: ${removedDuplicates.length}`);
-    console.log(`✓ Filtered pairs (new): ${filteredPairs.length}`);
+    console.log(`✓ Duplicates detected: ${duplicatesFound.length}`);
 
-    if (removedDuplicates.length > 0) {
-      console.log('\n📝 Removed duplicates breakdown:');
-      const inScrape = removedDuplicates.filter(d => d.reason === 'duplicate_in_scrape').length;
-      const alreadyStored = removedDuplicates.filter(d => d.reason === 'already_stored').length;
+    if (duplicatesFound.length > 0) {
+      console.log('\n📝 Duplicates detected breakdown:');
+      const inScrape = duplicatesFound.filter(d => d.reason === 'duplicate_in_scrape').length;
+      const alreadyStored = duplicatesFound.filter(d => d.reason === 'already_stored').length;
       console.log(`   - Duplicate in scrape: ${inScrape}`);
       console.log(`   - Already stored: ${alreadyStored}`);
     }
@@ -356,8 +364,8 @@ app.post('/api/create-list', async (req, res) => {
     // Merge and persist updated canonical store
     console.log('\n💾 Updating canonical store...');
     
-    // Merge stored pairs with newly filtered pairs
-    const allPairs = [...storedPairs, ...filteredPairs];
+    // Merge stored pairs with all scraped pairs (including duplicates)
+    const allPairs = [...storedPairs, ...scrapedPairs];
     console.log(`   Total before dedup: ${allPairs.length}`);
 
     // Deduplicate merged pairs using a Map
@@ -381,17 +389,24 @@ app.post('/api/create-list', async (req, res) => {
       console.error('⚠️  Failed to write pairs.enriched.json:', writeError.message);
     }
 
-    // Generate output file from filtered pairs only (no duplicates)
-    txtContent = generatePlaylistPairsTextFromPairs(filteredPairs);
+    // Generate output file from ALL scraped pairs (including duplicates)
+    txtContent = generatePlaylistPairsTextFromPairs(scrapedPairs);
     
-    // Set headers to trigger download
-    res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    res.setHeader('Content-Disposition', 'attachment; filename="playlist_pairs.txt"');
+    // Calculate duplicate counts
+    const removedCounts = {
+      alreadyStored: duplicatesFound.filter(d => d.reason === 'already_stored').length,
+      duplicateInScrape: duplicatesFound.filter(d => d.reason === 'duplicate_in_scrape').length
+    };
     
-    // Always add removed duplicates info as header for frontend display
-    res.setHeader('X-Removed-Duplicates', JSON.stringify(removedDuplicates));
-    
-    res.send(txtContent);
+    // Return JSON response with ALL pairs and duplicate metadata (for popup)
+    res.status(200).json({
+      txtContent: txtContent,
+      pairs: scrapedPairs,
+      removedDuplicates: duplicatesFound,
+      removedCounts: removedCounts,
+      excludedTracks: excludedTracks,
+      totalTracks: totalTracks
+    });
 
   } catch (error) {
     console.error('Error fetching playlist:', error);

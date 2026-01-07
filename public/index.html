@@ -637,31 +637,14 @@
           // Success! Download file
           hideModal();
           
-          // Get duplicates info from header before processing blob
-          const removedDuplicatesHeader = response.headers.get('X-Removed-Duplicates');
-          let removedDuplicates = [];
+          // Parse JSON response
+          const data = await response.json();
+          const removedDuplicates = data.removedDuplicates || [];
+          const excludedTracks = data.excludedTracks || [];
+          const txtContent = data.txtContent || '';
           
-          if (removedDuplicatesHeader) {
-            try {
-              removedDuplicates = JSON.parse(removedDuplicatesHeader);
-            } catch (e) {
-              console.error('Failed to parse removed duplicates:', e);
-            }
-          }
-          
-          // Get excluded tracks from header
-          const excludedTracksHeader = response.headers.get('X-Excluded-Tracks');
-          let excludedTracks = [];
-          
-          if (excludedTracksHeader) {
-            try {
-              excludedTracks = JSON.parse(excludedTracksHeader);
-            } catch (e) {
-              console.error('Failed to parse excluded tracks:', e);
-            }
-          }
-          
-          const blob = await response.blob();
+          // Create and download the text file
+          const blob = new Blob([txtContent], { type: 'text/plain' });
           const url = window.URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = url;
@@ -740,18 +723,16 @@
           body: JSON.stringify(requestBody)
         });
 
-        // Get total tracks from header (always sent by server now)
-        const totalTracksHeader = response.headers.get('X-Total-Tracks');
         let totalTracks = 0;
         let isOdd = false;
 
-        if (totalTracksHeader) {
-          totalTracks = parseInt(totalTracksHeader);
+        // If successful, get data from JSON response
+        if (response.ok) {
+          const data = await response.json();
+          totalTracks = data.totalTracks || 0;
           isOdd = totalTracks % 2 !== 0;
-        }
-
-        // If odd, capture error info
-        if (!response.ok) {
+        } else {
+          // If odd, capture error info
           const error = await response.json();
           
           if (error.error === 'odd') {
